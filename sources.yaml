@@ -309,25 +309,24 @@
   url: https://www.smcgov.org/housing/notice-public-hearing-fy2027-2028-winter-notice-funding-availability-nofa-needs-assessment
   notes: Program-specific notice announcing the intended issuance date and covered funding sources.
 - id: sb-county-housing
-  name: Housing and Community Development funding updates
+  name: Annual Action Plan for housing and community development
   agency: Santa Barbara County
   category: Local funding
-  url: https://www.countyofsb.org/cd-housing-community-development
-  notes: The county's housing and capital NOFO directs readers to this division page for revisions. Some widgets
-    depend on JavaScript, so an empty shell must be reported as a structure failure.
-  require: \b(?:applications? (?:are|must|due|open)|submissions?|submittals?|deadline|funding (?:is|for|will)|no
-    (?:active|current|open) (?:NOFAs?|notices|funding)|permanent local housing allocation|HOME investment partnerships?|financing
-    (?:for|available))\b
+  url: https://content.civicplus.com/api/assets/ca-santabarbaracounty/bed3b1b6-ddb7-4f52-a3ba-bffd8b51c653
+  kind: pdf
+  notes: County-authored FY 2026–27 plan on the county publishing service. Covers CDBG and HOME, the Urban County
+    partnership and HOME consortium. The Board docket tracks later plans and amendments.
+  require: HOME Investment Partnerships
 - id: sb-county-nofa
-  name: Current notice of funding availability
+  name: Housing and capital programs NOFO, revised April 7, 2026
   agency: Santa Barbara County
   category: Local funding
-  url: https://www.countyofsb.org/cd-housing-community-development-current-notice-of-funding-availability
-  notes: Public current-NOFA index under Homeless Assistance, including links to Continuum of Care competitions.
-    Supplements the division's housing and capital funding page.
-  require: \b(?:applications? (?:are|must|due|open)|submissions?|submittals?|deadline|funding (?:is|for|will)|no
-    (?:active|current|open) (?:NOFAs?|notices|funding)|permanent local housing allocation|HOME investment partnerships?|financing
-    (?:for|available))\b
+  url: https://content.civicplus.com/api/assets/ca-santabarbaracounty/9fe56405-3f88-4e9f-aa20-89f63f66b808
+  kind: pdf
+  notes: County-issued revised notice with program eligibility, awards and the closed March 27 application deadline.
+    Use the Board docket for subsequent issuances; a fall planning reference alone does not open a round.
+  require: NOTICE OF FUNDING OPPORTUNITY
+  omit_lines: meeting ID|passcode|one tap mobile|\+1\s?669|register\.gotowebinar
 - id: santa-barbara-city-lhtf
   name: Local Housing Trust Fund
   agency: City of Santa Barbara
@@ -408,12 +407,11 @@
   name: Housing funding agenda items and awards
   agency: Santa Barbara County Board of Supervisors
   category: Local funding
-  url: https://webapi.legistar.com/v1/santabarbara/matters?%24filter=substringof%28%27Notice+of+Funding%27%2CMatterTitle%29+or+substringof%28%27Housing+and+Community+Development+Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Permanent+Local+Housing+Allocation%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35
+  url: https://webapi.legistar.com/v1/santabarbara/matters?%24filter=substringof%28%27Notice+of+Funding%27%2CMatterTitle%29+or+substringof%28%27Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Permanent+Local+Housing+Allocation%27%2CMatterTitle%29+or+substringof%28%27Continuum+of+Care+%28CoC%29+Competition%27%2CMatterTitle%29+or+substringof%28%27Housing+and+Capital+Projects%27%2CMatterTitle%29+or+substringof%28%27NOFA%27%2CMatterTitle%29+or+substringof%28%27NOFO%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35
   kind: legistar
+  notes: Live County Board docket for NOFAs, NOFOs, annual action plans, PLHA, Continuum of Care competitions and
+    housing capital projects. Includes recent decisions and grants. A Board filing can follow a department announcement.
   public_url: https://santabarbara.legistar.com/Legislation.aspx
-  notes: County legislative records matching Notice of Funding, housing annual action plans or Permanent Local Housing
-    Allocation. Lists up to 35 recent matters with file numbers, board dates, and official text. Department notices
-    can precede board action.
 - id: hcd-surplus
   name: Surplus Land Act notices of availability
   agency: HCD

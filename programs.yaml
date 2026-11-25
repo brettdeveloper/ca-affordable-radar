@@ -417,6 +417,12 @@ funding:
   name: Santa Barbara County · housing funding and action plan
   sources:
   - sb-county-board
+  - sb-county-nofa
+  - sb-county-housing
+  intake:
+  - sb-county-board
+  - sb-county-nofa
+  note: The revised FY 2026–27 housing and capital NOFO closed March 27, 2026. The county anticipated another NOFO in fall 2026. As of November 25, no new application period had been verified.
 - county: Santa Barbara
   name: Santa Barbara · Local Housing Trust Fund
   sources:

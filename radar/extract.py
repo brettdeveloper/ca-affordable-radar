@@ -136,6 +136,8 @@ def file_snapshot(content, source):
                 raise MonitorError("Published PDF page range has changed")
             pages = pages[first - 1:last]
         lines = [clean(l) for page in pages for l in (page.extract_text() or '').splitlines() if clean(l)]
+        if source.get('omit_lines'):
+            lines = [line for line in lines if not re.search(source['omit_lines'], line, re.I)]
         if source.get('require') and not re.search(source['require'], ' '.join(lines), re.I):
             raise MonitorError("Expected text missing from published PDF")
     elif kind == 'xlsx':

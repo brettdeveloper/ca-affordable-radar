@@ -24,6 +24,14 @@
       "date": "2026-11-25",
       "status": 200
     },
+    "https://content.civicplus.com/api/assets/ca-santabarbaracounty/9fe56405-3f88-4e9f-aa20-89f63f66b808": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://content.civicplus.com/api/assets/ca-santabarbaracounty/bed3b1b6-ddb7-4f52-a3ba-bffd8b51c653": {
+      "date": "2026-11-25",
+      "status": 200
+    },
     "https://dalycity.org/1330/Community-Development-Block-Grant-CDBG": {
       "date": "2026-11-25",
       "status": 200
@@ -141,6 +149,10 @@
       "status": 200
     },
     "https://webapi.legistar.com/v1/pomona/matters?%24filter=substringof%28%27Notice+of+Funding+Availability%27%2CMatterTitle%29+or+substringof%28%27Housing+Trust+Fund%27%2CMatterTitle%29+or+substringof%28%27Affordable+Housing+Fund%27%2CMatterTitle%29+or+substringof%28%27Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Community+Development+Block+Grant%27%2CMatterTitle%29+or+substringof%28%27HOME+Investment+Partnerships%27%2CMatterTitle%29&%24orderby=MatterAgendaDate+desc%2CMatterId+desc&%24top=24": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://webapi.legistar.com/v1/santabarbara/matters?%24filter=substringof%28%27Notice+of+Funding%27%2CMatterTitle%29+or+substringof%28%27Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Permanent+Local+Housing+Allocation%27%2CMatterTitle%29+or+substringof%28%27Continuum+of+Care+%28CoC%29+Competition%27%2CMatterTitle%29+or+substringof%28%27Housing+and+Capital+Projects%27%2CMatterTitle%29+or+substringof%28%27NOFA%27%2CMatterTitle%29+or+substringof%28%27NOFO%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35": {
       "date": "2026-11-25",
       "status": 200
     },
@@ -554,6 +566,10 @@
     "https://cms3.revize.com": {
       "date": "2026-11-25",
       "rules": "User-agent: FacebookBot\r\nAllow: /\r\n\r\nUser-agent: facebookexternalhit\r\nAllow: /\r\n\r\nUser-agent: facebookcatalog/1.0\r\nAllow: /\r\n\r\nUser-agent: LinkedInBot/1.0\r\nAllow: /\r\n\r\nUser-agent: Twitterbot\r\nAllow: /\r\n\r\nUser-Agent: W3C-checklink\r\nDisallow:\r\n\r\nUser-agent: *\r\nAllow: /*.pdf$\r\nAllow: /*.DOC$\r\nAllow: /*.DOCX$\r\nAllow: /*.PPT$\r\nAllow: /*.PPTX$\r\nDisallow: /"
+    },
+    "https://content.civicplus.com": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\nAllow: /api/assets/*"
     },
     "https://dalycity.org": {
       "date": "2026-11-25",

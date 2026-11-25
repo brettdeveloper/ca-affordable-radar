@@ -1,6 +1,6 @@
 # Source status
 
-Collection observed 2026-11-25T14:47:01-08:00 (Pacific). Click a source for the official page.
+Collection observed 2026-11-25T14:53:54-08:00 (Pacific). Click a source for the official page.
 
 | Agency | Source | Result | Last successful fetch (Pacific) |
 |---|---|---|---|
@@ -49,8 +49,8 @@ Collection observed 2026-11-25T14:47:01-08:00 (Pacific). Click a source for the 
 | HUD USER | [Fair Market Rents](https://www.huduser.gov/portal/datasets/fmr.html) | OK | 2026-11-25T13:23:08-08:00 |
 | San Mateo County DOH | [Current funding opportunities](https://www.smcgov.org/housing/current-funding-opportunities-0) | OK | 2026-11-25T13:30:33-08:00 |
 | San Mateo County DOH | [FY 2027–28 Winter NOFA issuance notice](https://www.smcgov.org/housing/notice-public-hearing-fy2027-2028-winter-notice-funding-availability-nofa-needs-assessment) | OK | 2026-11-25T13:30:24-08:00 |
-| Santa Barbara County | [Housing and Community Development funding updates](https://www.countyofsb.org/cd-housing-community-development) | MonitorError: Insufficient readable text; possible layout change | None |
-| Santa Barbara County | [Current notice of funding availability](https://www.countyofsb.org/cd-housing-community-development-current-notice-of-funding-availability) | MonitorError: Insufficient readable text; possible layout change | None |
+| Santa Barbara County | [Annual Action Plan for housing and community development](https://content.civicplus.com/api/assets/ca-santabarbaracounty/bed3b1b6-ddb7-4f52-a3ba-bffd8b51c653) | OK | 2026-11-25T14:52:31-08:00 |
+| Santa Barbara County | [Housing and capital programs NOFO, revised April 7, 2026](https://content.civicplus.com/api/assets/ca-santabarbaracounty/9fe56405-3f88-4e9f-aa20-89f63f66b808) | OK | 2026-11-25T14:53:23-08:00 |
 | City of Santa Barbara | [Local Housing Trust Fund](https://santabarbaraca.gov/SBLHTF) | OK | 2026-11-25T13:22:35-08:00 |
 | Los Angeles County Development Authority | [Multifamily rental housing NOFA](https://www.lacda.org/affordable-housing/multifamily-rental-housing-nofa) | OK | 2026-11-25T13:22:38-08:00 |
 | Los Angeles Housing Department | [Homes for LA NOFA](https://housing.lacity.gov/ula/homes-for-la-nofa) | OK | 2026-11-25T13:22:52-08:00 |
@@ -61,7 +61,7 @@ Collection observed 2026-11-25T14:47:01-08:00 (Pacific). Click a source for the 
 | City of San Diego | [Bridge to Home funding rounds](https://www.sandiego.gov/economic-development/bridge-to-home) | OK | 2026-11-25T13:22:42-08:00 |
 | City of Santa Maria | [Block Grants Advisory Committee agendas and decisions](https://pub-santamaria.escribemeetings.com/meetingscalendarview.aspx?Expanded=Block+Grants+Advisory+Committee) | OK | 2026-11-25T13:26:13-08:00 |
 | City of Santa Maria | [FY 2027–28 CDBG notice and capital funding items](https://pub-santamaria.escribemeetings.com/Meeting.aspx?Agenda=Agenda&Id=0c54347e-058e-4018-9d6c-45b3963d3ff0&lang=English) | OK | 2026-11-25T13:26:16-08:00 |
-| Santa Barbara County Board of Supervisors | [Housing funding agenda items and awards](https://santabarbara.legistar.com/Legislation.aspx) | OK | 2026-11-25T13:30:34-08:00 |
+| Santa Barbara County Board of Supervisors | [Housing funding agenda items and awards](https://santabarbara.legistar.com/Legislation.aspx) | OK | 2026-11-25T14:53:00-08:00 |
 | HCD | [Surplus Land Act notices of availability](https://publish.data.ca.gov/datastore/dump/bb81599a-e130-48aa-a6e3-bbcce9392d4f?format=csv) | OK | 2026-11-25T13:22:50-08:00 |
 | HCD | [Accessing local surplus land](https://www.hcd.ca.gov/planning-and-research/public-lands/surplus-land/accessing-land) | OK | 2026-11-25T13:30:24-08:00 |
 | HCD | [Surplus notice data catalog](https://data.ca.gov/@california-department-of-housing-and-community-development/surplus-land-act-notices-of-availability-received) | OK | 2026-11-25T13:30:27-08:00 |
