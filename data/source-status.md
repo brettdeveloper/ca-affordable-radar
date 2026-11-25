@@ -1,6 +1,6 @@
 # Source status
 
-Collection observed 2026-11-25T15:15:05-08:00 (Pacific). Industry sources are non-official.
+Collection observed 2026-11-25T15:25:29-08:00 (Pacific). Industry sources are non-official.
 
 | Agency | Source | Result | Last successful fetch (Pacific) |
 |---|---|---|---|
@@ -147,3 +147,4 @@ Collection observed 2026-11-25T15:15:05-08:00 (Pacific). Industry sources are no
 | Marin County CDA | [Affordable Housing Fund application](https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-application) | OK | 2026-11-25T15:10:24-08:00 |
 | Marin County CDA | [Affordable Housing Fund guidelines](https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-guidelines) | OK | 2026-11-25T15:10:28-08:00 |
 | Marin County CDA | [Measure W Community Housing Fund application](https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/measure-w-application) | OK | 2026-11-25T15:10:32-08:00 |
+| National City Housing Authority | [FY 2026–27 annual PHA plan, PBV activities](https://pub-nationalcity.escribemeetings.com/filestream.ashx?DocumentId=10419) | OK | 2026-11-25T15:23:47-08:00 |

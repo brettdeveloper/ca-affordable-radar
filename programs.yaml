@@ -138,8 +138,10 @@ pbv:
   - sd-county-nofa
 - county: San Diego
   name: National City Housing Authority
-  sources: []
-  note: City robots.txt returned HTTP 403. The alternate board records found did not solicit owner PBVs.
+  sources:
+  - pbv-national-city-plan
+  note: The FY 2026–27 plan published for April 7 leaves both PBV activity boxes blank and names no projects in section
+    B.2. A separate live city owner RFP index could not be verified.
   reader_link:
     label: Housing authority contacts, county directory p. 7
     url: https://www.sandiegocounty.gov/content/dam/sdc/sdhcd/new-docs/Rental_assistance/Housing_Resource_Directory.pdf

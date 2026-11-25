@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-25T15:15:05-08:00",
+  "as_of": "2026-11-25T15:25:29-08:00",
   "baseline": "2026-11-25",
   "failed": 0,
   "first_seen": {
@@ -2135,6 +2135,18 @@
       "ok": true,
       "url": "https://www.marinhousing.org/pbv-existing-project-advertisement-2024"
     },
+    "pbv-national-city-plan": {
+      "attempt_day": "2026-11-25",
+      "candidate": "",
+      "error": "",
+      "etag": "",
+      "http": 200,
+      "last_attempt": "2026-11-25T15:25:29-08:00",
+      "last_success": "2026-11-25T15:23:47-08:00",
+      "modified": "Wed, 25 Nov 2026 23:23:47 GMT",
+      "ok": true,
+      "url": "https://pub-nationalcity.escribemeetings.com/filestream.ashx?DocumentId=10419"
+    },
     "pbv-norwalk": {
       "attempt_day": "2026-11-25",
       "candidate": "",
@@ -2619,7 +2631,7 @@
   "health_groups": {
     "local": {
       "failed": 0,
-      "total": 104
+      "total": 105
     },
     "state_federal": {
       "failed": 0,
@@ -2627,5 +2639,5 @@
     }
   },
   "land_baseline": "2026-11-25",
-  "total": 143
+  "total": 144
 }

@@ -1201,3 +1201,17 @@
   notes: Public County application instructions for nonprofit projects serving the Measure W Tax Area. Applications
     are accepted on a rolling basis.
   category: Local funding
+
+- id: pbv-national-city-plan
+  agency: National City Housing Authority
+  name: FY 2026–27 annual PHA plan, PBV activities
+  url: https://pub-nationalcity.escribemeetings.com/filestream.ashx?DocumentId=10419
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 2
+  require: Project.Based Vouchers
+  notes: National City published this plan as Exhibit A to its April 7, 2026 governing-board hearing. Section B.2
+    on physical page 2 asks about proposed PBV activity. A blank box is not a negative finding. The collector detects
+    file revisions, including changes to a checkbox.
+  category: Project-based vouchers
