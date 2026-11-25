@@ -7,6 +7,7 @@ from urllib.parse import urlsplit
 import yaml
 
 from .extract import differences, file_snapshot, snapshot_html
+from .industry import PORTFOLIO_HEADLINE, added_project_links, portfolio_snapshot, verify_terms
 from .land import land_key, merge_land, notice_link, parse_land
 from .meetings import agenda_snapshot, legistar_snapshot
 from .net import Fetcher, MonitorError
@@ -18,7 +19,10 @@ from .state import DATA, PACIFIC, ROOT, catalog, config, json_out, read_json, si
 def check_structure(old, new, previous, today):
     if not old:
         return
-    if 'rows' in new:
+    if 'project_links' in new:
+        suspect = len(new['project_links']) < .7 * len(old['project_links'])
+        fingerprint = signature(new['project_links'])
+    elif 'rows' in new:
         suspect = new['raw_rows'] < old['raw_rows'] * 0.7
         fingerprint = signature([land_key(r) for r in new['rows']])
     else:
@@ -49,8 +53,12 @@ def fetch_source(source, previous, fetch, stamp, counties=None):
             headers['If-Modified-Since'] = previous['modified']
     health = {**previous, 'attempt_day':today, 'last_attempt':stamp, 'url':url}
     try:
-        r = fetch.get(url,headers)
         kind = source.get('kind','html')
+        if source.get('category') == 'Industry':
+            if kind != 'industry_portfolio':
+                raise MonitorError('Industry sources require a reviewed link-only adapter')
+            verify_terms(source, fetch)
+        r = fetch.get(url,headers)
         new = None
         if r.status != 304:
             if kind in ('land_csv','land_map'):
@@ -59,6 +67,10 @@ def fetch_source(source, previous, fetch, stamp, counties=None):
                 new = {'raw_rows':len(rows),'latest_statewide':max(r['notice_date'] for r in rows),
                        'unassigned':sum(not r['county'] for r in rows),
                        'rows':merge_land([r for r in rows if r['county'] in allowed],[])}
+            elif kind == 'industry_portfolio':
+                if urlsplit(r.url).netloc != urlsplit(url).netloc:
+                    raise MonitorError('Portfolio redirected to a different publisher')
+                new = portfolio_snapshot(r.body, r.url)
             elif kind in ('pdf','xlsx','docx'):
                 new = file_snapshot(r.body,source)
             elif kind == 'legistar':
@@ -123,7 +135,12 @@ def collect(sources=None, now=None, fetcher=None):
             return
         h,old,new = result
         if new is not None:
-            if 'rows' in new:
+            if 'project_links' in new:
+                for url in added_project_links(old, new):
+                    fresh_events.append({'id':signature(today, source['id'], url), 'at':stamp,
+                                         'source':source['id'], 'type':'industry',
+                                         'title':PORTFOLIO_HEADLINE, 'url':url})
+            elif 'rows' in new:
                 persist_land(new,old,source,state,set(conf['counties']),stamp,fresh_events)
             else:
                 delta = differences(old,new) if old else None

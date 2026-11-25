@@ -5,6 +5,7 @@ from collections import defaultdict
 from datetime import date, datetime
 from html import escape
 from string import Template
+from urllib.parse import urlsplit
 
 from .extract import safe_url
 from .land import land_key, notice_link
@@ -87,11 +88,13 @@ def atom(events, url, stamp):
     for event in events:
         entry=tag(feed,'entry')
         tag(entry,'id',url+'#event-'+event['id'])
-        prefix = {'land':'New surplus land','land_update':'Surplus land update','change':'Source change'}[event['type']]
+        prefix = {'land':'New surplus land','land_update':'Surplus land update','change':'Source change','industry':'Industry (non-official)'}[event['type']]
         tag(entry,'title',prefix+' · '+event['title']); tag(entry,'updated',event['at'])
         tag(entry,'link',href=safe_url(event['url']) or url)
         description = ' '.join(filter(None,[event.get('agency'),event.get('county'),event.get('notice_date'),
                            event.get('added'),event.get('removed')]))
+        if event['type'] == 'industry':
+            description = 'Date first observed on the public project index.'
         tag(entry,'summary',description or 'The source or its published materials changed.')
         for u,label in event.get('new_docs',{}).items():
             if safe_url(u):
@@ -136,13 +139,14 @@ def render():
         qty=f'{len(snap["documents"])} document links' if 'documents' in snap else ''
         grouped[s['agency']].append(f'<tr><td>{link(s.get("public_url",s["url"]),s["name"])}<br><small>{e(s["notes"])}</small></td>'
                                     f'<td>{e(status)}</td><td>{e(seen)}<br><small>{e(qty)}</small></td></tr>')
-    source_report = ['# Source status', '', f'Collection observed {stamp} (Pacific). Click a source for the official page.', '',
+    source_report = ['# Source status', '', f'Collection observed {stamp} (Pacific). Industry sources are non-official.', '',
                      '| Agency | Source | Result | Last successful fetch (Pacific) |', '|---|---|---|---|']
     for s in sources:
         h=health[s['id']]
         result = 'OK' if h['ok'] else h.get('error','Unavailable').replace('|',' / ')
         name = s['name'].replace('|',' / ')
-        source_report.append(f"| {s['agency']} | [{name}]({s.get('public_url',s['url'])}) | {result} | {h.get('last_success','None')} |")
+        agency = s['agency'] + (' (non-official)' if s['category'] == 'Industry' else '')
+        source_report.append(f"| {agency} | [{name}]({s.get('public_url',s['url'])}) | {result} | {h.get('last_success','None')} |")
     write(DATA/'source-status.md','\n'.join(source_report)+'\n')
     table=''.join(f'<details class="health-row"><summary><strong>{e(agency)}</strong> ({len(rows)})</summary>'
                   '<table><thead><tr><th>Source</th><th>Status</th><th>Last successful fetch (Pacific)</th></tr></thead>'
@@ -183,8 +187,30 @@ def render():
     if statewide and statewide!=latest:
         latest_line+=' · Statewide: '+date_text(statewide)
     programs = sections(ROOT/'programs.yaml', sources, health, today)
-    fields=dict(pbv=programs.get('pbv',''),funding=programs.get('funding',''),asof=e(datetime.fromisoformat(stamp).astimezone(PACIFIC).strftime('%b %-d, %Y · %-I:%M %p %Z')),
-        coverage=f'{len(sources)} official sources',health_summary=f'{len(sources)-len(errors)} healthy · {len(errors)} need attention',
+    industry = [s for s in sources if s['category'] == 'Industry']
+    industry_rows = []
+    for source in industry:
+        h = health[source['id']]
+        snapshot = read_json(snap_path(source), {})
+        count = len(snapshot.get('project_links', []))
+        industry_rows.append('<article class="program-row"><h3>' +
+                             link(source['url'],source['agency']+' project portfolio') + '</h3>')
+        industry_rows.append(f'<p>{count} project links at the last successful check. '
+                             'Dates below show when Radar first observed a link. The publisher does not date these listings.</p>')
+        if not h['ok']:
+            industry_rows.append('<p>Check paused or unavailable. ' + e(h['error']) + '</p>')
+        additions = [event for event in events if event['type']=='industry' and event['source']==source['id']]
+        if additions:
+            items = (f'<li id="event-{e(ev["id"])}">{e(date_text(ev["at"][:10]))} · {e(ev["title"])} · ' +
+                     link(ev['url'],ev['url'].removeprefix('https://' + urlsplit(ev['url']).netloc)) +
+                     '</li>' for ev in additions)
+            industry_rows.append('<ul>' + ''.join(items) + '</ul>')
+        else:
+            industry_rows.append('<p>No new links recorded in the last 90 days.</p>')
+        industry_rows.append('</article>')
+    coverage = f'{len(sources)-len(industry)} official sources' + (f' · {len(industry)} industry' if industry else '')
+    fields=dict(industry=''.join(industry_rows),pbv=programs.get('pbv',''),funding=programs.get('funding',''),asof=e(datetime.fromisoformat(stamp).astimezone(PACIFIC).strftime('%b %-d, %Y · %-I:%M %p %Z')),
+        coverage=coverage,health_summary=f'{len(sources)-len(errors)} healthy · {len(errors)} need attention',
         freshness=f'<span data-asof="{e(today)}"></span>',changes=''.join(changes),land=land_html or '<p>No matching records.</p>',
         hdfc=priority,dates=''.join(dated) or '<p>No upcoming dates have been verified.</p>',health=table,
         latest_land=e(latest_line),statewide_notice=e(statewide),land_summary=land_summary,counties=''.join(f'<option>{e(c)}</option>' for c in sorted(conf['counties'])))

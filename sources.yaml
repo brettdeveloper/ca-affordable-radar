@@ -1101,3 +1101,14 @@
   require: housing|CDBG|development block grant|funding availability|NOFA
   category: Local funding
   notes: Public issuer page. The monitor compares its published text and links.
+
+- id: kingdom-project-links
+  name: Public project portfolio links
+  agency: Kingdom Development, Inc.
+  category: Industry
+  url: https://kingdomdevelopment.net/properties/
+  kind: industry_portfolio
+  terms_url: https://kingdomdevelopment.net/terms/
+  reviewed_terms_sha256: 4831a6497180b1e7e6438dec6f1f95507086fc85dcf535d68fbdcc6f7d31cc88
+  notes: Non-official. Compares project URLs only. The index gives no publication dates. Radar dates additions when
+    observed and uses its own labels. Section 3 requires written permission to republish the publisher’s content.

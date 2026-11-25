@@ -72,6 +72,14 @@
       "date": "2026-11-25",
       "status": 200
     },
+    "https://kingdomdevelopment.net/properties/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://kingdomdevelopment.net/terms/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
     "https://longbeach.gov/lbcd/hn/lbcic/": {
       "date": "2026-11-25",
       "status": 200
@@ -598,6 +606,10 @@
     "https://housing.lacity.gov": {
       "date": "2026-11-25",
       "rules": "\n\nUser-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://housing.lacity.gov/wp-sitemap.xml\n\nUser-agent: *\nDisallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json\n"
+    },
+    "https://kingdomdevelopment.net": {
+      "date": "2026-11-25",
+      "rules": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://kingdomdevelopment.net/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
     },
     "https://longbeach.gov": {
       "date": "2026-11-25",

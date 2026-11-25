@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-25T14:53:54-08:00",
+  "as_of": "2026-11-25T14:58:33-08:00",
   "baseline": "2026-11-25",
   "failed": 0,
   "first_seen": {
@@ -1847,6 +1847,18 @@
       "ok": true,
       "url": "https://www.huduser.gov/portal/datasets/mtsp.html"
     },
+    "kingdom-project-links": {
+      "attempt_day": "2026-11-25",
+      "candidate": "",
+      "error": "",
+      "etag": "",
+      "http": 200,
+      "last_attempt": "2026-11-25T14:58:33-08:00",
+      "last_success": "2026-11-25T14:58:33-08:00",
+      "modified": "",
+      "ok": true,
+      "url": "https://kingdomdevelopment.net/properties/"
+    },
     "lacda-multifamily": {
       "attempt_day": "2026-11-25",
       "candidate": "",
@@ -2507,5 +2519,5 @@
     }
   },
   "land_baseline": "2026-11-25",
-  "total": 133
+  "total": 134
 }

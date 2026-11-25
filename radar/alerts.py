@@ -28,8 +28,12 @@ def mdlink(label,url):
 def issue_body(day, events, url):
     token=signature(day,[e['id'] for e in events])
     marker=f'<!-- ca-affordable-radar {day} {token} -->'
-    lines=[f'Official-source changes observed on {day} (Pacific).',mdlink('Full report and source health',url),'']
-    for event in events:
+    official = [ev for ev in events if ev['type'] != 'industry']
+    industry = [ev for ev in events if ev['type'] == 'industry']
+    lines=[f'Housing Radar updates observed on {day} (Pacific).',mdlink('Full report and source health',url),'']
+    if official:
+        lines += ['Official sources','']
+    for event in official:
         line='- '+mdlink(event['title'],event['url'])
         if event['type']!='change':
             line+=f" · {literal(event.get('county',''))} County · {literal(event.get('agency',''))} · issued {literal(event.get('notice_date') or 'date unavailable')}"
@@ -39,6 +43,9 @@ def issue_body(day, events, url):
         if event.get('removed'):
             lines.append('  - Removed: '+literal(event['removed']))
         lines.extend('  - '+mdlink(t,u) for u,t in event.get('new_docs',{}).items())
+    if industry:
+        lines.extend(['', 'Industry sources (non-official)', ''])
+        lines.extend('- '+mdlink(ev['title'],ev['url']) for ev in industry)
     body='\n'.join(lines)
     if len(body)>59500:
         body=body[:59000].rsplit('\n',1)[0]+'\n\nFurther entries and documents appear in the full report.'

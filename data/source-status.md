@@ -1,6 +1,6 @@
 # Source status
 
-Collection observed 2026-11-25T14:53:54-08:00 (Pacific). Click a source for the official page.
+Collection observed 2026-11-25T14:58:33-08:00 (Pacific). Industry sources are non-official.
 
 | Agency | Source | Result | Last successful fetch (Pacific) |
 |---|---|---|---|
@@ -137,3 +137,4 @@ Collection observed 2026-11-25T14:53:54-08:00 (Pacific). Click a source for the 
 | San Diego Housing Commission | [FY 2027 rental development NOFA issuance](https://sdhc.org/news-release/fy2027-nofa/) | OK | 2026-11-25T14:28:21-08:00 |
 | San Diego County HCDS | [County HOME consortium funding plan](https://www.sandiegocounty.gov/content/dam/sdc/sdhcd/new-docs/CD/Fiscal_Year_2026-27_Annual_Plan_09-03-26.pdf) | OK | 2026-11-25T14:40:49-08:00 |
 | Los Angeles County Development Authority | [NOFA 33 questions and answers No. 2](https://www.lacda.org/docs/librariesprovider25/affordable-housing-programs/multifamily-rental-housing---nofa/nofa-33/questions-and-answers-no-2.pdf?sfvrsn=21292c64_1) | OK | 2026-11-25T14:44:18-08:00 |
+| Kingdom Development, Inc. (non-official) | [Public project portfolio links](https://kingdomdevelopment.net/properties/) | OK | 2026-11-25T14:58:33-08:00 |
