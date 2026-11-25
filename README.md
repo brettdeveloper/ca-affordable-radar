@@ -72,3 +72,28 @@ The owner/developer view groups housing authorities by county. An open tenant wa
 Edit the authority and source IDs in `programs.yaml` and the watched URLs in `sources.yaml`. Reviewed offers require the specified wording in healthy sources and expire after the published date. On designated intake pages, an explicit open developer invitation or open table row can also surface automatically. The parser uses dates and amounts attributable to the same entry and abstains on ambiguous dated text. New explicit application deadlines are appended to `data/deadlines.yaml`. Other changes go to the change list, issue and Atom feed for review. Last change starts with the first observed revision. A plan’s selected physical PDF pages and expected vocabulary are recorded in the source definition.
 
 The Health job evaluates local government sources and state/federal sources separately. More than 30% failures in either group fails the run. Exactly 30% passes. A few inaccessible municipal sites cannot dilute a state outage. The collection job has a 24-minute ceiling on a standard free public Linux runner. GitHub controls queue and deployment time.
+
+## Local funding
+
+Expand a county to find local capital, preservation, HOME, CDBG, PLHA and related programs. A city funding announcement, a city application to the state, a public hearing, a capital award and a developer application are identified separately. Local funding displays the capital side of joint rounds. The voucher solicitation appears under its issuing PHA. A forthcoming month is shown as published; only exact dates enter the calendar. An issuer’s dated release with no public closing date can have a short open-status review window in `programs.yaml`. This is a verification limit, not an application deadline. Balance and eligibility qualifications appear beside rolling rounds.
+
+### City coverage gaps checked November 25, 2026
+
+The following cities have no verified standalone city funding watch. County and consortium rows may still cover opportunities within them.
+
+| City | What was checked |
+|---|---|
+| Campbell | The city says it no longer administers CDBG and directs applicants to Santa Clara County. The county Urban County plan is watched. |
+| Morgan Hill | Developer Resources covers inclusionary requirements. The Housing Successor annual report describes existing balances and loans. Neither offered a developer funding round. |
+| San Carlos | Found the affordable housing program, linkage-fee rules, budgets and individual projects. No city application or round index was verified. |
+| Belmont | The Housing Developer Resources host and the alternate council packet host returned HTTP 403 for robots.txt. |
+| Scotts Valley | Found a Town Center development-partner RFP and housing-element policies. No city grant or loan round was identified. |
+| Novato | The city housing and in-lieu fund host returned HTTP 403 for robots.txt. No readable city intake route was verified. The Marin County NOFA remains covered. |
+| Lompoc | The city CDBG/Housing Division host returned HTTP 403 for robots.txt. News reports about a 2027–28 round could not establish an official deadline for the calendar. |
+| West Hollywood | The project development page’s host returned HTTP 403 for robots.txt. The separate council host disallowed the trust-fund attachment. |
+| Lancaster | The city CDBG index and action-plan documents share a host that returned HTTP 403 for robots.txt. |
+| Carlsbad | The city and library document hosts returned HTTP 403 for robots.txt. The county-administered HOME consortium is covered. |
+| Vista | The city’s developer funding host returned HTTP 403 for robots.txt. The county-administered HOME consortium is covered. |
+| Encinitas | The city host returned HTTP 403 for robots.txt, and the separate council site disallowed the relevant attachment. The county-administered HOME consortium is covered. |
+
+Several cities have partial coverage through their own council dockets, action plans or county-published joint offerings. Each affected program identifies that route. A prior award or plan can document a program without proving that applications are open today.

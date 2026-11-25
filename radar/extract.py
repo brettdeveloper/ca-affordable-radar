@@ -102,6 +102,8 @@ def snapshot_html(body, url, headers, source):
             if e.getparent() is not None:
                 e.drop_tree()
     lines = [re.sub(r'https?://[^\s<>]+',lambda m: safe_url(m.group()) or '[external portal]',line) for line in blocks(container)]
+    # Leave meeting dial-ins and access codes on the official page.
+    lines = [line for line in lines if not re.match(r'(?:meeting ID|passcode|meeting password|join by phone|one tap mobile)\s*:', line, re.I)]
     if len(' '.join(lines)) < source.get('min_chars',110):
         raise MonitorError("Insufficient readable text; possible layout change")
     if source.get('require') and not re.search(source['require'],' '.join(lines),re.I):

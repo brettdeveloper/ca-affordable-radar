@@ -183,7 +183,7 @@ def render():
     if statewide and statewide!=latest:
         latest_line+=' · Statewide: '+date_text(statewide)
     programs = sections(ROOT/'programs.yaml', sources, health, today)
-    fields=dict(pbv=programs.get('pbv',''),asof=e(datetime.fromisoformat(stamp).astimezone(PACIFIC).strftime('%b %-d, %Y · %-I:%M %p %Z')),
+    fields=dict(pbv=programs.get('pbv',''),funding=programs.get('funding',''),asof=e(datetime.fromisoformat(stamp).astimezone(PACIFIC).strftime('%b %-d, %Y · %-I:%M %p %Z')),
         coverage=f'{len(sources)} official sources',health_summary=f'{len(sources)-len(errors)} healthy · {len(errors)} need attention',
         freshness=f'<span data-asof="{e(today)}"></span>',changes=''.join(changes),land=land_html or '<p>No matching records.</p>',
         hdfc=priority,dates=''.join(dated) or '<p>No upcoming dates have been verified.</p>',health=table,

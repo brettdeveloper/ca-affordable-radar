@@ -152,8 +152,8 @@ pbv:
   name: Housing Authority of the County of Santa Barbara
   sources:
   - pbv-sbcounty
-  note: The county authority’s published plan describes owner selection. A current public owner RFP index could not be
-    verified.
+  note: The county authority’s published plan describes owner selection. A current public owner RFP index could not
+    be verified.
 - county: Santa Clara
   name: Santa Clara County Housing Authority
   sources:
@@ -171,3 +171,415 @@ pbv:
   - pbv-sc
   intake:
   - pbv-sc
+funding:
+- county: Santa Clara
+  name: Santa Clara County · affordable and supportive housing
+  sources:
+  - santa-clara-osh
+- county: Santa Clara
+  name: Santa Clara County · Urban County CDBG and HOME
+  sources:
+  - fund-sc-urban
+  note: County-administered program. Campbell directs CDBG applicants to the County.
+- county: Santa Clara
+  name: San José · Housing Department grants
+  sources:
+  - san-jose-webgrants
+  intake:
+  - san-jose-webgrants
+- county: Santa Clara
+  name: Sunnyvale · city housing funding docket
+  sources:
+  - fund-sunnyvale-board-recent
+  note: Council records supplement the city funding index, whose robots.txt returned HTTP 403. A scheduled hearing does
+    not establish open intake.
+- county: Santa Clara
+  name: Santa Clara · city housing funding docket
+  sources:
+  - fund-santa-clara-board-recent
+  note: Council records supplement the city funding index, whose robots.txt returned HTTP 403. A scheduled hearing does
+    not establish open intake.
+- county: Santa Clara
+  name: Mountain View · city housing funding docket
+  sources:
+  - fund-mountain-view-board-recent
+  note: Council records supplement the city funding index, whose robots.txt returned HTTP 403. A scheduled hearing does
+    not establish open intake.
+- county: Santa Clara
+  name: Palo Alto · Affordable Housing Fund
+  sources:
+  - fund-palo-clean
+  intake:
+  - fund-palo-clean
+- county: Santa Clara
+  name: Palo Alto · CDBG
+  sources:
+  - fund-palo-alto-cdbg
+  rounds:
+  - name: PY 2027–28 CDBG
+    value: ''
+    deadline: January 13, 2027, 5 p.m. Pacific
+    evidence:
+      fund-palo-alto-cdbg:
+      - invites organizations to submit applications
+      - January 13, 2027
+      - Housing Rehabilitation
+    until: '2027-01-13'
+    note: Housing rehabilitation is eligible. Request the application package from the City.
+  intake:
+  - fund-palo-alto-cdbg
+- county: Santa Clara
+  name: Milpitas · CDBG
+  sources:
+  - fund-milpitas
+  intake:
+  - fund-milpitas
+- county: Santa Clara
+  name: Cupertino · capital housing and public services
+  sources:
+  - fund-cupertino
+  - fund-cupertino-pdf
+  rounds:
+  - name: FY 2027–28 NOFA / RFP
+    value: 'Capital housing: approximately $222,000 CDBG and up to $3,000 BMR. Separate public-service amounts: $70,000
+      BMR, $51,000 CDBG and $125,000 human services.'
+    deadline: February 2, 2027, 5 p.m. Pacific
+    evidence:
+      fund-cupertino:
+      - November 2, 2026
+      - February 2, 2027
+      - approx. $222,000
+      - up to $3,000
+      - requesting proposals
+    until: '2027-02-02'
+  intake:
+  - fund-cupertino
+- county: Santa Clara
+  name: Gilroy · two-year CDBG NOFA
+  sources:
+  - fund-gilroy-extra1
+  - fund-gilroy-notice
+  rounds:
+  - name: PY 2027–29 CDBG
+    value: Estimated $400,000 annually, $800,000 over two years
+    deadline: January 7, 2027, 5 p.m. Pacific
+    evidence:
+      fund-gilroy-extra1:
+      - January 7, 2027
+      - December 2, 2026
+      - invites nonprofit organizations
+    until: '2027-01-07'
+    note: Housing preservation is eligible. Nonprofit applicants only.
+    starts: '2026-12-02'
+  intake:
+  - fund-gilroy-extra1
+  announcements:
+  - text: Announced. Application packet available December 2, 2026. Nonprofit applications due January 7, 2027, at 5
+      p.m. Pacific. Estimated $800,000 over two years; housing preservation is eligible.
+    until: '2026-12-01'
+    evidence:
+      fund-gilroy-extra1:
+      - January 7, 2027
+      - December 2, 2026
+- county: San Mateo
+  name: San Mateo County · affordable housing and Winter NOFAs
+  sources:
+  - san-mateo-funding-overview
+  - san-mateo-county-solicitations
+  - san-mateo-county-notices
+  - san-mateo-winter-notice
+  rounds:
+  - name: Farmworker Housing
+    value: ''
+    deadline: Rolling; no fixed date shown
+    evidence:
+      san-mateo-funding-overview:
+      - Farmworker Housing | Open | link | Rolling
+    note: County lists the program as open. Applicant and project eligibility require confirmation.
+  intake:
+  - san-mateo-funding-overview
+- county: San Mateo
+  name: San Mateo · CDBG and PLHA community funding
+  sources:
+  - san-mateo-city
+  intake:
+  - san-mateo-city
+- county: San Mateo
+  name: Redwood City · joint development RFP
+  sources:
+  - fund-redwood-city-2
+  note: County-published joint opportunity at 710 Hamilton. The city’s funding index could not be monitored.
+- county: San Mateo
+  name: South San Francisco · development funds and CDBG
+  sources:
+  - fund-south-san-francisco
+  - fund-south-san-francisco-2
+  intake:
+  - fund-south-san-francisco-2
+- county: San Mateo
+  name: Daly City · CDBG
+  sources:
+  - fund-daly-city-extra1
+  intake:
+  - fund-daly-city-extra1
+- county: San Mateo
+  name: Menlo Park · Below Market Rate housing funds
+  sources:
+  - fund-menlo-clean
+  intake:
+  - fund-menlo-clean
+- county: San Mateo
+  name: East Palo Alto · Minor Home Repair
+  sources:
+  - fund-east-palo-alto
+  note: County-published joint NOFA. Covers home repair; the city’s separate preservation page could not be verified.
+- county: San Mateo
+  name: Burlingame · Affordable Housing Fund
+  sources:
+  - fund-burlingame
+  - fund-burlingame-2
+  rounds:
+  - name: Acquisition, preservation and production
+    value: 'Approximately $12 million originally prioritized: $9 million preservation and $3 million production'
+    deadline: Rolling until funds are expended
+    evidence:
+      fund-burlingame:
+      - ongoing program
+      - no deadline to apply
+      - $9 million
+      - $3 million
+      - confirm the availability of funds
+    until: '2027-06-30'
+    note: Confirm the remaining balance with the City before applying. This notice covers FY 2025–26 and FY 2026–27.
+  intake:
+  - fund-burlingame
+- county: Santa Cruz
+  name: Santa Cruz County · housing programs
+  sources:
+  - santa-cruz-county
+- county: Santa Cruz
+  name: Santa Cruz · Affordable Housing Trust Fund
+  sources:
+  - santa-cruz-city
+  intake:
+  - santa-cruz-city
+- county: Santa Cruz
+  name: Watsonville · CDBG funding and action plan
+  sources:
+  - fund-watsonville-extra1
+  - fund-watsonville
+  note: Action-plan and program coverage. A public hearing does not open applications.
+- county: Santa Cruz
+  name: Capitola · CDBG public funding notice
+  sources:
+  - fund-capitola-extra1
+  note: City application for state CDBG funds; no developer application is stated.
+- county: San Francisco
+  name: San Francisco · multifamily funding and commercial build-out
+  sources:
+  - san-francisco-mohcd
+  - fund-sf-commercial
+  rounds:
+  - name: Vacant Commercial Spaces Funding Program
+    value: ''
+    deadline: Year-round, first come until funds are exhausted
+    evidence:
+      fund-sf-commercial:
+      - Submissions accepted year-round
+      - until funds are exhausted
+      - 100% affordable developments
+    note: Tenant build-out or code compliance. Nonprofit applicants must represent 100% affordable developments and
+      have a prospective tenant LOI and a cost estimate.
+  intake:
+  - san-francisco-mohcd
+- county: Marin
+  name: Marin County · housing and federal grants
+  sources:
+  - marin-county
+  intake:
+  - marin-county
+- county: Marin
+  name: San Rafael · housing acquisitions
+  sources:
+  - san-rafael
+  rounds:
+  - name: Rolling property acquisitions
+    value: Up to $250,000 per year, subject to available funds
+    deadline: Rolling; meet City staff before applying
+    evidence:
+      san-rafael:
+      - Rolling applications for property acquisitions
+      - Up to $250,000 per year is available
+      - must meet with City staff
+  intake:
+  - san-rafael
+- county: Santa Barbara
+  name: Santa Barbara County · housing funding and action plan
+  sources:
+  - sb-county-board
+- county: Santa Barbara
+  name: Santa Barbara · Local Housing Trust Fund
+  sources:
+  - santa-barbara-city-lhtf
+  intake:
+  - santa-barbara-city-lhtf
+- county: Santa Barbara
+  name: Santa Maria · CDBG
+  sources:
+  - santa-maria-agendas
+  - santa-maria-fy27-28
+- county: Santa Barbara
+  name: Goleta · CDBG and city grant decisions
+  sources:
+  - fund-goleta-board
+  note: Public City Council funding and action-plan matters. The direct City grant page returned HTTP 403 for robots.txt.
+- county: Los Angeles
+  name: Los Angeles County · Affordable Housing Trust Funds
+  sources:
+  - lacda-multifamily
+  - pbv-lacda-guide
+  - fund-lacda-answers
+  rounds:
+  - name: NOFA Round 33 capital financing
+    value: Up to $120 million
+    deadline: December 3, 2026, 11:59:59 p.m. Pacific
+    evidence:
+      lacda-multifamily:
+      - released Notice of Funding Availability (NOFA) Round 33
+      pbv-lacda-guide:
+      - up to $120 million
+      - 12/3/2026
+      - Applications Due Before Midnight
+    until: '2026-12-03'
+    note: Mandatory proposers conference and REO filing dates have passed.
+- county: Los Angeles
+  name: Los Angeles · Homes for LA
+  sources:
+  - lahd-round-2
+  - lahd-homes-for-la
+  rounds:
+  - name: Homes for LA NOFA Round 2
+    value: ''
+    deadline: December 4, 2026, 11:59 p.m. Pacific
+    evidence:
+      lahd-round-2:
+      - now accepting applications for the Homes for LA NOFA Round 2
+      - December 4
+      - November 16, 2026
+    until: '2026-12-04'
+    note: Sponsor underwriting closed November 16. Remaining program deadline applies to eligible sponsors.
+  intake:
+  - lahd-round-2
+- county: Los Angeles
+  name: Long Beach · housing development NOFAs
+  sources:
+  - fund-long-beach-extra1
+  - fund-long-beach
+  intake:
+  - fund-long-beach-extra1
+- county: Los Angeles
+  name: Pasadena · CDBG, HOME and ESG action plan
+  sources:
+  - fund-pas-aap
+  note: Council-published funding report. The developer funding index returned HTTP 202 for robots.txt.
+- county: Los Angeles
+  name: Glendale · CDBG, HOME and ESG
+  sources:
+  - fund-glendale-extra2
+  note: City action-plan filing on California’s CEQAnet. The direct city funding site returned HTTP 403 for robots.txt.
+- county: Los Angeles
+  name: Burbank · CDBG requests for funding
+  sources:
+  - fund-burbank
+- county: Los Angeles
+  name: Santa Monica · Housing Trust Fund
+  sources:
+  - fund-santa-monica-news
+  - fund-santa-monica
+  announcements:
+  - text: City Council authorized reopening over-the-counter development funding in January 2027, with up to $23.5 million
+      in Measure GS funds. No exact opening date is published in this notice.
+    until: '2027-01-31'
+    evidence:
+      fund-santa-monica-news:
+      - reopen its over-the-counter affordable housing funding process in January 2027
+      - up to $23.5 million
+- county: Los Angeles
+  name: Culver City · CDBG and local housing funding
+  sources:
+  - fund-culver-city-board-recent
+- county: Los Angeles
+  name: Pomona · housing and community development funds
+  sources:
+  - fund-pomona-board-recent
+  note: City Council and Housing Authority funding docket. City application pages could not be fetched.
+- county: Los Angeles
+  name: Palmdale · CDBG and HOME
+  sources:
+  - fund-palmdale
+- county: San Diego
+  name: San Diego County · HCDS NOFA and HOME consortium
+  sources:
+  - sd-county-nofa
+  - fund-san-diego-consortium
+  note: County HOME coverage includes Carlsbad, Encinitas, La Mesa, San Marcos, Santee and Vista. A city’s own grant
+    round may be separate.
+  intake:
+  - sd-county-nofa
+- county: San Diego
+  name: San Diego · Bridge to Home
+  sources:
+  - sd-city-bridge
+  intake:
+  - sd-city-bridge
+- county: San Diego
+  name: San Diego Housing Commission · rental development loans
+  sources:
+  - fund-san-diego-fy27
+  - sdhc-development
+  rounds:
+  - name: FY 2027 development loans for new affordable rental homes
+    value: Up to $22 million
+    deadline: No deadline in the public issuance notice
+    evidence:
+      fund-san-diego-fy27:
+      - up to $22 million
+      - Developers can apply for SDHC’s NOFA
+      - November 6, 2026
+    note: Confirm availability and closing time with SDHC. Application documents require vendor registration.
+    issued: '2026-11-06'
+    confirm_days: 30
+  intake:
+  - sdhc-development
+  note: SDHC announced this round November 6. Its public notice gives no closing date. Radar stops displaying the open
+    label after 30 days without a later verified notice.
+- county: San Diego
+  name: Chula Vista · CDBG, HOME and PLHA
+  sources:
+  - fund-chula-vista
+  intake:
+  - fund-chula-vista
+- county: San Diego
+  name: Escondido · HOME development funds
+  sources:
+  - fund-escondido
+  intake:
+  - fund-escondido
+- county: San Diego
+  name: Oceanside · affordable development capital awards
+  sources:
+  - pbv-ocean-staff
+  note: City staff report on local capital loan recommendations. The developer funding index could not be monitored.
+  labels:
+    pbv-ocean-staff: Housing Commission capital award recommendations
+- county: San Diego
+  name: San Marcos · CDBG
+  sources:
+  - fund-san-marcos-extra1
+  intake:
+  - fund-san-marcos-extra1
+- county: San Diego
+  name: National City · HOME and CDBG action plan
+  sources:
+  - fund-national-city-extra1
+  note: City-published funding report on its agenda service. The direct city funding page could not be monitored.

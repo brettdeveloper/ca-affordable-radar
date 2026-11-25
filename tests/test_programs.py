@@ -42,6 +42,25 @@ class ProgramTests(unittest.TestCase):
             self.assertIn('No open solicitation shown',section.text_content())
             self.assertIn('Nov 24, 2026',section.text_content())
 
+    def test_local_funding_section_excludes_vouchers_and_future_intake(self):
+        row = {'name':'City capital funds', 'intake':['index']}
+        data = {'index':{'lines':['HOME funding | Open | Applications due December 4, 2026.',
+                                 'Project-based vouchers (PBVs) | Open | HOME and PBV awards',
+                                 'HOME: Public comment applications are open.']}}
+        offers = intake_offers('funding',row,data,{'index':{'ok':True}},'2026-11-25')
+        self.assertEqual([(o['name'],o['until']) for o in offers],[('HOME funding','2026-12-04')])
+        future = dict(starts='2026-12-02',evidence={'index':['HOME funding']})
+        self.assertFalse(evidence_matches(future,data,{'index':{'ok':True}},'2026-11-25'))
+        self.assertTrue(evidence_matches(future,data,{'index':{'ok':True}},'2026-12-02'))
+        with TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'programs.yaml'
+            path.write_text("funding:\n- {county: San Mateo, name: City HOME, sources: [index]}\n")
+            sources = [dict(id='index',name='Funding',url='https://example.gov/')]
+            result = sections(path,sources,{'index':{'ok':True}},'2026-11-25')
+            self.assertEqual(set(result),{'funding'})
+            self.assertIn('No open round shown',result['funding'])
+            self.assertIn('City HOME',result['funding'])
+
     def test_health_threshold_by_government_group(self):
         sources = [dict(id=str(i),category='Local funding' if i<80 else 'Funding') for i in range(100)]
         health = {s['id']:{'ok':True} for s in sources}

@@ -62,7 +62,7 @@ def fetch_source(source, previous, fetch, stamp, counties=None):
             elif kind in ('pdf','xlsx','docx'):
                 new = file_snapshot(r.body,source)
             elif kind == 'legistar':
-                new = legistar_snapshot(r.body,r.url)
+                new = legistar_snapshot(r.body,r.url,source if source.get('legistar_site') else None)
             elif kind == 'meetings':
                 new = agenda_snapshot(r.body,r.url)
             else:

@@ -51,8 +51,8 @@ def agenda_snapshot(body, url):
     }
 
 
-def legistar_snapshot(body, url):
-    """Read Santa Barbara County's public list of matching Board matters."""
+def legistar_snapshot(body, url, source=None):
+    """Read a public legislative service’s matching housing funding matters."""
     try:
         records = json.loads(body)
     except (ValueError, TypeError) as exc:
@@ -75,11 +75,14 @@ def legistar_snapshot(body, url):
         date = clean(matter.get("MatterAgendaDate"))[:10]
         status = clean(matter.get("MatterStatusName"))
         lines.append(" · ".join(filter(None, (number, date, status, title))))
-        links[f"{matters_url}/{matter['MatterId']}"] = f"File {number} · {title[:140]}"
+        target = f"{matters_url}/{matter['MatterId']}"
+        if source and source.get('legistar_site') and matter.get('MatterGuid'):
+            target = f"{source['legistar_site']}/LegislationDetail.aspx?ID={matter['MatterId']}&GUID={matter['MatterGuid']}"
+        links[target] = f"File {number} · {title[:140]}"
     if not lines:
         raise MonitorError("County legislative service returned no public matters")
     return {
-        "title": "Santa Barbara County housing funding agenda items",
+        "title": (source or {}).get("name", "Santa Barbara County housing funding agenda items"),
         "lines": lines,
         "documents": {},
         "links": dict(sorted(links.items())),

@@ -2,7 +2,7 @@
 import re
 import unicodedata
 from collections import defaultdict
-from datetime import datetime
+from datetime import date, datetime
 from html import escape
 
 import yaml
@@ -17,6 +17,12 @@ def normalized(text):
 
 
 def evidence_matches(round_, snapshots, health, today):
+    if 'issued' in round_ and 'confirm_days' in round_:
+        age = (date.fromisoformat(today) - date.fromisoformat(str(round_['issued']))).days
+        if age < 0 or age > round_['confirm_days']:
+            return False
+    if round_.get('starts') and str(round_['starts']) > today:
+        return False
     if round_.get('until') and str(round_['until']) < today:
         return False
     for source_id, phrases in round_.get('evidence', {}).items():
@@ -139,13 +145,26 @@ def sections(path, sources, health, today):
                 else:
                     empty = 'No open solicitation shown' if section == 'pbv' else 'No open round shown'
                     chunks.append('<p>' + (empty if any(health.get(s['id'], {}).get('ok') for s in refs) else 'Coverage unavailable') + '</p>')
+                for notice in row.get('announcements', []):
+                    if evidence_matches(notice, snapshots, health, today):
+                        chunks.append('<p>' + escape(notice['text']) + '</p>')
                 if row.get('note'):
                     chunks.append('<p class="meta">' + escape(row['note']) + '</p>')
                 links = []
                 for s in refs:
                     url = safe_url(s.get('public_url', s['url']))
+                    if s.get('legistar_site'):
+                        docket = snapshots.get(s['id'], {})
+                        recent = docket.get('lines', [])[:2]
+                        for line in recent:
+                            number = line.split(' · ',1)[0]
+                            prefix = f'File {number} · '
+                            for target, label in docket.get('links', {}).items():
+                                if label.startswith(prefix) and safe_url(target):
+                                    links.append(f'<a href="{escape(target, quote=True)}">{escape(label)}</a>')
+                                    break
                     if url:
-                        links.append(f'<a href="{escape(url, quote=True)}">{escape(s["name"])}</a>')
+                        links.append(f'<a href="{escape(url, quote=True)}">{escape(row.get("labels", {}).get(s["id"],s["name"]))}</a>')
                 changes = [health.get(s['id'], {}).get('last_change', '') for s in refs]
                 stamp = max(changes, default='')
                 last = date_text(stamp) if stamp else ('No change since first capture' if refs else 'Unverified')
