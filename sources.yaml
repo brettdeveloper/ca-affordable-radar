@@ -1112,3 +1112,59 @@
   reviewed_terms_sha256: 4831a6497180b1e7e6438dec6f1f95507086fc85dcf535d68fbdcc6f7d31cc88
   notes: Non-official. Compares project URLs only. The index gives no publication dates. Radar dates additions when
     observed and uses its own labels. Section 3 requires written permission to republish the publisher’s content.
+
+- id: pbv-baldwin-plan
+  agency: Baldwin Park Housing Authority
+  name: 2025–29 PHA plan and project-based voucher attachment
+  url: https://www.baldwinpark.com/DocumentCenter/View/3269/HACBP-2025-2029-5-Year-Plan-and-2025-Annual-PHA-Plan
+  kind: pdf
+  notes: The PHA reports its first project-based units and explains program capacity. Physical pages 4–11 include
+    its PBV attachment.
+  pdf_pages:
+  - 4
+  - 11
+  require: Tyler Valley Metro|establishment of project based vouchers
+  category: Project-based vouchers
+- id: pbv-compton
+  agency: Compton Housing Authority
+  name: City record of project-based voucher allocations
+  url: https://www.compton2045.org/files/managed/Document/160/Compton%20HE_Feb2025.pdf
+  kind: pdf
+  notes: Physical page 78 of the city housing element records a 37-voucher allocation to 1434 W. Compton Boulevard.
+    It does not open a new competition.
+  pdf_pages:
+  - 78
+  - 78
+  require: 37 Project-Based Vouchers
+  category: Project-based vouchers
+- id: pbv-inglewood-rfp
+  agency: Inglewood Housing Authority
+  name: Owner RFP 0260 and deadline extensions
+  url: https://www.cityofinglewood.org/DocumentCenter/View/21766/Newspaper-Ad-for-RFP-0260-Inglewood-Housing-Authoritys-Project-Based-Vouchers-Program
+  kind: pdf
+  notes: Public owner solicitation offering up to 50 vouchers. Addenda extended the application deadline to April
+    3, 2026. The standing program page is also watched.
+  require: Project.Based Vouchers
+  category: Project-based vouchers
+- id: pbv-hawthorne-cordary
+  agency: Hawthorne Housing Authority
+  name: Cordary housing development and conditional VASH voucher RFP
+  url: https://static1.squarespace.com/static/52ec83cee4b032691e28b3ce/t/5f5a3c07e65e683810ed6472/1599749128852/plan_rfp-Final+Cordary+RFP+9+4+20.pdf
+  kind: pdf
+  notes: Archived city-issued development competition at 14115 Cordary Avenue. The prospective housing authority
+    vouchers were conditional on HUD funding.
+  pdf_pages:
+  - 2
+  - 5
+  require: VASH vouchers
+  category: Project-based vouchers
+- id: pbv-pomona-docket
+  agency: Pomona Housing Authority
+  name: Housing Authority project-based voucher selections and resolutions
+  url: https://webapi.legistar.com/v1/pomona/matters?%24filter=substringof%28%27Project-Based+Voucher%27%2CMatterTitle%29+or+substringof%28%27Project+Based+Voucher%27%2CMatterTitle%29+or+substringof%28%27Project-Based+Section+8%27%2CMatterTitle%29+or+substringof%28%27PBV%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35
+  kind: legistar
+  notes: Live public docket of City Council matters, including decisions as the governing board of the authority.
+    Records include its 24-voucher two-project selection item.
+  legistar_site: https://pomona.legistar.com
+  public_url: https://pomona.legistar.com/Legislation.aspx
+  category: Project-based vouchers

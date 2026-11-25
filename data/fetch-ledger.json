@@ -144,6 +144,10 @@
       "date": "2026-11-25",
       "status": 200
     },
+    "https://static1.squarespace.com/static/52ec83cee4b032691e28b3ce/t/5f5a3c07e65e683810ed6472/1599749128852/plan_rfp-Final+Cordary+RFP+9+4+20.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
     "https://webapi.legistar.com/v1/culver-city/matters?%24filter=substringof%28%27Notice+of+Funding+Availability%27%2CMatterTitle%29+or+substringof%28%27Housing+Trust+Fund%27%2CMatterTitle%29+or+substringof%28%27Affordable+Housing+Fund%27%2CMatterTitle%29+or+substringof%28%27Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Community+Development+Block+Grant%27%2CMatterTitle%29+or+substringof%28%27HOME+Investment+Partnerships%27%2CMatterTitle%29&%24orderby=MatterAgendaDate+desc%2CMatterId+desc&%24top=24": {
       "date": "2026-11-25",
       "status": 200
@@ -157,6 +161,10 @@
       "status": 200
     },
     "https://webapi.legistar.com/v1/pomona/matters?%24filter=substringof%28%27Notice+of+Funding+Availability%27%2CMatterTitle%29+or+substringof%28%27Housing+Trust+Fund%27%2CMatterTitle%29+or+substringof%28%27Affordable+Housing+Fund%27%2CMatterTitle%29+or+substringof%28%27Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Community+Development+Block+Grant%27%2CMatterTitle%29+or+substringof%28%27HOME+Investment+Partnerships%27%2CMatterTitle%29&%24orderby=MatterAgendaDate+desc%2CMatterId+desc&%24top=24": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://webapi.legistar.com/v1/pomona/matters?%24filter=substringof%28%27Project-Based+Voucher%27%2CMatterTitle%29+or+substringof%28%27Project+Based+Voucher%27%2CMatterTitle%29+or+substringof%28%27Project-Based+Section+8%27%2CMatterTitle%29+or+substringof%28%27PBV%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35": {
       "date": "2026-11-25",
       "status": 200
     },
@@ -181,6 +189,10 @@
       "status": 200
     },
     "https://ww2.cityofpasadena.net/2026%20Agendas/Jun_15_26/AR%209.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.baldwinpark.com/DocumentCenter/View/3269/HACBP-2025-2029-5-Year-Plan-and-2025-Annual-PHA-Plan": {
       "date": "2026-11-25",
       "status": 200
     },
@@ -236,11 +248,19 @@
       "date": "2026-11-25",
       "status": 200
     },
+    "https://www.cityofinglewood.org/DocumentCenter/View/21766/Newspaper-Ad-for-RFP-0260-Inglewood-Housing-Authoritys-Project-Based-Vouchers-Program": {
+      "date": "2026-11-25",
+      "status": 200
+    },
     "https://www.cityofpalmdaleca.gov/DocumentCenter/View/17487/NOFA-CDBG-and-HOME-Program-2026-2027": {
       "date": "2026-11-25",
       "status": 200
     },
     "https://www.cityofsanmateo.org/3765/Community-Funding-Program": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.compton2045.org/files/managed/Document/160/Compton%20HE_Feb2025.pdf": {
       "date": "2026-11-25",
       "status": 200
     },
@@ -651,6 +671,10 @@
       "date": "2026-11-25",
       "rules": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.avif\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /core/*.webp\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.avif\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\nAllow: /profiles/*.webp\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /search?\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/search?\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n"
     },
+    "https://static1.squarespace.com": {
+      "date": "2026-11-25",
+      "rules": ""
+    },
     "https://webapi.legistar.com": {
       "date": "2026-11-25",
       "rules": ""
@@ -658,6 +682,10 @@
     "https://ww2.cityofpasadena.net": {
       "date": "2026-11-25",
       "rules": ""
+    },
+    "https://www.baldwinpark.com": {
+      "date": "2026-11-25",
+      "rules": "user-agent: Baiduspider\r\nDisallow: /\r\nUser-agent: Yandex\r\nDisallow: /\r\nUser-agent: *\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /search.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /search.aspx\r\nDisallow: /currentevents.aspx\r\nDisallow: /Support\r\nDisallow: /CurrentEventsView.asp\r\nDisallow: /Search.asp\r\nDisallow: /CurrentEventsView.aspx\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /CurrentEvents.aspx\r\nDisallow: /Currentevents.aspx\r\nDisallow: /map.aspx\r\nDisallow: /map.asp\r\nDisallow: /Map.aspx\r\nDisallow: /Map.asp\r\nSitemap: /sitemap.xml\r\nDisallow: /RSS.aspx\r\n# added 2026-10-21 by Add-RobotsRules\r\nDisallow: /rss.aspx\r\nDisallow: /error.aspx\r\nDisallow: /Error.aspx\r\nDisallow: /404.aspx\r\nDisallow: /common/modules/icalendar/\r\nDisallow: /common/modules/debug/\r\nDisallow: /publiclogin.aspx\r\nDisallow: /PublicLogin.aspx\r\nCrawl-delay: 10\r\nUser-agent: Siteimprove\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot-crawler\r\nCrawl-delay: 20\r\n\r\n# ---------------------------------------------------------------------------\r\n# NEW - AI search/training crawlers and SEO scrapers.\r\nUser-agent: meta-webindexer\r\nUser-agent: meta-externalagent\r\nUser-agent: OAI-SearchBot\r\nUser-agent: GPTBot\r\nUser-agent: ClaudeBot\r\nUser-agent: Claude-SearchBot\r\nUser-agent: PerplexityBot\r\nUser-agent: Amazonbot\r\nUser-agent: Bytespider\r\nUser-agent: CCBot\r\nUser-agent: cohere-ai\r\nUser-agent: Reflectionbot\r\nUser-agent: LinkupBot\r\nUser-agent: ExaSearchBot\r\nUser-agent: YouBot\r\nUser-agent: DuckAssistBot\r\nUser-agent: serpstatbot\r\nUser-agent: AhrefsBot\r\nUser-agent: SemrushBot\r\nUser-agent: MJ12bot\r\nUser-agent: DotBot\r\n# existing site-wide rules\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /Support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /CurrentEventsView.asp\r\nDisallow: /CurrentEventsView.aspx\r\nDisallow: /currentevents.aspx\r\nDisallow: /CurrentEvents.aspx\r\nDisallow: /Currentevents.aspx\r\nDisallow: /search.asp\r\nDisallow: /search.aspx\r\nDisallow: /Search.asp\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /map.aspx\r\nDisallow: /map.asp\r\nDisallow: /Map.aspx\r\nDisallow: /Map.asp\r\nDisallow: /rss.aspx\r\nDisallow: /RSS.aspx\r\nDisallow: /calendar.aspx\r\nDisallow: /Calendar.aspx\r\nDisallow: /rssfeed.aspx\r\nDisallow: /RSSFeed.aspx\r\nDisallow: /civicalerts.aspx\r\nDisallow: /CivicAlerts.aspx\r\nDisallow: /bids.aspx\r\nDisallow: /Bids.aspx\r\nDisallow: /faq.aspx\r\nDisallow: /FAQ.aspx\r\nDisallow: /common/modules/icalendar/\r\n"
     },
     "https://www.burbankca.gov": {
       "date": "2026-11-25",
@@ -694,6 +722,10 @@
     "https://www.cityofsanmateo.org": {
       "date": "2026-11-25",
       "rules": "user-agent: Baiduspider\r\nDisallow: /\r\nUser-agent: Yandex\r\nDisallow: /\r\nUser-agent: *\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /search.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /search.aspx\r\nDisallow: /currentevents.aspx\r\nDisallow: /Support\r\nDisallow: /CurrentEventsView.asp\r\nDisallow: /Search.asp\r\nDisallow: /CurrentEventsView.aspx\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /CurrentEvents.aspx\r\nDisallow: /Currentevents.aspx\r\nDisallow: /map.aspx\r\nDisallow: /map.asp\r\nDisallow: /Map.aspx\r\nDisallow: /Map.asp\r\nSitemap: /sitemap.xml\r\nDisallow: /RSS.aspx\r\n# added 2026-10-20 by Add-RobotsRules\r\nDisallow: /rss.aspx\r\nDisallow: /error.aspx\r\nDisallow: /Error.aspx\r\nDisallow: /404.aspx\r\nDisallow: /common/modules/icalendar/\r\nDisallow: /common/modules/debug/\r\nDisallow: /publiclogin.aspx\r\nDisallow: /PublicLogin.aspx\r\nCrawl-delay: 10\r\nUser-agent: Siteimprove\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot-crawler\r\nCrawl-delay: 20\r\n\r\n# ---------------------------------------------------------------------------\r\n# NEW - AI search/training crawlers and SEO scrapers.\r\nUser-agent: meta-webindexer\r\nUser-agent: meta-externalagent\r\nUser-agent: OAI-SearchBot\r\nUser-agent: GPTBot\r\nUser-agent: ClaudeBot\r\nUser-agent: Claude-SearchBot\r\nUser-agent: PerplexityBot\r\nUser-agent: Amazonbot\r\nUser-agent: Bytespider\r\nUser-agent: CCBot\r\nUser-agent: cohere-ai\r\nUser-agent: Reflectionbot\r\nUser-agent: LinkupBot\r\nUser-agent: ExaSearchBot\r\nUser-agent: YouBot\r\nUser-agent: DuckAssistBot\r\nUser-agent: serpstatbot\r\nUser-agent: AhrefsBot\r\nUser-agent: SemrushBot\r\nUser-agent: MJ12bot\r\nUser-agent: DotBot\r\n# existing site-wide rules\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /Support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /CurrentEventsView.asp\r\nDisallow: /CurrentEventsView.aspx\r\nDisallow: /currentevents.aspx\r\nDisallow: /CurrentEvents.aspx\r\nDisallow: /Currentevents.aspx\r\nDisallow: /search.asp\r\nDisallow: /search.aspx\r\nDisallow: /Search.asp\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /map.aspx\r\nDisallow: /map.asp\r\nDisallow: /Map.aspx\r\nDisallow: /Map.asp\r\nDisallow: /rss.aspx\r\nDisallow: /RSS.aspx\r\nDisallow: /calendar.aspx\r\nDisallow: /Calendar.aspx\r\nDisallow: /rssfeed.aspx\r\nDisallow: /RSSFeed.aspx\r\nDisallow: /civicalerts.aspx\r\nDisallow: /CivicAlerts.aspx\r\nDisallow: /bids.aspx\r\nDisallow: /Bids.aspx\r\nDisallow: /faq.aspx\r\nDisallow: /FAQ.aspx\r\nDisallow: /common/modules/icalendar/\r\n"
+    },
+    "https://www.compton2045.org": {
+      "date": "2026-11-25",
+      "rules": "#\n# robots.txt (TS3,4)\n#\nUser-Agent: *\nCrawl-delay: 10\nDisallow: /events/date\nDisallow: /events/month\nDisallow: /townsquare/events/date\nDisallow: /townsquare/events/month\nAllow: /\n"
     },
     "https://www.countyofsb.org": {
       "date": "2026-11-25",

@@ -211,3 +211,23 @@
   evidence: By 5 p.m. Pacific; housing preservation is eligible.
   source_url: https://www.cityofgilroy.org/284/Block-Grant-Funds
   date_captured: '2026-11-25'
+
+- program: Inglewood Housing Authority PBV
+  event: RFP 0260 extended owner proposal deadline
+  date: '2026-04-03'
+  date_captured: '2026-11-25'
+  source_url: https://www.cityofinglewood.org/DocumentCenter/View/21766/Newspaper-Ad-for-RFP-0260-Inglewood-Housing-Authoritys-Project-Based-Vouchers-Program
+  evidence: 'Addendum, physical page 3: 3 p.m.'
+- program: Inglewood Housing Authority PBV
+  event: RFP 0260 extended deadline for questions
+  date: '2026-02-25'
+  date_captured: '2026-11-25'
+  source_url: https://www.cityofinglewood.org/DocumentCenter/View/21766/Newspaper-Ad-for-RFP-0260-Inglewood-Housing-Authoritys-Project-Based-Vouchers-Program
+  evidence: 'Addendum, physical page 4: noon.'
+- program: Hawthorne Housing Authority PBV
+  event: Historical Cordary developer proposals due
+  date: '2020-10-24'
+  date_captured: '2026-11-25'
+  source_url: https://static1.squarespace.com/static/52ec83cee4b032691e28b3ce/t/5f5a3c07e65e683810ed6472/1599749128852/plan_rfp-Final+Cordary+RFP+9+4+20.pdf
+  evidence: The RFP repeats October 24, 2020 in its instructions and schedule. Its stated weekday is inconsistent
+    with the numeric date. VASH was conditional.

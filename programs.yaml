@@ -1,12 +1,20 @@
 pbv:
 - county: Los Angeles
   name: Baldwin Park Housing Authority
-  sources: []
-  note: The board host disallows the relevant attachment in robots.txt.
+  sources:
+  - pbv-baldwin-plan
+  note: The authority’s 2025–29 plan describes the owner program and prior project selection. Public city procurement
+    directs vendors to a registration portal.
 - county: Los Angeles
   name: Burbank Housing Authority
   sources:
   - pbv-burb
+- name: Compton Housing Authority
+  county: Los Angeles
+  sources:
+  - pbv-compton
+  note: The city records a 37-voucher project allocation. Its public housing element documents prior allocations; an
+    open owner solicitation was not verified.
 - county: Los Angeles
   name: Culver City Housing Authority
   sources:
@@ -18,9 +26,10 @@ pbv:
   note: The authority’s administrative plan host returned HTTP 403 for robots.txt.
 - county: Los Angeles
   name: Hawthorne Housing Authority
-  sources: []
-  note: An archived development solicitation redirected beyond the verified publishing origin. No current owner solicitation
-    was verified.
+  sources:
+  - pbv-hawthorne-cordary
+  note: The 2020 Cordary development RFP contemplated up to 18 HUD-VASH vouchers, subject to HUD funding. The archived
+    competition is closed.
 - county: Los Angeles
   name: Housing Authority of the City of Long Beach
   sources:
@@ -39,8 +48,10 @@ pbv:
   name: Inglewood Housing Authority
   sources:
   - pbv-ing
+  - pbv-inglewood-rfp
   intake:
   - pbv-ing
+  note: RFP 0260 offered up to 50 PBVs. Its extended deadline was April 3, 2026.
 - county: Los Angeles
   name: Los Angeles County Development Authority
   sources:
@@ -77,8 +88,11 @@ pbv:
   note: Council-published draft plan. The housing department’s live RFP index returned HTTP 202 for robots.txt.
 - county: Los Angeles
   name: Pomona Housing Authority
-  sources: []
-  note: City robots.txt returned HTTP 403. The consolidated plan discusses voucher participants but gives no owner solicitation.
+  sources: &id001
+  - pbv-pomona-docket
+  note: The public governing-board docket tracks PBV selections and authorizations. Project selections are distinct from
+    open owner intake.
+  intake: *id001
 - county: Los Angeles
   name: Redondo Beach Housing Authority
   sources:
@@ -152,8 +166,8 @@ pbv:
   name: Housing Authority of the County of Santa Barbara
   sources:
   - pbv-sbcounty
-  note: The county authority’s published plan describes owner selection. A current public owner RFP index could not
-    be verified.
+  note: The county authority’s published plan describes owner selection. A current public owner RFP index could not be
+    verified.
 - county: Santa Clara
   name: Santa Clara County Housing Authority
   sources:

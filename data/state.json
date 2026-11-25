@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-25T14:58:33-08:00",
+  "as_of": "2026-11-25T15:12:08-08:00",
   "baseline": "2026-11-25",
   "failed": 0,
   "first_seen": {
@@ -1907,6 +1907,18 @@
       "ok": true,
       "url": "https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/notice-funding-availability-nofa"
     },
+    "pbv-baldwin-plan": {
+      "attempt_day": "2026-11-25",
+      "candidate": "",
+      "error": "",
+      "etag": "",
+      "http": 200,
+      "last_attempt": "2026-11-25T15:12:08-08:00",
+      "last_success": "2026-11-25T15:08:47-08:00",
+      "modified": "",
+      "ok": true,
+      "url": "https://www.baldwinpark.com/DocumentCenter/View/3269/HACBP-2025-2029-5-Year-Plan-and-2025-Annual-PHA-Plan"
+    },
     "pbv-burb": {
       "attempt_day": "2026-11-25",
       "candidate": "",
@@ -1918,6 +1930,18 @@
       "modified": "Tue, 14 Apr 2026 18:49:59 GMT",
       "ok": true,
       "url": "https://www.burbankca.gov/documents/d/community-development/project-based-vouchers-proposal-package-pdf?download=false"
+    },
+    "pbv-compton": {
+      "attempt_day": "2026-11-25",
+      "candidate": "",
+      "error": "",
+      "etag": "",
+      "http": 200,
+      "last_attempt": "2026-11-25T15:12:08-08:00",
+      "last_success": "2026-11-25T15:06:48-08:00",
+      "modified": "Fri, 21 Feb 2025 20:21:05 GMT",
+      "ok": true,
+      "url": "https://www.compton2045.org/files/managed/Document/160/Compton%20HE_Feb2025.pdf"
     },
     "pbv-culver": {
       "attempt_day": "2026-11-25",
@@ -1943,6 +1967,18 @@
       "ok": true,
       "url": "https://www.culvercity.gov/files/assets/public/v/1/documents/housing-amp-human-services/housing/ccha-pbv-rfp-120224.pdf"
     },
+    "pbv-hawthorne-cordary": {
+      "attempt_day": "2026-11-25",
+      "candidate": "",
+      "error": "",
+      "etag": "",
+      "http": 200,
+      "last_attempt": "2026-11-25T15:12:08-08:00",
+      "last_success": "2026-11-25T15:07:56-08:00",
+      "modified": "",
+      "ok": true,
+      "url": "https://static1.squarespace.com/static/52ec83cee4b032691e28b3ce/t/5f5a3c07e65e683810ed6472/1599749128852/plan_rfp-Final+Cordary+RFP+9+4+20.pdf"
+    },
     "pbv-ing": {
       "attempt_day": "2026-11-25",
       "candidate": "",
@@ -1954,6 +1990,18 @@
       "modified": "Wed, 25 Nov 2026 22:26:04 GMT",
       "ok": true,
       "url": "https://www.cityofinglewood.org/1628/Project-Based-Vouchers"
+    },
+    "pbv-inglewood-rfp": {
+      "attempt_day": "2026-11-25",
+      "candidate": "",
+      "error": "",
+      "etag": "",
+      "http": 200,
+      "last_attempt": "2026-11-25T15:12:08-08:00",
+      "last_success": "2026-11-25T15:06:47-08:00",
+      "modified": "Wed, 25 Nov 2026 23:06:46 GMT",
+      "ok": true,
+      "url": "https://www.cityofinglewood.org/DocumentCenter/View/21766/Newspaper-Ad-for-RFP-0260-Inglewood-Housing-Authoritys-Project-Based-Vouchers-Program"
     },
     "pbv-lacda-guide": {
       "attempt_day": "2026-11-25",
@@ -2074,6 +2122,18 @@
       "modified": "Wed, 08 Apr 2026 18:03:25 GMT",
       "ok": true,
       "url": "https://ww2.cityofpasadena.net/2026%20Agendas/Jan_12_26/AR%2012%20ATTACHMENT%20A.pdf"
+    },
+    "pbv-pomona-docket": {
+      "attempt_day": "2026-11-25",
+      "candidate": "",
+      "error": "",
+      "etag": "",
+      "http": 200,
+      "last_attempt": "2026-11-25T15:12:08-08:00",
+      "last_success": "2026-11-25T15:11:00-08:00",
+      "modified": "",
+      "ok": true,
+      "url": "https://webapi.legistar.com/v1/pomona/matters?%24filter=substringof%28%27Project-Based+Voucher%27%2CMatterTitle%29+or+substringof%28%27Project+Based+Voucher%27%2CMatterTitle%29+or+substringof%28%27Project-Based+Section+8%27%2CMatterTitle%29+or+substringof%28%27PBV%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35"
     },
     "pbv-redondo": {
       "attempt_day": "2026-11-25",
@@ -2511,7 +2571,7 @@
   "health_groups": {
     "local": {
       "failed": 0,
-      "total": 95
+      "total": 100
     },
     "state_federal": {
       "failed": 0,
@@ -2519,5 +2579,5 @@
     }
   },
   "land_baseline": "2026-11-25",
-  "total": 134
+  "total": 139
 }

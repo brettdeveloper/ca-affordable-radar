@@ -1,6 +1,6 @@
 # Source status
 
-Collection observed 2026-11-25T14:58:33-08:00 (Pacific). Industry sources are non-official.
+Collection observed 2026-11-25T15:12:08-08:00 (Pacific). Industry sources are non-official.
 
 | Agency | Source | Result | Last successful fetch (Pacific) |
 |---|---|---|---|
@@ -138,3 +138,8 @@ Collection observed 2026-11-25T14:58:33-08:00 (Pacific). Industry sources are no
 | San Diego County HCDS | [County HOME consortium funding plan](https://www.sandiegocounty.gov/content/dam/sdc/sdhcd/new-docs/CD/Fiscal_Year_2026-27_Annual_Plan_09-03-26.pdf) | OK | 2026-11-25T14:40:49-08:00 |
 | Los Angeles County Development Authority | [NOFA 33 questions and answers No. 2](https://www.lacda.org/docs/librariesprovider25/affordable-housing-programs/multifamily-rental-housing---nofa/nofa-33/questions-and-answers-no-2.pdf?sfvrsn=21292c64_1) | OK | 2026-11-25T14:44:18-08:00 |
 | Kingdom Development, Inc. (non-official) | [Public project portfolio links](https://kingdomdevelopment.net/properties/) | OK | 2026-11-25T14:58:33-08:00 |
+| Baldwin Park Housing Authority | [2025–29 PHA plan and project-based voucher attachment](https://www.baldwinpark.com/DocumentCenter/View/3269/HACBP-2025-2029-5-Year-Plan-and-2025-Annual-PHA-Plan) | OK | 2026-11-25T15:08:47-08:00 |
+| Compton Housing Authority | [City record of project-based voucher allocations](https://www.compton2045.org/files/managed/Document/160/Compton%20HE_Feb2025.pdf) | OK | 2026-11-25T15:06:48-08:00 |
+| Inglewood Housing Authority | [Owner RFP 0260 and deadline extensions](https://www.cityofinglewood.org/DocumentCenter/View/21766/Newspaper-Ad-for-RFP-0260-Inglewood-Housing-Authoritys-Project-Based-Vouchers-Program) | OK | 2026-11-25T15:06:47-08:00 |
+| Hawthorne Housing Authority | [Cordary housing development and conditional VASH voucher RFP](https://static1.squarespace.com/static/52ec83cee4b032691e28b3ce/t/5f5a3c07e65e683810ed6472/1599749128852/plan_rfp-Final+Cordary+RFP+9+4+20.pdf) | OK | 2026-11-25T15:07:56-08:00 |
+| Pomona Housing Authority | [Housing Authority project-based voucher selections and resolutions](https://pomona.legistar.com/Legislation.aspx) | OK | 2026-11-25T15:11:00-08:00 |
