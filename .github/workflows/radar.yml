@@ -15,6 +15,7 @@ on:
       - 'requirements.txt'
       - 'sources.yaml'
       - 'config.yaml'
+      - 'programs.yaml'
       - 'data/deadlines.yaml'
 
 permissions: {}
@@ -26,7 +27,7 @@ jobs:
   collect:
     if: github.ref == 'refs/heads/main' && github.event.repository.private == false
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 24
     permissions:
       contents: write
       issues: write
@@ -34,8 +35,7 @@ jobs:
     outputs:
       pages_ready: ${{ steps.pages.outputs.ready }}
       alert_status: ${{ steps.alerts.outcome }}
-      failed: ${{ steps.health.outputs.failed }}
-      total: ${{ steps.health.outputs.total }}
+      threshold_failed: ${{ steps.health.outputs.threshold_failed }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -52,7 +52,7 @@ jobs:
       - name: Record health
         id: health
         run: |
-          jq -r '"failed=\(.failed)","total=\(.total)"' data/state.json >> "$GITHUB_OUTPUT"
+          python -c 'import json; from radar.health import threshold_failed; print("threshold_failed=" + str(threshold_failed(json.load(open("data/state.json"))["health_groups"])).lower())' >> "$GITHUB_OUTPUT"
           jq -r '"Source health: \(.total - .failed)/\(.total) healthy."' data/state.json >> "$GITHUB_STEP_SUMMARY"
       - name: Save source history and daily activity to main
         run: |
@@ -100,13 +100,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions: {}
     steps:
-      - name: Fail above 30 percent source failures
+      - name: Check state and local source failure rates
         env:
-          FAILED: ${{ needs.collect.outputs.failed }}
-          TOTAL: ${{ needs.collect.outputs.total }}
-        run: |
-          echo "$FAILED of $TOTAL sources failed"
-          (( TOTAL > 0 && FAILED * 10 <= TOTAL * 3 ))
+          THRESHOLD_FAILED: ${{ needs.collect.outputs.threshold_failed }}
+        run: test "$THRESHOLD_FAILED" = false
 
       - name: Check issue delivery
         if: needs.collect.outputs.alert_status == 'failure'

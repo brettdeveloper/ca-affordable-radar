@@ -1,0 +1,173 @@
+pbv:
+- county: Los Angeles
+  name: Baldwin Park Housing Authority
+  sources: []
+  note: The board host disallows the relevant attachment in robots.txt.
+- county: Los Angeles
+  name: Burbank Housing Authority
+  sources:
+  - pbv-burb
+- county: Los Angeles
+  name: Culver City Housing Authority
+  sources:
+  - pbv-culver
+  - pbv-culver-rfp
+- county: Los Angeles
+  name: Glendale Housing Authority
+  sources: []
+  note: The authority’s administrative plan host returned HTTP 403 for robots.txt.
+- county: Los Angeles
+  name: Hawthorne Housing Authority
+  sources: []
+  note: An archived development solicitation redirected beyond the verified publishing origin. No current owner solicitation
+    was verified.
+- county: Los Angeles
+  name: Housing Authority of the City of Long Beach
+  sources:
+  - pbv-lb
+  - pbv-lb-rfp
+  note: The authority’s program page includes project and unit information. Tenant availability is excluded from the
+    owner solicitation status.
+  intake:
+  - pbv-lb
+- county: Los Angeles
+  name: Housing Authority of the City of Los Angeles
+  sources: []
+  note: HACLA’s PBV site returned HTTP 202 for robots.txt. LAHD’s joint financing rules reference separate HACLA awards
+    and do not establish an open HACLA RFP.
+- county: Los Angeles
+  name: Inglewood Housing Authority
+  sources:
+  - pbv-ing
+  intake:
+  - pbv-ing
+- county: Los Angeles
+  name: Los Angeles County Development Authority
+  sources:
+  - lacda-multifamily
+  - pbv-lacda-term
+  - pbv-lacda-guide
+  rounds:
+  - name: NOFA Round 33
+    value: Up to 300 PBVs for Special Needs projects
+    until: '2026-12-03'
+    deadline: December 3, 2026, 11:59:59 p.m. Pacific
+    note: Capital award required. The mandatory October 28 conference and November 3 REO submission have passed.
+    evidence:
+      lacda-multifamily:
+      - released Notice of Funding Availability (NOFA) Round 33
+      pbv-lacda-guide:
+      - 12/3/2026
+      - Applications Due Before Midnight
+      - up to 300 PBVs
+    stop:
+    - NOFA Round 33 has been cancelled
+    - NOFA Round 33 is closed
+    - NOFA Round 33 has been withdrawn
+  intake:
+  - lacda-multifamily
+- county: Los Angeles
+  name: Norwalk Housing Authority
+  sources:
+  - pbv-norwalk
+- county: Los Angeles
+  name: Pasadena Housing Authority
+  sources:
+  - pbv-pas-plan
+  note: Council-published draft plan. The housing department’s live RFP index returned HTTP 202 for robots.txt.
+- county: Los Angeles
+  name: Pomona Housing Authority
+  sources: []
+  note: City robots.txt returned HTTP 403. The consolidated plan discusses voucher participants but gives no owner solicitation.
+- county: Los Angeles
+  name: Redondo Beach Housing Authority
+  sources:
+  - pbv-redondo
+- county: Los Angeles
+  name: Santa Monica Housing Authority
+  sources:
+  - pbv-smcity
+- county: Marin
+  name: Marin Housing Authority
+  sources:
+  - pbv-marin-index
+  - pbv-marin
+  - pbv-marin-vash
+  intake:
+  - pbv-marin-index
+- county: San Diego
+  name: Carlsbad Housing Agency
+  sources: []
+  note: City and library hosts returned HTTP 403 for robots.txt.
+- county: San Diego
+  name: Encinitas Housing Authority
+  sources: []
+  note: City robots.txt returned HTTP 403. The agenda host disallows the plan attachment.
+- county: San Diego
+  name: Housing Authority of the County of San Diego (HCDS)
+  sources:
+  - sd-county-nofa
+  note: The County posts developer solicitations on its NOFA index. Property waiting lists are excluded.
+  intake:
+  - sd-county-nofa
+- county: San Diego
+  name: National City Housing Authority
+  sources: []
+  note: City robots.txt returned HTTP 403. The alternate board records found did not solicit owner PBVs.
+- county: San Diego
+  name: Oceanside Housing Authority
+  sources:
+  - pbv-ocean-staff
+  note: Commission staff report on prior competitive selections. The live developer index returned HTTP 403 for robots.txt.
+- county: San Diego
+  name: San Diego Housing Commission
+  sources:
+  - sdhc-development
+  - pbv-sd-plan
+  intake:
+  - sdhc-development
+- county: San Francisco
+  name: Housing Authority of the City and County of San Francisco
+  sources:
+  - pbv-sf
+  - pbv-sf-award
+  - pbv-sf-rfp
+  intake:
+  - pbv-sf
+- county: San Mateo
+  name: Housing Authority of the County of San Mateo
+  sources:
+  - pbv-sm
+  - san-mateo-funding-overview
+  intake:
+  - san-mateo-funding-overview
+- county: Santa Barbara
+  name: Housing Authority of the City of Santa Barbara
+  sources:
+  - pbv-sbcity
+  - pbv-sbcity-rfp
+  intake:
+  - pbv-sbcity
+- county: Santa Barbara
+  name: Housing Authority of the County of Santa Barbara
+  sources:
+  - pbv-sbcounty
+  note: The county authority’s published plan describes owner selection. A current public owner RFP index could not be
+    verified.
+- county: Santa Clara
+  name: Santa Clara County Housing Authority
+  sources:
+  - pbv-sccha
+  - pbv-sccha-index
+  - pbv-sccha-current
+  - pbv-sccha-joint
+  note: The 2021 joint NOFA described rolling intake. The current county page confirms past awards but gives no current
+    voucher balance or invitation.
+  intake:
+  - pbv-sccha
+- county: Santa Cruz
+  name: Housing Authority of the County of Santa Cruz
+  sources:
+  - pbv-sc
+  intake:
+  - pbv-sc

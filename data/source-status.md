@@ -1,6 +1,6 @@
 # Source status
 
-Collection observed 2026-11-25T13:41:01-08:00 (Pacific). Click a source for the official page.
+Collection observed 2026-11-25T14:32:08-08:00 (Pacific). Click a source for the official page.
 
 | Agency | Source | Result | Last successful fetch (Pacific) |
 |---|---|---|---|
@@ -67,3 +67,32 @@ Collection observed 2026-11-25T13:41:01-08:00 (Pacific). Click a source for the 
 | HCD | [Surplus notice data catalog](https://data.ca.gov/@california-department-of-housing-and-community-development/surplus-land-act-notices-of-availability-received) | OK | 2026-11-25T13:30:27-08:00 |
 | CDLAC | [Draft 2027 meeting and application schedule (PDF)](https://www.treasurer.ca.gov/sites/default/files/2026-11/2027_CDLAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf) | OK | 2026-11-25T13:35:02-08:00 |
 | CTCAC | [Draft 2027 meeting and application schedule (PDF)](https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf) | OK | 2026-11-25T13:35:06-08:00 |
+| Santa Clara County Housing Authority | [Business opportunities](https://www.scchousingauthority.org/business-opportunities/) | OK | 2026-11-25T14:25:53-08:00 |
+| Santa Clara County Housing Authority | [Administrative Plan and amendments](https://www.scchousingauthority.org/home/adminplan/) | OK | 2026-11-25T14:27:07-08:00 |
+| Santa Clara County Housing Authority | [September 2026 Administrative Plan, project selection](https://www.scchousingauthority.org/wp-content/uploads/2026/05/HCV-Administrative-Plan-eff-9.14.26.pdf) | OK | 2026-11-25T14:28:21-08:00 |
+| Santa Clara County Housing Authority | [County SHDF NOFA and voucher coordination](https://files.santaclaracounty.gov/migrated/NOFA%20SHDF%20With%20Attachments%20-%20November%202021.pdf) | OK | 2026-11-25T14:29:49-08:00 |
+| Housing Authority of the County of San Mateo | [Section 8 and HUD-VASH PBV RFP](https://www.smcgov.org/housing/rfp-section-8-and-hud-vash-project-based-vouchers) | OK | 2026-11-25T14:25:52-08:00 |
+| Housing Authority of the County of Santa Cruz | [Project-Based Voucher RFP](https://hacosantacruz.org/general-information/vendors-contracts/request-for-proposals/) | OK | 2026-11-25T14:25:54-08:00 |
+| Housing Authority of the City and County of San Francisco | [Project-Based Voucher program](https://sfha.org/project-based-voucher) | OK | 2026-11-25T14:25:56-08:00 |
+| Housing Authority of the City and County of San Francisco | [Competitive PBV notice of intent to award](https://sfha.org/about/news-updates/notice-intent-award-solicitation-no-23-440-rfp-0004-project-based-vouchers) | OK | 2026-11-25T14:27:07-08:00 |
+| Housing Authority of the City and County of San Francisco | [Owner solicitation 23-440-RFP 0004](https://sfha.org/files/documents/23-440-RFP%200004_SFHA%20PBV%20RFP_final.pdf) | OK | 2026-11-25T14:27:12-08:00 |
+| Marin Housing Authority | [Bids and requests for proposals](https://www.marinhousing.org/bids) | OK | 2026-11-25T14:27:08-08:00 |
+| Marin Housing Authority | [New construction PBV RFP](https://www.marinhousing.org/project-based-vouchers-for-newly-constructed-housing-units) | OK | 2026-11-25T14:25:54-08:00 |
+| Marin Housing Authority | [Existing units and veterans PBV solicitation](https://www.marinhousing.org/pbv-existing-project-advertisement-2024) | OK | 2026-11-25T14:25:58-08:00 |
+| Housing Authority of the City of Santa Barbara | [Business opportunities and RFPs](https://hacsb.org/business-opportunities/) | OK | 2026-11-25T14:25:53-08:00 |
+| Housing Authority of the City of Santa Barbara | [Section 8 PBV RFP](https://hacsb.org/wp-content/uploads/filebase/business_opportunities/rfp/PBV_RFP.pdf) | OK | 2026-11-25T14:26:04-08:00 |
+| Housing Authority of the County of Santa Barbara | [Board-approved administrative plan and PBV selection policy](https://cms3.revize.com/revize/barbarahousingauthority/2024_Santa_Barbara_County_Admin_Amendment_Approved_10.19.24_Remediated.pdf) | OK | 2026-11-25T14:27:12-08:00 |
+| Los Angeles County Development Authority | [NOFA 33 term sheet and PBV deadlines](https://www.lacda.org/docs/librariesprovider25/affordable-housing-programs/multifamily-rental-housing---nofa/nofa-33/nofa-round-33-term-sheet.pdf?sfvrsn=7ef8d262_1) | OK | 2026-11-25T14:27:12-08:00 |
+| Los Angeles County Development Authority | [NOFA 33 application guidelines and timeline](https://www.lacda.org/docs/librariesprovider25/affordable-housing-programs/multifamily-rental-housing---nofa/nofa-33/nofa-33-guidelines.pdf?sfvrsn=f18f71bd_1) | OK | 2026-11-25T14:28:21-08:00 |
+| Housing Authority of the City of Long Beach | [Project Based Vouchers](https://www.longbeach.gov/haclb/programs/project-based-vouchers/) | OK | 2026-11-25T14:25:59-08:00 |
+| Housing Authority of the City of Long Beach | [Owner PBV request for proposals](https://www.longbeach.gov/globalassets/haclb/media-library/documents/pbv-rfp-2025) | OK | 2026-11-25T14:27:08-08:00 |
+| Pasadena Housing Authority | [Council-published housing assistance plan](https://ww2.cityofpasadena.net/2026%20Agendas/Jan_12_26/AR%2012%20ATTACHMENT%20A.pdf) | OK | 2026-11-25T14:27:13-08:00 |
+| Burbank Housing Authority | [Project Based Vouchers proposal package](https://www.burbankca.gov/documents/d/community-development/project-based-vouchers-proposal-package-pdf?download=false) | OK | 2026-11-25T14:26:00-08:00 |
+| Santa Monica Housing Authority | [Draft FY 2026–27 Administrative Plan, PBV selection](https://www.santamonica.gov/media/Housing/Draft%20FY%202026-2027%20Administrative%20Plan.pdf) | OK | 2026-11-25T14:26:00-08:00 |
+| Culver City Housing Authority | [Public notice of PBV RFP](https://www.culvercity.gov/Public-Notices/Culver-City-Housing-Authority-Public-Notice) | OK | 2026-11-25T14:26:01-08:00 |
+| Culver City Housing Authority | [PBV application requirements and deadline](https://www.culvercity.gov/files/assets/public/v/1/documents/housing-amp-human-services/housing/ccha-pbv-rfp-120224.pdf) | OK | 2026-11-25T14:29:44-08:00 |
+| Oceanside Housing Authority | [Housing Authority staff report on funding and PBVs](https://records.ci.oceanside.ca.us/civicax/filebank/blobdload.aspx?blobid=61761) | OK | 2026-11-25T14:27:12-08:00 |
+| Inglewood Housing Authority | [Project Based Vouchers](https://www.cityofinglewood.org/1628/Project-Based-Vouchers) | OK | 2026-11-25T14:26:04-08:00 |
+| Redondo Beach Housing Authority | [January 2026 Administrative Plan, PBV selection](https://cms2.revize.com/revize/redondobeachca/Redondo%20Beach%20Housing%20Authority%20Administrative%20Plan%20January%202026.pdf?t=202601151831180) | OK | 2026-11-25T14:27:13-08:00 |
+| Norwalk Housing Authority | [Public draft Administrative Plan, project selection](https://cms3.revize.com/revize/norwalkca/Documents/Departments%20%26%20Services/Community%20Development/Housing/HCV%20Administrative%20Plan%20DRAFT%20-%2012-19-24%20-%20BC.RM2.MM.pdf) | OK | 2026-11-25T14:27:18-08:00 |
+| San Diego Housing Commission | [FY 2027 Section 8 administrative plan and PBV policy](https://sdhc.org/wp-content/uploads/2026/05/104-HCR26-035-FY27-S8-Admin-Plan-final.pdf) | OK | 2026-11-25T14:29:44-08:00 |

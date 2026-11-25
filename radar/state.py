@@ -78,6 +78,8 @@ def calendar(sources, state):
         row = dict(row, date=str(row['date']),date_captured=str(row['date_captured']))
         source = by_url.get(row['source_url'])
         status = state['health'].get(source['id'],{}) if source else {}
+        if row.get('live_evidence') and (not source or row['live_evidence'] not in read_json(snap_path(source), {}).get('lines', [])):
+            continue
         row['check'] = ''
         if source and not status.get('ok'):
             row['check'] = 'Source check failed. Confirm the date with the publisher.'

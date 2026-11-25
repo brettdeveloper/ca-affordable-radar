@@ -127,7 +127,15 @@ def file_snapshot(content, source):
     if kind == 'pdf':
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(content))
-        lines = [clean(l) for p in reader.pages for l in (p.extract_text() or '').splitlines() if clean(l)]
+        pages = reader.pages
+        if 'pdf_pages' in source:
+            first, last = source['pdf_pages']
+            if not 1 <= first <= last <= len(pages):
+                raise MonitorError("Published PDF page range has changed")
+            pages = pages[first - 1:last]
+        lines = [clean(l) for page in pages for l in (page.extract_text() or '').splitlines() if clean(l)]
+        if source.get('require') and not re.search(source['require'], ' '.join(lines), re.I):
+            raise MonitorError("Expected text missing from published PDF")
     elif kind == 'xlsx':
         import openpyxl
         wb = openpyxl.load_workbook(io.BytesIO(content), read_only=True, data_only=True)

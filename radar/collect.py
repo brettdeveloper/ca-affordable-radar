@@ -10,6 +10,8 @@ from .extract import differences, file_snapshot, snapshot_html
 from .land import land_key, merge_land, notice_link, parse_land
 from .meetings import agenda_snapshot, legistar_snapshot
 from .net import Fetcher, MonitorError
+from .health import health_groups, threshold_failed
+from .opportunities import add_intake_deadlines
 from .state import DATA, PACIFIC, ROOT, catalog, config, json_out, read_json, signature, snap_path, write
 
 
@@ -173,6 +175,8 @@ def collect(sources=None, now=None, fetcher=None):
     state['as_of'] = max((state['health'][s['id']]['last_attempt'] for s in sources),default=stamp)
     state['total'] = len(sources)
     state['failed'] = sum(not state['health'][s['id']]['ok'] for s in sources)
+    add_intake_deadlines(ROOT/'programs.yaml', sources, state['health'], today, DATA/'deadlines.yaml')
+    state['health_groups'] = health_groups(sources, state['health'])
     ledger['requests'] = {url:v for url,v in ledger.get('requests',{}).items() if v['date']==today}
     json_out(DATA/'fetch-ledger.json',ledger)
     json_out(DATA/'state.json',state)
@@ -183,4 +187,4 @@ def collect(sources=None, now=None, fetcher=None):
 
 if __name__ == '__main__':
     result = collect()
-    raise SystemExit(2 if result['failed']*10 > result['total']*3 else 0)
+    raise SystemExit(2 if threshold_failed(result['health_groups']) else 0)

@@ -139,3 +139,7 @@ footer .wrap { display: flex; align-items: center; justify-content: space-betwee
   a { color: var(--ink); }
   .parcel, .date-row { break-inside: avoid; }
 }
+
+.program-row { padding: .8rem .2rem; border-top: 1px solid #d5dfdf; overflow-wrap: anywhere; }
+.program-row h3, .program-row p { margin: .25rem 0; }
+.program-links { font-size: .9rem; }

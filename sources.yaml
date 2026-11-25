@@ -453,3 +453,293 @@
   notes: Published preliminary 2027 schedule for 4% and 9% submissions, including the rehab-only third 4% round.
     Check the rolling calendar for superseding versions.
   kind: pdf
+
+- id: pbv-sccha
+  county: Santa Clara
+  agency: Santa Clara County Housing Authority
+  name: Business opportunities
+  url: https://www.scchousingauthority.org/business-opportunities/
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-sccha-index
+  county: Santa Clara
+  agency: Santa Clara County Housing Authority
+  name: Administrative Plan and amendments
+  url: https://www.scchousingauthority.org/home/adminplan/
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-sccha-current
+  county: Santa Clara
+  agency: Santa Clara County Housing Authority
+  name: September 2026 Administrative Plan, project selection
+  url: https://www.scchousingauthority.org/wp-content/uploads/2026/05/HCV-Administrative-Plan-eff-9.14.26.pdf
+  kind: pdf
+  pdf_pages:
+  - 97
+  - 100
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 97–100 (PDF numbering). Monitors voucher provisions and file replacements.
+  category: Project-based vouchers
+- id: pbv-sccha-joint
+  county: Santa Clara
+  agency: Santa Clara County Housing Authority
+  name: County SHDF NOFA and voucher coordination
+  url: https://files.santaclaracounty.gov/migrated/NOFA%20SHDF%20With%20Attachments%20-%20November%202021.pdf
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 9
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–9 (PDF numbering). Monitors voucher provisions and file replacements. Historical
+    publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-sm
+  county: San Mateo
+  agency: Housing Authority of the County of San Mateo
+  name: Section 8 and HUD-VASH PBV RFP
+  url: https://www.smcgov.org/housing/rfp-section-8-and-hud-vash-project-based-vouchers
+  notes: Owner solicitation or award record. Historical publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-sc
+  county: Santa Cruz
+  agency: Housing Authority of the County of Santa Cruz
+  name: Project-Based Voucher RFP
+  url: https://hacosantacruz.org/general-information/vendors-contracts/request-for-proposals/
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-sf
+  county: San Francisco
+  agency: Housing Authority of the City and County of San Francisco
+  name: Project-Based Voucher program
+  url: https://sfha.org/project-based-voucher
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-sf-award
+  county: San Francisco
+  agency: Housing Authority of the City and County of San Francisco
+  name: Competitive PBV notice of intent to award
+  url: https://sfha.org/about/news-updates/notice-intent-award-solicitation-no-23-440-rfp-0004-project-based-vouchers
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-sf-rfp
+  county: San Francisco
+  agency: Housing Authority of the City and County of San Francisco
+  name: Owner solicitation 23-440-RFP 0004
+  url: https://sfha.org/files/documents/23-440-RFP%200004_SFHA%20PBV%20RFP_final.pdf
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 9
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–9 (PDF numbering). Monitors voucher provisions and file replacements. Historical
+    publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-marin-index
+  county: Marin
+  agency: Marin Housing Authority
+  name: Bids and requests for proposals
+  url: https://www.marinhousing.org/bids
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-marin
+  county: Marin
+  agency: Marin Housing Authority
+  name: New construction PBV RFP
+  url: https://www.marinhousing.org/project-based-vouchers-for-newly-constructed-housing-units
+  notes: Owner solicitation or award record. Historical publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-marin-vash
+  county: Marin
+  agency: Marin Housing Authority
+  name: Existing units and veterans PBV solicitation
+  url: https://www.marinhousing.org/pbv-existing-project-advertisement-2024
+  notes: Owner solicitation or award record. Historical publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-sbcity
+  county: Santa Barbara
+  agency: Housing Authority of the City of Santa Barbara
+  name: Business opportunities and RFPs
+  url: https://hacsb.org/business-opportunities/
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-sbcity-rfp
+  county: Santa Barbara
+  agency: Housing Authority of the City of Santa Barbara
+  name: Section 8 PBV RFP
+  url: https://hacsb.org/wp-content/uploads/filebase/business_opportunities/rfp/PBV_RFP.pdf
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 12
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–12 (PDF numbering). Monitors voucher provisions and file replacements. Historical
+    publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-sbcounty
+  county: Santa Barbara
+  agency: Housing Authority of the County of Santa Barbara
+  name: Board-approved administrative plan and PBV selection policy
+  url: https://cms3.revize.com/revize/barbarahousingauthority/2024_Santa_Barbara_County_Admin_Amendment_Approved_10.19.24_Remediated.pdf
+  kind: pdf
+  pdf_pages:
+  - 550
+  - 558
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 550–558 (PDF numbering). Monitors voucher provisions and file replacements.
+  category: Project-based vouchers
+- id: pbv-lacda-term
+  county: Los Angeles
+  agency: Los Angeles County Development Authority
+  name: NOFA 33 term sheet and PBV deadlines
+  url: https://www.lacda.org/docs/librariesprovider25/affordable-housing-programs/multifamily-rental-housing---nofa/nofa-33/nofa-round-33-term-sheet.pdf?sfvrsn=7ef8d262_1
+  kind: pdf
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-lacda-guide
+  county: Los Angeles
+  agency: Los Angeles County Development Authority
+  name: NOFA 33 application guidelines and timeline
+  url: https://www.lacda.org/docs/librariesprovider25/affordable-housing-programs/multifamily-rental-housing---nofa/nofa-33/nofa-33-guidelines.pdf?sfvrsn=f18f71bd_1
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 7
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–7 (PDF numbering). Monitors voucher provisions and file replacements.
+  category: Project-based vouchers
+- id: pbv-lb
+  county: Los Angeles
+  agency: Housing Authority of the City of Long Beach
+  name: Project Based Vouchers
+  url: https://www.longbeach.gov/haclb/programs/project-based-vouchers/
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-lb-rfp
+  county: Los Angeles
+  agency: Housing Authority of the City of Long Beach
+  name: Owner PBV request for proposals
+  url: https://www.longbeach.gov/globalassets/haclb/media-library/documents/pbv-rfp-2025
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 10
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–10 (PDF numbering). Monitors voucher provisions and file replacements. Historical
+    publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-pas-plan
+  county: Los Angeles
+  agency: Pasadena Housing Authority
+  name: Council-published housing assistance plan
+  url: https://ww2.cityofpasadena.net/2026%20Agendas/Jan_12_26/AR%2012%20ATTACHMENT%20A.pdf
+  kind: pdf
+  pdf_pages:
+  - 220
+  - 231
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 220–231 (PDF numbering). Monitors voucher provisions and file replacements. Public
+    draft describes selection policy.
+  category: Project-based vouchers
+- id: pbv-burb
+  county: Los Angeles
+  agency: Burbank Housing Authority
+  name: Project Based Vouchers proposal package
+  url: https://www.burbankca.gov/documents/d/community-development/project-based-vouchers-proposal-package-pdf?download=false
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 12
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–12 (PDF numbering). Monitors voucher provisions and file replacements. Historical
+    publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-smcity
+  county: Los Angeles
+  agency: Santa Monica Housing Authority
+  name: Draft FY 2026–27 Administrative Plan, PBV selection
+  url: https://www.santamonica.gov/media/Housing/Draft%20FY%202026-2027%20Administrative%20Plan.pdf
+  kind: pdf
+  pdf_pages:
+  - 719
+  - 726
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 719–726 (PDF numbering). Monitors voucher provisions and file replacements. Public
+    draft describes selection policy.
+  category: Project-based vouchers
+- id: pbv-culver
+  county: Los Angeles
+  agency: Culver City Housing Authority
+  name: Public notice of PBV RFP
+  url: https://www.culvercity.gov/Public-Notices/Culver-City-Housing-Authority-Public-Notice
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-culver-rfp
+  county: Los Angeles
+  agency: Culver City Housing Authority
+  name: PBV application requirements and deadline
+  url: https://www.culvercity.gov/files/assets/public/v/1/documents/housing-amp-human-services/housing/ccha-pbv-rfp-120224.pdf
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 14
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–14 (PDF numbering). Monitors voucher provisions and file replacements. Historical
+    publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-ocean-staff
+  county: San Diego
+  agency: Oceanside Housing Authority
+  name: Housing Authority staff report on funding and PBVs
+  url: https://records.ci.oceanside.ca.us/civicax/filebank/blobdload.aspx?blobid=61761
+  kind: pdf
+  pdf_pages:
+  - 1
+  - 9
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 1–9 (PDF numbering). Monitors voucher provisions and file replacements. Historical
+    publication; inclusion does not establish current availability.
+  category: Project-based vouchers
+- id: pbv-ing
+  county: Los Angeles
+  agency: Inglewood Housing Authority
+  name: Project Based Vouchers
+  url: https://www.cityofinglewood.org/1628/Project-Based-Vouchers
+  category: Project-based vouchers
+  notes: Public issuer page. The monitor compares its published text and links.
+- id: pbv-redondo
+  county: Los Angeles
+  agency: Redondo Beach Housing Authority
+  name: January 2026 Administrative Plan, PBV selection
+  url: https://cms2.revize.com/revize/redondobeachca/Redondo%20Beach%20Housing%20Authority%20Administrative%20Plan%20January%202026.pdf?t=202601151831180
+  kind: pdf
+  pdf_pages:
+  - 817
+  - 827
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 817–827 (PDF numbering). Monitors voucher provisions and file replacements.
+  category: Project-based vouchers
+- id: pbv-norwalk
+  county: Los Angeles
+  agency: Norwalk Housing Authority
+  name: Public draft Administrative Plan, project selection
+  url: https://cms3.revize.com/revize/norwalkca/Documents/Departments%20%26%20Services/Community%20Development/Housing/HCV%20Administrative%20Plan%20DRAFT%20-%2012-19-24%20-%20BC.RM2.MM.pdf
+  kind: pdf
+  pdf_pages:
+  - 116
+  - 119
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 116–119 (PDF numbering). Monitors voucher provisions and file replacements. Public
+    draft describes selection policy.
+  category: Project-based vouchers
+- id: pbv-sd-plan
+  county: San Diego
+  agency: San Diego Housing Commission
+  name: FY 2027 Section 8 administrative plan and PBV policy
+  url: https://sdhc.org/wp-content/uploads/2026/05/104-HCR26-035-FY27-S8-Admin-Plan-final.pdf
+  kind: pdf
+  pdf_pages:
+  - 173
+  - 187
+  require: project.based|\bPBV
+  notes: Publisher PDF pages 173–187 (PDF numbering). Monitors voucher provisions and file replacements.
+  category: Project-based vouchers

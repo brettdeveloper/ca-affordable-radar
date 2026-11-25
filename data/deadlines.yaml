@@ -130,3 +130,59 @@
   date_captured: '2026-11-25'
   evidence: Draft one-page CDLAC calendar, October 13 meeting row, Proposed Rounds and Topics column. No QRRP submission
     date appears in this row. CTCAC separately lists 4% and HDFC awards for the same meeting date.
+
+- program: Los Angeles County Development Authority PBV
+  event: NOFA 33 application deadline
+  date: '2026-12-03'
+  source_url: https://www.lacda.org/docs/librariesprovider25/affordable-housing-programs/multifamily-rental-housing---nofa/nofa-33/nofa-33-guidelines.pdf?sfvrsn=f18f71bd_1
+  date_captured: '2026-11-25'
+  evidence: 'Section 1.2: applications due by 11:59:59 p.m. Mandatory conference October 28 and REO submission November
+    3.'
+- program: Housing Authority of the County of San Mateo PBV
+  event: Section 8 and HUD-VASH proposals due
+  date: '2022-12-30'
+  source_url: https://www.smcgov.org/housing/rfp-section-8-and-hud-vash-project-based-vouchers
+  date_captured: '2026-11-25'
+  evidence: Historical RFP. 4 p.m.
+- program: Marin Housing Authority PBV
+  event: New construction PBV proposals due
+  date: '2022-07-08'
+  source_url: https://www.marinhousing.org/project-based-vouchers-for-newly-constructed-housing-units
+  date_captured: '2026-11-25'
+  evidence: Historical RFP. 4:30 p.m.
+- program: Marin Housing Authority PBV
+  event: Existing veterans housing proposals due
+  date: '2024-06-27'
+  source_url: https://www.marinhousing.org/pbv-existing-project-advertisement-2024
+  date_captured: '2026-11-25'
+  evidence: Historical RFP. 4:30 p.m.
+- program: Housing Authority of the City of Long Beach PBV
+  event: Owner PBV proposals due
+  date: '2025-03-27'
+  source_url: https://www.longbeach.gov/globalassets/haclb/media-library/documents/pbv-rfp-2025
+  date_captured: '2026-11-25'
+  evidence: Historical RFP schedule.
+- program: Burbank Housing Authority PBV
+  event: Owner PBV proposals due
+  date: '2024-07-11'
+  source_url: https://www.burbankca.gov/documents/d/community-development/project-based-vouchers-proposal-package-pdf?download=false
+  date_captured: '2026-11-25'
+  evidence: Historical amended package, 4 p.m. Pacific.
+- program: Culver City Housing Authority PBV
+  event: Supportive housing PBV proposals due
+  date: '2025-01-09'
+  source_url: https://www.culvercity.gov/files/assets/public/v/1/documents/housing-amp-human-services/housing/ccha-pbv-rfp-120224.pdf
+  date_captured: '2026-11-25'
+  evidence: Historical RFP, 4 p.m. Pacific.
+- program: Housing Authority of the City of Santa Barbara PBV
+  event: PBV assistance proposals due
+  date: '2021-02-18'
+  source_url: https://hacsb.org/wp-content/uploads/filebase/business_opportunities/rfp/PBV_RFP.pdf
+  date_captured: '2026-11-25'
+  evidence: Historical RFP cover, 10 a.m.
+- program: Housing Authority of the City and County of San Francisco PBV
+  event: 23-440-RFP 0004 owner applications due
+  date: '2023-12-15'
+  source_url: https://sfha.org/files/documents/23-440-RFP%200004_SFHA%20PBV%20RFP_final.pdf
+  date_captured: '2026-11-25'
+  evidence: Historical RFP, 5 p.m. Pacific, subject to earlier exhaustion.

@@ -64,3 +64,11 @@ python -m http.server 8000 --directory dist
 ```
 
 To preview the committed baseline without making network requests, run only the renderer and local server after installing dependencies. The deployment uploads only `dist/`, which contains the single HTML page, its local stylesheet and script, and the feed.
+
+## Project-based vouchers
+
+The owner/developer view groups housing authorities by county. An open tenant waiting list, board recommendation, past award, administrative-plan example or draft for public comment does not establish open developer intake. Each row links to the official material actually monitored. A coverage gap means the publisher’s owner materials could not be verified. “No open solicitation shown” describes the checked publications. An application portal can contain additional information that requires registration.
+
+Edit the authority and source IDs in `programs.yaml` and the watched URLs in `sources.yaml`. Reviewed offers require the specified wording in healthy sources and expire after the published date. On designated intake pages, an explicit open developer invitation or open table row can also surface automatically. The parser uses dates and amounts attributable to the same entry and abstains on ambiguous dated text. New explicit application deadlines are appended to `data/deadlines.yaml`. Other changes go to the change list, issue and Atom feed for review. Last change starts with the first observed revision. A plan’s selected physical PDF pages and expected vocabulary are recorded in the source definition.
+
+The Health job evaluates local government sources and state/federal sources separately. More than 30% failures in either group fails the run. Exactly 30% passes. A few inaccessible municipal sites cannot dilute a state outage. The collection job has a 24-minute ceiling on a standard free public Linux runner. GitHub controls queue and deployment time.

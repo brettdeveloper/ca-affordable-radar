@@ -8,6 +8,7 @@ from string import Template
 
 from .extract import safe_url
 from .land import land_key, notice_link
+from .opportunities import sections
 from .state import DATA, PACIFIC, ROOT, calendar, catalog, config, date_text, read_json, snap_path, write
 
 
@@ -181,7 +182,8 @@ def render():
     latest_line='Latest matching notice: '+date_text(latest) if latest else 'No matching dated notices'
     if statewide and statewide!=latest:
         latest_line+=' · Statewide: '+date_text(statewide)
-    fields=dict(asof=e(datetime.fromisoformat(stamp).astimezone(PACIFIC).strftime('%b %-d, %Y · %-I:%M %p %Z')),
+    programs = sections(ROOT/'programs.yaml', sources, health, today)
+    fields=dict(pbv=programs.get('pbv',''),asof=e(datetime.fromisoformat(stamp).astimezone(PACIFIC).strftime('%b %-d, %Y · %-I:%M %p %Z')),
         coverage=f'{len(sources)} official sources',health_summary=f'{len(sources)-len(errors)} healthy · {len(errors)} need attention',
         freshness=f'<span data-asof="{e(today)}"></span>',changes=''.join(changes),land=land_html or '<p>No matching records.</p>',
         hdfc=priority,dates=''.join(dated) or '<p>No upcoming dates have been verified.</p>',health=table,
