@@ -159,9 +159,9 @@ def sections(path, sources, health, today):
                         for line in recent:
                             number = line.split(' · ',1)[0]
                             prefix = f'File {number} · '
-                            for target, label in docket.get('links', {}).items():
-                                if label.startswith(prefix) and safe_url(target):
-                                    links.append(f'<a href="{escape(target, quote=True)}">{escape(label)}</a>')
+                            for target, link_text in docket.get('links', {}).items():
+                                if link_text.startswith(prefix) and safe_url(target):
+                                    links.append(f'<a href="{escape(target, quote=True)}">{escape(link_text)}</a>')
                                     break
                     if url:
                         links.append(f'<a href="{escape(url, quote=True)}">{escape(row.get("labels", {}).get(s["id"],s["name"]))}</a>')
