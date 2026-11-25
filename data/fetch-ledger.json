@@ -384,6 +384,22 @@
       "date": "2026-11-25",
       "status": 200
     },
+    "https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-application": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-guidelines": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/measure-w-application": {
+      "date": "2026-11-25",
+      "status": 200
+    },
     "https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/notice-funding-availability-nofa": {
       "date": "2026-11-25",
       "status": 200

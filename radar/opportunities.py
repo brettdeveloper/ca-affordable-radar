@@ -168,6 +168,9 @@ def sections(path, sources, health, today):
                 changes = [health.get(s['id'], {}).get('last_change', '') for s in refs]
                 stamp = max(changes, default='')
                 last = date_text(stamp) if stamp else ('No change since first capture' if refs else 'Unverified')
+                if reader := row.get('reader_link'):
+                    if url := safe_url(reader['url']):
+                        links.append(f'<a href="{escape(url, quote=True)}">{escape(reader["label"])}</a>')
                 if links:
                     chunks.append('<p class="program-links">' + ' · '.join(links) + '</p>')
                 chunks.append('<small>Last change: ' + last + '</small></article>')

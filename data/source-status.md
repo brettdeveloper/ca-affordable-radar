@@ -1,6 +1,6 @@
 # Source status
 
-Collection observed 2026-11-25T15:12:08-08:00 (Pacific). Industry sources are non-official.
+Collection observed 2026-11-25T15:15:05-08:00 (Pacific). Industry sources are non-official.
 
 | Agency | Source | Result | Last successful fetch (Pacific) |
 |---|---|---|---|
@@ -143,3 +143,7 @@ Collection observed 2026-11-25T15:12:08-08:00 (Pacific). Industry sources are no
 | Inglewood Housing Authority | [Owner RFP 0260 and deadline extensions](https://www.cityofinglewood.org/DocumentCenter/View/21766/Newspaper-Ad-for-RFP-0260-Inglewood-Housing-Authoritys-Project-Based-Vouchers-Program) | OK | 2026-11-25T15:06:47-08:00 |
 | Hawthorne Housing Authority | [Cordary housing development and conditional VASH voucher RFP](https://static1.squarespace.com/static/52ec83cee4b032691e28b3ce/t/5f5a3c07e65e683810ed6472/1599749128852/plan_rfp-Final+Cordary+RFP+9+4+20.pdf) | OK | 2026-11-25T15:07:56-08:00 |
 | Pomona Housing Authority | [Housing Authority project-based voucher selections and resolutions](https://pomona.legistar.com/Legislation.aspx) | OK | 2026-11-25T15:11:00-08:00 |
+| Marin County CDA | [Funding for projects](https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects) | OK | 2026-11-25T15:10:20-08:00 |
+| Marin County CDA | [Affordable Housing Fund application](https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-application) | OK | 2026-11-25T15:10:24-08:00 |
+| Marin County CDA | [Affordable Housing Fund guidelines](https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-guidelines) | OK | 2026-11-25T15:10:28-08:00 |
+| Marin County CDA | [Measure W Community Housing Fund application](https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/measure-w-application) | OK | 2026-11-25T15:10:32-08:00 |

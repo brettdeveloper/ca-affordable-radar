@@ -24,6 +24,9 @@ pbv:
   name: Glendale Housing Authority
   sources: []
   note: The authority’s administrative plan host returned HTTP 403 for robots.txt.
+  reader_link:
+    label: Glendale housing office in the Los Angeles County directory
+    url: https://locator.lacounty.gov/lac/Location/3179646/city-of-glendale-community-development-department--housing-programs
 - county: Los Angeles
   name: Hawthorne Housing Authority
   sources:
@@ -44,6 +47,9 @@ pbv:
   sources: []
   note: HACLA’s PBV site returned HTTP 202 for robots.txt. LAHD’s joint financing rules reference separate HACLA awards
     and do not establish an open HACLA RFP.
+  reader_link:
+    label: HACLA public solicitations (manual check)
+    url: https://www.hacla.org/en/contracts-and-procurement/open-solicitations
 - county: Los Angeles
   name: Inglewood Housing Authority
   sources:
@@ -113,10 +119,16 @@ pbv:
   name: Carlsbad Housing Agency
   sources: []
   note: City and library hosts returned HTTP 403 for robots.txt.
+  reader_link:
+    label: Housing authority contacts, county directory p. 7
+    url: https://www.sandiegocounty.gov/content/dam/sdc/sdhcd/new-docs/Rental_assistance/Housing_Resource_Directory.pdf
 - county: San Diego
   name: Encinitas Housing Authority
   sources: []
   note: City robots.txt returned HTTP 403. The agenda host disallows the plan attachment.
+  reader_link:
+    label: Housing authority contacts, county directory p. 7
+    url: https://www.sandiegocounty.gov/content/dam/sdc/sdhcd/new-docs/Rental_assistance/Housing_Resource_Directory.pdf
 - county: San Diego
   name: Housing Authority of the County of San Diego (HCDS)
   sources:
@@ -128,6 +140,9 @@ pbv:
   name: National City Housing Authority
   sources: []
   note: City robots.txt returned HTTP 403. The alternate board records found did not solicit owner PBVs.
+  reader_link:
+    label: Housing authority contacts, county directory p. 7
+    url: https://www.sandiegocounty.gov/content/dam/sdc/sdhcd/new-docs/Rental_assistance/Housing_Resource_Directory.pdf
 - county: San Diego
   name: Oceanside Housing Authority
   sources:
@@ -412,6 +427,51 @@ funding:
   - marin-county
   intake:
   - marin-county
+- county: Marin
+  name: Marin County · Affordable Housing Fund
+  sources:
+  - marin-ahf-apply
+  - marin-ahf-guidelines
+  - marin-project-funding
+  rounds:
+  - name: Countywide affordable housing development and preservation
+    value: Generally $50,000 per unit; up to $100,000 per unit in some circumstances
+    deadline: Rolling year-round
+    note: Private developers, nonprofits and public agencies may apply. The county guidelines call for a match from
+      the local jurisdiction if it has a housing fund.
+    evidence:
+      marin-project-funding:
+      - Marin Affordable Housing Fund Funding for developers and nonprofits
+      - throughout Marin. Applications are accepted throughout the year
+      marin-ahf-guidelines:
+      - generally funds $50,000 per unit
+      - increase up to $100,000
+      marin-ahf-apply:
+      - complete and submit your Affordable Housing Fund application
+    stop:
+    - the affordable housing fund is closed
+    - we are no longer accepting applications
+    - no longer accepting affordable housing fund applications
+- county: Marin
+  name: Marin County · Measure W Community Housing Fund
+  sources:
+  - marin-measure-w
+  - marin-project-funding
+  rounds:
+  - name: West Marin community housing
+    deadline: Rolling year-round
+    note: Nonprofits serving the Measure W Tax Area.
+    evidence:
+      marin-measure-w:
+      - Measure W Community Fund applications are accepted on a rolling basis
+      - Projects must serve populations in the Measure W Tax Area
+      marin-project-funding:
+      - Funding for nonprofits to support housing and assistance programs in the Measure W Tax Area of West Marin.
+        Applications are accepted throughout the year
+    stop:
+    - the measure w community housing fund is closed
+    - we are no longer accepting applications
+    - no longer accepting measure w applications
 - county: Marin
   name: San Rafael · housing acquisitions
   sources:

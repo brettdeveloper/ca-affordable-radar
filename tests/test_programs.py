@@ -42,6 +42,16 @@ class ProgramTests(unittest.TestCase):
             self.assertIn('No open solicitation shown',section.text_content())
             self.assertIn('Nov 24, 2026',section.text_content())
 
+    def test_manual_authority_links_keep_the_coverage_gap_visible(self):
+        with TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'programs.yaml'
+            path.write_text("pbv:\n- name: City PHA\n  county: Test\n  sources: []\n"
+                            "  reader_link: {label: Contact the authority, url: 'https://city.gov/pha'}\n")
+            row = html.fromstring(sections(path, [], {}, '2026-11-25')['pbv'])
+            self.assertIn('Coverage unavailable', row.text_content())
+            self.assertIn('Unverified', row.text_content())
+            self.assertEqual(row.xpath('.//a/@href'), ['https://city.gov/pha'])
+
     def test_local_funding_section_excludes_vouchers_and_future_intake(self):
         row = {'name':'City capital funds', 'intake':['index']}
         data = {'index':{'lines':['HOME funding | Open | Applications due December 4, 2026.',

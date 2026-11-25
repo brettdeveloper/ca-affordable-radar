@@ -1168,3 +1168,36 @@
   legistar_site: https://pomona.legistar.com
   public_url: https://pomona.legistar.com/Legislation.aspx
   category: Project-based vouchers
+
+- id: marin-project-funding
+  agency: Marin County CDA
+  name: Funding for projects
+  url: https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects
+  require: Affordable Housing Fund|Measure W Community (?:Housing )?Fund
+  notes: County index listing application availability by program, including the countywide Affordable Housing Fund
+    and West Marin Measure W.
+  category: Local funding
+- id: marin-ahf-apply
+  agency: Marin County CDA
+  name: Affordable Housing Fund application
+  url: https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-application
+  require: Affordable Housing Fund|Measure W Community (?:Housing )?Fund
+  notes: County instructions for housing developers. Only this public overview is fetched; the submission portal
+    requires a vendor account.
+  category: Local funding
+- id: marin-ahf-guidelines
+  agency: Marin County CDA
+  name: Affordable Housing Fund guidelines
+  url: https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/affordable-housing-fund-guidelines
+  require: Affordable Housing Fund|Measure W Community (?:Housing )?Fund
+  notes: County guidelines for developer eligibility, project expenses, local match and per-unit awards. Guidelines
+    describe funding through 2027.
+  category: Local funding
+- id: marin-measure-w
+  agency: Marin County CDA
+  name: Measure W Community Housing Fund application
+  url: https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/measure-w-application
+  require: Affordable Housing Fund|Measure W Community (?:Housing )?Fund
+  notes: Public County application instructions for nonprofit projects serving the Measure W Tax Area. Applications
+    are accepted on a rolling basis.
+  category: Local funding
