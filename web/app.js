@@ -6,6 +6,10 @@
   const county = document.getElementById("county");
   if (parcels.length && county) {
     const status = document.getElementById("availability");
+    const summary = document.getElementById("land-summary");
+    const latest = document.getElementById("land-latest");
+    const dateFormat = new Intl.DateTimeFormat("en-US", {month: "short", day: "numeric", year: "numeric", timeZone: "UTC"});
+    const formatDay = iso => dateFormat.format(new Date(iso + "T00:00:00Z"));
     const pageSize = 8;
     const controls = document.getElementById("land-pages");
     const previous = document.getElementById("land-prev");
@@ -14,7 +18,17 @@
     let page = 0;
 
     function update() {
-      const matches = parcels.filter(parcel => (!county.value || parcel.dataset.county === county.value) && (!status.value || parcel.dataset.status === status.value));
+      const matches = parcels.filter(parcel => (!county.value || parcel.dataset.county === county.value) && (!status.value || parcel.dataset.status.toLowerCase() === status.value.toLowerCase()));
+      const statusText = {"Active": "active ", "Archive": "archived ", "": ""}[status.value];
+      const noun = matches.length === 1 ? "parcel" : "parcels";
+      const place = county.value ? "in " + county.value + " County" : "across the monitored counties";
+      summary.textContent = matches.length.toLocaleString() + " " + statusText + noun + " " + place + ".";
+      // The renderer orders cards by notice date, newest first.
+      const notice = matches[0]?.dataset.noticeDate;
+      latest.textContent = notice ? "Latest matching notice: " + formatDay(notice) : "No matching dated notices";
+      if (latest.dataset.statewide && latest.dataset.statewide !== notice) {
+        latest.textContent += " · Statewide: " + formatDay(latest.dataset.statewide);
+      }
       const start = page * pageSize;
       const shown = new Set(matches.slice(start, start + pageSize));
       for (const parcel of parcels) parcel.hidden = !shown.has(parcel);

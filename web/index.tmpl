@@ -50,8 +50,8 @@
     <div class="section-head"><h2 id="land-title">Surplus land</h2></div>
     <div class="section-intro">$land_summary</div>
     <div class="land-toolbar">
-      <div class="land-latest">$latest_land</div>
-      <div class="county-control" hidden><label for="availability">HCD status</label><select id="availability"><option value="">All statuses</option><option value="Active">Active</option><option value="Archive">Archive</option></select><label for="county">County</label><select id="county"><option value="">All counties</option>$counties</select></div>
+      <div class="land-latest" id="land-latest" data-statewide="$statewide_notice">$latest_land</div>
+      <div class="county-control" hidden><label for="availability">HCD status</label><select id="availability"><option value="">All statuses</option><option value="Active" selected>Active</option><option value="Archive">Archive</option></select><label for="county">County</label><select id="county"><option value="">All counties</option>$counties</select></div>
     </div>
     <div id="parcels" class="parcels">$land</div>
     <div id="land-pages" class="pages" hidden>

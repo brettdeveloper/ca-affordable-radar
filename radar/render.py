@@ -40,24 +40,33 @@ def change_html(event):
     return ''.join(body)+'</article>'
 
 
-def land_card(row, first, today, source):
+def land_badge(first, notice, baseline, today):
+    if not first:
+        return ''
+    seen = date.fromisoformat(first)
+    if first == baseline and (not notice or not 0 <= (seen - date.fromisoformat(notice)).days <= 14):
+        return ''
+    if not 0 <= (date.fromisoformat(today) - seen).days < 14:
+        return ''
+    return f'<span class="badge" data-first-seen="{e(first)}" title="First observed {e(first)}">NEW</span>'
+
+
+def land_card(row, first, today, source, baseline):
     missing = 'Not listed'
     when = row['notice_date']
     details = [('APN',row['apn']),('Acres',row['acreage']),('Notice issued',date_text(when) if when else ''),
                ('Response date',date_text(row['due_date']) if row['due_date'] else ''),
                ('HCD status',row['status']),('HCD case',row['case'])]
     items = ''.join(f'<div><dt>{label}</dt><dd>{e(val or missing)}</dd></div>' for label,val in details)
-    badge = f'<span class="badge" data-first-seen="{e(first)}" title="First observed {e(first)}"'
-    if not first or (date.fromisoformat(today)-date.fromisoformat(first)).days >= 14:
-        badge += ' hidden'
-    badge += '>NEW</span>'
+    badge = land_badge(first, when, baseline, today)
+    hidden = '' if row['status'].casefold() == 'active' else ' hidden'
     target = notice_link(row,source)
     parcel_link = link(target,'Published notice' if target == row.get('url') else 'HCD case and agency contact (CSV)')
     site = row['site'] or ('APN '+row['apn'] if row['apn'] else row['case'])
     city = row['city']
     if city and city.islower() and site.endswith(', '+city):
         site = site[:-len(city)] + city.title()
-    return (f'<article class="parcel" data-county="{e(row["county"])}" data-status="{e(row["status"])}"><div class="parcel-heading"><div>'
+    return (f'<article class="parcel" data-county="{e(row["county"])}" data-status="{e(row["status"])}" data-notice-date="{e(when)}"{hidden}><div class="parcel-heading"><div>'
             f'<p class="agency">{e(row["agency"] or "Agency not listed")} · {e(row["county"])} County</p>'
             f'<h3>{e(site)}</h3></div>{badge}</div>'
             f'<dl class="parcel-meta">{items}</dl><p class="meta">{parcel_link}</p></article>')
@@ -153,12 +162,14 @@ def render():
             records[land_key(row)]=row
     rows = sorted((r for r in records.values() if r['county'] in conf['counties']),
                   key=lambda r:(r['notice_date'],r['case'],r['apn']),reverse=True)
-    latest=rows[0]['notice_date'] if rows else ''
-    due=sum(r['status'].lower()=='active' for r in rows)
+    active = [r for r in rows if r['status'].casefold() == 'active']
+    latest = active[0]['notice_date'] if active else ''
     land_source = land_sources[0] if land_sources else {}
-    land_html=''.join(land_card(r,state['first_seen'].get(land_key(r),''),today,land_source) for r in rows)
-    land_summary=(f'<p>{len(rows):,} parcels in the selected counties, including {due} marked active by HCD. '
-                  'NEW means first seen here within 14 days, including the initial import. Check the response date and the agency notice.</p>')
+    land_html=''.join(land_card(r,state['first_seen'].get(land_key(r),''),today,land_source,state.get('land_baseline')) for r in rows)
+    noun = 'parcel' if len(active) == 1 else 'parcels'
+    land_summary=(f'<p><span id="land-summary">{len(active):,} active {noun} across the monitored counties.</span> '
+                  'NEW lasts 14 days from the first time Radar sees a parcel. For the initial import, only notices HCD issued '
+                  'on the import date or in the preceding 14 days qualify. Check the response date and the agency notice.</p>')
     if unlocated:
         land_summary+=f'<p>{unlocated} statewide parcels could not be assigned a county.</p>'
     if any(not health[s['id']]['ok'] for s in land_sources):
@@ -167,14 +178,14 @@ def render():
     if land_changes:
         land_summary+='<details><summary>Recent land additions and revisions ('+str(len(land_changes))+')</summary><ul>'+''.join(
             '<li>'+e(ev['at'][:10])+' · '+link(ev['url'],ev['title'])+' · '+e(ev.get('added') or 'First observed')+'</li>' for ev in land_changes)+'</ul></details>'
-    latest_line='Latest notice in selected counties: '+date_text(latest) if latest else 'No dated notices in the selected counties'
+    latest_line='Latest matching notice: '+date_text(latest) if latest else 'No matching dated notices'
     if statewide and statewide!=latest:
         latest_line+=' · Statewide: '+date_text(statewide)
     fields=dict(asof=e(datetime.fromisoformat(stamp).astimezone(PACIFIC).strftime('%b %-d, %Y · %-I:%M %p %Z')),
         coverage=f'{len(sources)} official sources',health_summary=f'{len(sources)-len(errors)} healthy · {len(errors)} need attention',
         freshness=f'<span data-asof="{e(today)}"></span>',changes=''.join(changes),land=land_html or '<p>No matching records.</p>',
         hdfc=priority,dates=''.join(dated) or '<p>No upcoming dates have been verified.</p>',health=table,
-        latest_land=e(latest_line),land_summary=land_summary,counties=''.join(f'<option>{e(c)}</option>' for c in sorted(conf['counties'])))
+        latest_land=e(latest_line),statewide_notice=e(statewide),land_summary=land_summary,counties=''.join(f'<option>{e(c)}</option>' for c in sorted(conf['counties'])))
     dist=ROOT/'dist'; dist.mkdir(exist_ok=True)
     write(dist/'index.html',Template((ROOT/'web/index.tmpl').read_text()).substitute(fields))
     write(dist/'feed.xml',atom(events,conf['site_url'],stamp))
