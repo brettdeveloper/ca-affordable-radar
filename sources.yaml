@@ -1,0 +1,455 @@
+- id: hdfc-rules
+  name: Regulations and adoption timeline
+  agency: HDFC
+  category: Rulemaking
+  url: https://www.hdfc.ca.gov/regulations/
+  notes: Primary HDFC watch. Drafts, redlines, proposed action, feedback and adoption milestones. Verify adoption
+    and effective date separately.
+  require: regulations
+- id: hdfc-meetings
+  name: Executive Committee meetings
+  agency: HDFC
+  category: Meetings
+  url: https://www.hdfc.ca.gov/committee-meetings/
+  notes: Next meeting, time, venue and past meeting pages. Individual meeting materials may be one link deeper.
+- id: hdfc-news
+  name: Regulation and program announcements
+  agency: HDFC
+  category: Rulemaking
+  url: https://www.hdfc.ca.gov/news/
+  notes: Public notices covering draft regulations, comment periods and other committee updates.
+- id: cdlac-meetings
+  name: Meeting agendas and calendar
+  agency: CDLAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/cdlac/meeting
+  notes: Rolling agenda and calendar page, already displaying the draft 2027 schedule at setup. The separate 2026
+    archive is linked on this page.
+- id: cdlac-rounds
+  name: 2026 applications, recommendations and awards
+  agency: CDLAC
+  category: Applications and awards
+  url: https://www.treasurer.ca.gov/cdlac/py/2026
+  notes: Applicant lists, preliminary recommendations and final lists by round. Check the current program-year link
+    at rollover.
+- id: cdlac-rules
+  name: Adopted and proposed regulations
+  agency: CDLAC
+  category: Rulemaking
+  url: https://www.treasurer.ca.gov/cdlac/regulations
+  notes: Adopted regulations, proposed changes, hearing notices and statements of reasons.
+- id: ctcac-meetings
+  name: Meeting agendas and calendar
+  agency: CTCAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/ctcac/meeting
+  notes: Rolling agenda and calendar page, already displaying the draft 2027 schedule at setup. The separate 2026
+    archive is linked on this page.
+- id: ctcac-rounds
+  name: 2026 4% and 9% applications and awards
+  agency: CTCAC
+  category: Applications and awards
+  url: https://www.treasurer.ca.gov/ctcac/2026/application
+  notes: Lists for 4% and 9% rounds, application workbooks, recommendations and award lists. Check the current application
+    link at year-end.
+- id: ctcac-rules
+  name: Proposed and adopted regulations
+  agency: CTCAC
+  category: Rulemaking
+  url: https://www.treasurer.ca.gov/ctcac/programreg/regulations
+  notes: Hearing notices, proposed regulations, statements of reasons and adopted regulations.
+- id: calhfa-mip
+  name: Mixed-Income Program
+  agency: CalHFA
+  category: Funding
+  url: https://www.calhfa.ca.gov/multifamily/mixedincome/index.htm
+  notes: Term sheet, guidance, award status and application announcements for MIP.
+- id: calhfa-mip-forms
+  name: MIP application and documents
+  agency: CalHFA
+  category: Funding
+  url: https://www.calhfa.ca.gov/multifamily/mixedincome/forms/index.htm
+  notes: Current checklists, instructions, financing documents and application forms.
+- id: calhfa-programs
+  name: Multifamily financing programs
+  agency: CalHFA
+  category: Funding
+  url: https://www.calhfa.ca.gov/multifamily/programs/
+  notes: Term sheets for permanent loans, conduit issuance and bond recycling.
+- id: calhfa-dates
+  name: Multifamily CDLAC dates and timelines
+  agency: CalHFA
+  category: Funding
+  url: https://www.calhfa.ca.gov/multifamily/programs/dates.htm
+  notes: Distinguishes borrower deadlines from internal CalHFA milestones and estimated dates.
+- id: calhfa-section811
+  name: Section 811 rental assistance NOFA
+  agency: CalHFA
+  category: Funding
+  url: https://www.calhfa.ca.gov/multifamily/section811/
+  notes: Public Section 811 PRA NOFA and application status.
+- id: hcd-nofa
+  name: NOFA calendar
+  agency: HCD
+  category: Funding
+  url: https://www.hcd.ca.gov/funding/nofa-calendar
+  notes: HCD posts a statewide calendar. The linked calendar was labelled last updated August 2024 at setup; individual
+    program pages carry more recent notices.
+  xpath: //article[contains(@class,"node--view-mode-full")]
+- id: hcd-supernofa
+  name: Multifamily Finance Super NOFA
+  agency: HCD
+  category: Funding
+  url: https://www.hcd.ca.gov/funding/supernofa
+  notes: Rolling Super NOFA, MHP gap funding, application and award workbooks, and program guidelines.
+  xpath: //article[contains(@class,"node--view-mode-full")]
+- id: hcd-mhp
+  name: Multifamily Housing Program
+  agency: HCD
+  category: Funding
+  url: https://www.hcd.ca.gov/funding/mhp
+  notes: Multifamily program guidelines, NOFAs, regulations and links to the consolidated round.
+  xpath: //article[contains(@class,"node--view-mode-full")]
+- id: hcd-tribal
+  name: Tribal Multifamily Finance Super NOFA
+  agency: HCD
+  category: Funding
+  url: https://www.hcd.ca.gov/grants-and-funding/tribal-multifamily-finance-super-nofa
+  notes: Independent tribal MHP and IIG funding round, application, guidelines and amendments.
+  xpath: //article[contains(@class,"node--view-mode-full")]
+- id: hcd-home-projects
+  name: HOME Project Activities
+  agency: HCD
+  category: Funding
+  url: https://www.hcd.ca.gov/funding/home-project-activities
+  notes: Rental development and subdivision project activities are distinct from the HOME Program Activities NOFA.
+  xpath: //article[contains(@class,"node--view-mode-full")]
+- id: hcd-opportunity-map
+  name: TCAC/HCD Opportunity Map
+  agency: HCD
+  category: Opportunity maps
+  url: https://www.hcd.ca.gov/affh/opportunity-map
+  notes: Program context, guidance and distinction from the COG geography map used for land-use planning.
+  xpath: //article[contains(@class,"node--view-mode-full")]
+- id: ctcac-opportunity-map
+  name: Opportunity and Neighborhood Change maps
+  agency: CTCAC
+  category: Opportunity maps
+  url: https://www.treasurer.ca.gov/ctcac/opportunity
+  notes: Official publication page for draft and adopted mapping editions, methodologies, shapefiles and statewide
+    summary tables.
+- id: cdlac-meetings-2026
+  name: 2026 meeting agendas and materials
+  agency: CDLAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/meeting/2026
+  notes: 2026 calendar and meeting-specific agendas, binders and minutes. This is the canonical unprefixed archive
+    linked by CDLAC.
+- id: ctcac-meetings-2026
+  name: 2026 meeting agendas and materials
+  agency: CTCAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/ctcac/meeting/2026
+  notes: 2026 calendar, agendas, binders and minutes. Retains remaining 2026 activity after the rolling page has
+    switched years.
+- id: cdlac-program-index
+  name: Current program-year link
+  agency: CDLAC
+  category: Applications and awards
+  url: https://www.treasurer.ca.gov/cdlac
+  notes: Monitor the View Current Year link in the Current Program Year section for rollover. New annual pages enter
+    the source registry after the collector verifies their content.
+  track_links: /cdlac/py/\d{4}/?(?:$|[?#])
+  discover_year: /cdlac/py/(\d{4})/?(?:$|[?#])
+- id: ctcac-program-index
+  name: Current application-year link
+  agency: CTCAC
+  category: Applications and awards
+  url: https://www.treasurer.ca.gov/ctcac
+  notes: Monitor the Learn More link in the Application Information section for rollover. New annual pages enter
+    the source registry after the collector verifies their content.
+  track_links: /ctcac/\d{4}/application/?(?:$|[?#])
+  discover_year: /ctcac/(\d{4})/application/?(?:$|[?#])
+- id: cdlac-2026-schedule
+  name: 2026 meeting and application schedule (PDF)
+  agency: CDLAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/sites/default/files/2025-12/2026_Meeting_Schedule_and_Application_Due_Date.pdf
+  notes: Direct schedule published by CDLAC. Meeting dates and proposed topics can change.
+  kind: pdf
+- id: ctcac-2026-schedule
+  name: 2026 meeting and application schedule (PDF)
+  agency: CTCAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/sites/default/files/2026-03/2026-schedule.pdf
+  notes: Direct 4% and 9% schedule. CTCAC meets after CDLAC adjourns and dates are subject to change.
+  kind: pdf
+- id: hdfc-second-draft
+  name: Second draft regulations (PDF)
+  agency: HDFC
+  category: Rulemaking
+  url: https://www.hdfc.ca.gov/wp-content/uploads/2026/10/hdfc-regulations.pdf
+  notes: Direct clean text of the October 26, 2026 second draft. Draft status; the regulations index identifies
+    any subsequent edition.
+  kind: pdf
+- id: hdfc-second-redline
+  name: Second draft regulations, redline (PDF)
+  agency: HDFC
+  category: Rulemaking
+  url: https://www.hdfc.ca.gov/wp-content/uploads/2026/10/hdfc-regulations-redlines.pdf
+  notes: Direct redline posted for the second draft. Consult the source PDF for additions, deletions and formatting.
+  kind: pdf
+- id: hdfc-notice
+  name: Notice of proposed action (PDF)
+  agency: HDFC
+  category: Rulemaking
+  url: https://www.hdfc.ca.gov/wp-content/uploads/2026/10/hdfc-regulations-notice-of-proposed-action.pdf
+  notes: Direct official notice for the 2026 proposed action and comment process. A notice is distinct from an adopted
+    or effective regulation.
+  kind: pdf
+- id: santa-clara-osh
+  name: Affordable housing development
+  agency: Santa Clara County OSH
+  category: Local funding
+  url: https://osh.santaclaracounty.gov/housing-and-community-development/affordable-housing-development
+  notes: Developer-led Supportive Housing Development Fund, county-controlled sites, and funding notices.
+- id: san-jose-webgrants
+  name: Public grant opportunities
+  agency: City of San José
+  category: Local funding
+  url: https://grants.sanjoseca.gov/storefrontFOList.do
+  notes: 'Public citywide WebGrants table includes agency, program, posting date and application deadline. An empty
+    table is valid. Partial Housing Department coverage: some developer NOFAs are published separately on the city
+    website or in Biddingo.'
+  require: Application Due Date|Categorical Area
+- id: san-mateo-county-solicitations
+  name: NOFAs, bids and proposals
+  agency: San Mateo County DOH
+  category: Local funding
+  url: https://www.smcgov.org/housing/nofas-bids-proposals
+  notes: Department solicitation index for the Affordable Housing Fund, winter funding and site RFPs.
+- id: san-mateo-county-notices
+  name: Housing public notices
+  agency: San Mateo County DOH
+  category: Local funding
+  url: https://www.smcgov.org/housing/doh-public-notices
+  notes: Public hearing and NOFA needs-assessment announcements. Check program-specific notices for issuance dates.
+- id: san-mateo-city
+  name: Community funding and awards
+  agency: City of San Mateo
+  category: Local funding
+  url: https://www.cityofsanmateo.org/3765/Community-Funding-Program
+  notes: CDBG and PLHA funding; local priorities include preserving and providing affordable housing.
+- id: santa-cruz-county
+  name: Housing announcements
+  agency: Santa Cruz County CDI
+  category: Local funding
+  url: https://cdi.santacruzcountyca.gov/Planning/Housing.aspx
+  notes: County housing funding and development announcements. The county's 2026 predevelopment and rehabilitation
+    NOFA names this as its posting page.
+- id: santa-cruz-city
+  name: Affordable Housing Trust Fund
+  agency: City of Santa Cruz
+  category: Local funding
+  url: https://www.santacruzca.gov/Government/City-Departments/Community-Development/Housing-Assistance-Information-and-Resources/Affordable-Housing-Trust-Fund
+  notes: Developer loans, predevelopment funding, pipeline and city PLHA documents.
+- id: san-francisco-mohcd
+  name: Multifamily housing funding opportunities
+  agency: San Francisco MOHCD
+  category: Local funding
+  url: https://www.sf.gov/information--multi-family-housing-related-funding-opportunities
+  notes: MOHCD's developer NOFAs, RFIs, RFQs and RFPs. Both city and county are covered.
+- id: marin-county
+  name: Housing notice of funding availability
+  agency: Marin County CDA
+  category: Local funding
+  url: https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/notice-funding-availability-nofa
+  notes: Annual housing and infrastructure NOFA, guidelines and published application windows. The authenticated
+    application portal is outside monitoring.
+- id: san-rafael
+  name: Funding opportunities for affordable housing developers
+  agency: City of San Rafael
+  category: Local funding
+  url: https://sanrafael.gov/funding-opportunities-for-affordable-housing-developers/
+  notes: City Affordable Housing Trust Fund, rolling acquisition applications and joint Marin County funding rounds.
+- id: hud-income
+  name: HUD housing assistance income limits
+  agency: HUD USER
+  category: Rent and income limits
+  url: https://www.huduser.gov/portal/datasets/il.html
+  notes: Annual HUD-assisted program income limits and briefing materials. For LIHTC and bond limits use the separate
+    MTSP source.
+  require: FY 20[0-9]{2} Income Limits
+- id: hud-mtsp
+  name: LIHTC and bond project income limits
+  agency: HUD USER
+  category: Rent and income limits
+  url: https://www.huduser.gov/portal/datasets/mtsp.html
+  notes: HUD's Multifamily Tax Subsidy Project (MTSP) limits for projects financed with LIHTC or tax-exempt housing
+    bonds.
+  require: Multifamily Tax Subsidy
+- id: hud-fmr
+  name: Fair Market Rents
+  agency: HUD USER
+  category: Rent and income limits
+  url: https://www.huduser.gov/portal/datasets/fmr.html
+  notes: Annual FMR schedules, methodology, revisions and Federal Register notices. No token required for this public
+    page.
+  require: Fair Market Rent
+- id: san-mateo-funding-overview
+  name: Current funding opportunities
+  agency: San Mateo County DOH
+  category: Local funding
+  url: https://www.smcgov.org/housing/current-funding-opportunities-0
+  notes: Funding-round overview. Its Winter NOFA projection differs from the FY 2027–28 hearing notice.
+- id: san-mateo-winter-notice
+  name: FY 2027–28 Winter NOFA issuance notice
+  agency: San Mateo County DOH
+  category: Local funding
+  url: https://www.smcgov.org/housing/notice-public-hearing-fy2027-2028-winter-notice-funding-availability-nofa-needs-assessment
+  notes: Program-specific notice announcing the intended issuance date and covered funding sources.
+- id: sb-county-housing
+  name: Housing and Community Development funding updates
+  agency: Santa Barbara County
+  category: Local funding
+  url: https://www.countyofsb.org/cd-housing-community-development
+  notes: The county's housing and capital NOFO directs readers to this division page for revisions. Some widgets
+    depend on JavaScript, so an empty shell must be reported as a structure failure.
+  require: \b(?:applications? (?:are|must|due|open)|submissions?|submittals?|deadline|funding (?:is|for|will)|no
+    (?:active|current|open) (?:NOFAs?|notices|funding)|permanent local housing allocation|HOME investment partnerships?|financing
+    (?:for|available))\b
+- id: sb-county-nofa
+  name: Current notice of funding availability
+  agency: Santa Barbara County
+  category: Local funding
+  url: https://www.countyofsb.org/cd-housing-community-development-current-notice-of-funding-availability
+  notes: Public current-NOFA index under Homeless Assistance, including links to Continuum of Care competitions.
+    Supplements the division's housing and capital funding page.
+  require: \b(?:applications? (?:are|must|due|open)|submissions?|submittals?|deadline|funding (?:is|for|will)|no
+    (?:active|current|open) (?:NOFAs?|notices|funding)|permanent local housing allocation|HOME investment partnerships?|financing
+    (?:for|available))\b
+- id: santa-barbara-city-lhtf
+  name: Local Housing Trust Fund
+  agency: City of Santa Barbara
+  category: Local funding
+  url: https://santabarbaraca.gov/SBLHTF
+  notes: City affordable housing trust fund, RFP outcomes and project pipeline.
+  xpath: //article[contains(@class,"node")]
+- id: lacda-multifamily
+  name: Multifamily rental housing NOFA
+  agency: Los Angeles County Development Authority
+  category: Local funding
+  url: https://www.lacda.org/affordable-housing/multifamily-rental-housing-nofa
+  notes: Round announcements, term sheets, guidelines and addenda on the public LACDA site. Applications are on
+    a separate portal.
+- id: lahd-homes-for-la
+  name: Homes for LA NOFA
+  agency: Los Angeles Housing Department
+  category: Local funding
+  url: https://housing.lacity.gov/ula/homes-for-la-nofa
+  notes: Standing city landing page for production, preservation and stabilization rounds.
+  xpath: //div[@data-elementor-type="wp-page"]
+- id: lahd-round-2
+  name: Homes for LA Round 2
+  agency: Los Angeles Housing Department
+  category: Local funding
+  url: https://housing.lacity.gov/round-2-nofa
+  notes: Public round materials, deadline updates and funding program terms. The UNOFA application portal is excluded.
+  xpath: //div[@data-elementor-type="wp-page"]
+- id: sdhc-development
+  name: Available development funds
+  agency: San Diego Housing Commission
+  category: Local funding
+  url: https://sdhc.org/doing-business-with-us/developers/available-funding/
+  notes: Public development funding and guidelines updates. Full solicitation packages require PlanetBids registration
+    and are outside collection.
+- id: sdhc-press
+  name: Commission funding announcements
+  agency: San Diego Housing Commission
+  category: Local funding
+  url: https://sdhc.org/about-us/media-center/news-releases/
+  notes: Public announcement index, including new development NOFAs. Also contains commission news unrelated to
+    development.
+- id: sd-county-nofa
+  name: Housing development funding opportunities
+  agency: San Diego County HCDS
+  category: Local funding
+  url: https://www.sandiegocounty.gov/content/sdc/sdhcd/community-development/di-nofa.html
+  notes: Countywide funding hub for affordable housing construction, acquisition and rehabilitation.
+  xpath: //*[@id="content-secondary"]
+- id: sd-city-bridge
+  name: Bridge to Home funding rounds
+  agency: City of San Diego
+  category: Local funding
+  url: https://www.sandiego.gov/economic-development/bridge-to-home
+  notes: City gap financing rounds and funding recommendations, separate from SDHC's development NOFA.
+  xpath: //article[contains(@class,"node")]
+- id: santa-maria-agendas
+  name: Block Grants Advisory Committee agendas and decisions
+  agency: City of Santa Maria
+  category: Local funding
+  url: https://pub-santamaria.escribemeetings.com/MeetingsCalendarView.aspx/PastMeetings
+  kind: meetings
+  post_json:
+    type: Block Grants Advisory Committee
+    pageNumber: 1
+  public_url: https://pub-santamaria.escribemeetings.com/meetingscalendarview.aspx?Expanded=Block+Grants+Advisory+Committee
+  notes: The official city meeting portal supplies the most recent 50 published committee meetings, including materials
+    on CDBG and HOME allocations. The direct grant-program website returns HTTP 403. Agenda publication and program
+    publication can occur on different dates.
+- id: santa-maria-fy27-28
+  name: FY 2027–28 CDBG notice and capital funding items
+  agency: City of Santa Maria
+  category: Local funding
+  url: https://pub-santamaria.escribemeetings.com/Meeting.aspx?Agenda=Agenda&Id=0c54347e-058e-4018-9d6c-45b3963d3ff0&lang=English
+  notes: City-published October 12, 2026 Block Grants Advisory Committee agenda, including the FY 2027–28 Notice
+    of Funding Availability. The committee index covers subsequent published materials.
+- id: sb-county-board
+  name: Housing funding agenda items and awards
+  agency: Santa Barbara County Board of Supervisors
+  category: Local funding
+  url: https://webapi.legistar.com/v1/santabarbara/matters?%24filter=substringof%28%27Notice+of+Funding%27%2CMatterTitle%29+or+substringof%28%27Housing+and+Community+Development+Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Permanent+Local+Housing+Allocation%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35
+  kind: legistar
+  public_url: https://santabarbara.legistar.com/Legislation.aspx
+  notes: County legislative records matching Notice of Funding, housing annual action plans or Permanent Local Housing
+    Allocation. Lists up to 35 recent matters with file numbers, board dates, and official text. Department notices
+    can precede board action.
+- id: hcd-surplus
+  name: Surplus Land Act notices of availability
+  agency: HCD
+  category: Surplus land
+  url: https://publish.data.ca.gov/datastore/dump/bb81599a-e130-48aa-a6e3-bbcce9392d4f?format=csv
+  kind: land_csv
+  case_filter_field: Parent Case
+  notes: Complete public CSV export of HCD's weekly notice resource. Date Notice Issued is the agency's notice date.
+    Records include archives. Site county is assigned using the parcel coordinates or, when those cannot be located,
+    the site's incorporated city.
+- id: hcd-land-index
+  name: Accessing local surplus land
+  agency: HCD
+  category: Surplus land
+  url: https://www.hcd.ca.gov/planning-and-research/public-lands/surplus-land/accessing-land
+  notes: Official list and map links. A changed destination is detectable even when its anchor text stays the same.
+  xpath: //article[contains(@class,"node--view-mode-full")]
+- id: hcd-land-catalog
+  name: Surplus notice data catalog
+  agency: HCD
+  category: Surplus land
+  url: https://data.ca.gov/@california-department-of-housing-and-community-development/surplus-land-act-notices-of-availability-received
+  notes: State catalog provenance and publication timestamp, distinct from issued notice dates.
+- id: cdlac-2027-schedule
+  name: Draft 2027 meeting and application schedule (PDF)
+  agency: CDLAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/sites/default/files/2026-11/2027_CDLAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  notes: Published preliminary 2027 schedule for qualified residential rental project submissions, including the
+    rehab-only third round. Check the rolling calendar for superseding versions.
+  kind: pdf
+- id: ctcac-2027-schedule
+  name: Draft 2027 meeting and application schedule (PDF)
+  agency: CTCAC
+  category: Meetings
+  url: https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  notes: Published preliminary 2027 schedule for 4% and 9% submissions, including the rehab-only third 4% round.
+    Check the rolling calendar for superseding versions.
+  kind: pdf

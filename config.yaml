@@ -1,0 +1,12 @@
+timezone: America/Los_Angeles
+site_url: https://brettdeveloper.github.io/ca-affordable-radar/
+repository: brettdeveloper/ca-affordable-radar
+counties:
+  - Santa Cruz
+  - Santa Clara
+  - San Mateo
+  - San Francisco
+  - Marin
+  - Santa Barbara
+  - Los Angeles
+  - San Diego

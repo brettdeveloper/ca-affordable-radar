@@ -1,0 +1,132 @@
+- program: HDFC
+  event: Pipeline survey due
+  date: '2026-12-04'
+  source_url: https://www.hdfc.ca.gov/regulations/
+  date_captured: '2026-11-25'
+  evidence: HDFC development timeline, item 7. This survey is separate from the funding application.
+  section: Development Timeline
+  until: Resources
+  anchor: ^HDFC Pipeline Survey$
+  window: 2
+- program: CDLAC
+  event: Allocation meeting, QRRP Round 3 awards on proposed agenda
+  date: '2026-12-09'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/2025-12/2026_Meeting_Schedule_and_Application_Due_Date.pdf
+  date_captured: '2026-11-25'
+  evidence: 2026 meeting schedule, December row. Scheduled for 1 p.m. Meeting dates and proposed topics may change.
+- program: CTCAC
+  event: Committee meeting, 4% Round 3 awards on proposed agenda
+  date: '2026-12-09'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/2026-03/2026-schedule.pdf
+  date_captured: '2026-11-25'
+  evidence: 2026 meeting schedule, December row. Begins after CDLAC adjourns. Meeting dates and topics are subject
+    to change.
+- program: HDFC
+  event: Executive Committee meeting and scheduled presentation of regulations for adoption
+  date: '2026-12-18'
+  source_url: https://www.hdfc.ca.gov/regulations/
+  date_captured: '2026-11-25'
+  evidence: HDFC development timeline, item 8. The committee page schedules the meeting for 10 a.m. No effective
+    date or guarantee of adoption is stated.
+  section: Development Timeline
+  until: Resources
+  anchor: ^Regulations presented for adoption at Executive Committee$
+  window: 2
+- program: HCD Tribal Multifamily Finance Super NOFA
+  event: Application deadline, subject to earlier exhaustion of funds
+  date: '2026-12-31'
+  source_url: https://www.hcd.ca.gov/grants-and-funding/tribal-multifamily-finance-super-nofa
+  date_captured: '2026-11-25'
+  evidence: Program page and linked Amendment 3, section III.A.1. Applications are reviewed in order until funds
+    are exhausted.
+- program: San Mateo County FY 2027–28 Winter NOFA
+  event: Announced issuance; county overview lists a different season. Confirm release with DOH.
+  date: '2026-12-01'
+  source_url: https://www.smcgov.org/housing/notice-public-hearing-fy2027-2028-winter-notice-funding-availability-nofa-needs-assessment
+  date_captured: '2026-11-25'
+  evidence: Program-specific hearing notice states a December 1, 2026 issuance. General Current Funding Opportunities
+    overview says Spring 2027. No submission deadline was established in the hearing notice.
+- program: Homes for LA NOFA Round 2 (LAHD)
+  event: Program applications close at 11:59 p.m. Pacific
+  date: '2026-12-04'
+  source_url: https://housing.lacity.gov/round-2-nofa
+  date_captured: '2026-11-25'
+  evidence: The live Round 2 notice gives Friday, December 4 at 11:59 p.m. PT as the program application deadline.
+    The November 16 extension applied to sponsor underwriting.
+- program: CDLAC rulemaking
+  event: Scheduled committee consideration of proposed regulations
+  date: '2026-12-09'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/cdlac/2026-Memo-and-Proposed-Regulation-Changes-with-ISOR.pdf
+  date_captured: '2026-11-25'
+  evidence: Initial Statement of Reasons, opening memorandum. Staff identifies December 9 for consideration of adoption.
+    The public hearing and written comment period ended earlier; the scheduled meeting is not an effective date.
+- program: CTCAC rulemaking
+  event: Scheduled committee consideration of proposed regulations
+  date: '2026-12-09'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/ctcac/CTCAC_2026_ISOR.pdf
+  date_captured: '2026-11-25'
+  evidence: Initial Statement of Reasons, opening memorandum. Staff identifies December 9 for consideration of adoption.
+    The public hearing and written comment period ended earlier; the scheduled meeting is not an effective date.
+- program: CDLAC QRRP
+  event: 'Preliminary 2027 schedule: Round 1 applications due'
+  date: '2027-01-26'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/2026-11/2027_CDLAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page agency calendar, QRRP Application Deadline column opposite the April 28 meeting, Round
+    1. Dates may change.
+- program: CTCAC 4% LIHTC
+  event: 'Preliminary 2027 schedule: Round 1 applications due'
+  date: '2027-01-26'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page agency calendar, Four Percent (4%) Application Deadline column opposite the April 28
+    meeting, Round 1. Dates may change.
+- program: CTCAC 9% LIHTC
+  event: 'Preliminary 2027 schedule: Round 1 applications due'
+  date: '2027-03-30'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page CTCAC calendar, Nine Percent (9%) Application Deadline column opposite the June 30 committee
+    meeting, Round 1. Dates may change.
+- program: CDLAC QRRP
+  event: 'Preliminary 2027 schedule: Round 2 applications due'
+  date: '2027-05-18'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/2026-11/2027_CDLAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page agency calendar, QRRP Application Deadline column opposite the August 18 meeting, Round
+    2. Dates may change.
+- program: CTCAC 4% LIHTC
+  event: 'Preliminary 2027 schedule: Round 2 applications due'
+  date: '2027-05-18'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page agency calendar, Four Percent (4%) Application Deadline column opposite the August 18
+    meeting, Round 2. Dates may change.
+- program: CTCAC 9% LIHTC
+  event: 'Preliminary 2027 schedule: Round 2 applications due'
+  date: '2027-07-27'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page CTCAC calendar, Nine Percent (9%) Application Deadline column opposite the October 13
+    committee meeting, Round 2. Dates may change.
+- program: CDLAC QRRP
+  event: 'Preliminary 2027 schedule: Round 3 applications due (rehab only)'
+  date: '2027-09-14'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/2026-11/2027_CDLAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page agency calendar, QRRP Application Deadline column opposite the December 15 meeting, Round
+    3 (rehab only). Dates may change.
+- program: CTCAC 4% LIHTC
+  event: 'Preliminary 2027 schedule: Round 3 applications due (rehab only)'
+  date: '2027-09-14'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page agency calendar, Four Percent (4%) Application Deadline column opposite the December
+    15 meeting, Round 3 (rehab only). Dates may change.
+- program: CDLAC / HDFC
+  event: 'Preliminary 2027 schedule: QRRP and HDFC awards on proposed meeting agenda'
+  date: '2027-10-13'
+  source_url: https://www.treasurer.ca.gov/sites/default/files/2026-11/2027_CDLAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf
+  date_captured: '2026-11-25'
+  evidence: Draft one-page CDLAC calendar, October 13 meeting row, Proposed Rounds and Topics column. No QRRP submission
+    date appears in this row. CTCAC separately lists 4% and HDFC awards for the same meeting date.

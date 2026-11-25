@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#152e3b">
+  <meta name="description" content="California affordable housing rule changes, funding notices, key dates, and public surplus land from official sources.">
+  <title>CA Affordable Housing Radar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/atom+xml" title="CA Affordable Housing Radar" href="feed.xml">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap">
+    <div class="mast-line">
+      <div class="title-line">
+        <span class="radar-mark" aria-hidden="true"><span></span></span>
+        <h1>CA Affordable Housing Radar</h1>
+      </div>
+      <a class="feed-link" href="feed.xml">Atom feed</a>
+    </div>
+    <div class="edition">
+      <span><strong>Last collection</strong> $asof</span>
+      <span>$coverage</span>
+      <a href="#health">$health_summary</a>
+    </div>
+  </div>
+</header>
+<nav class="sections" aria-label="Sections">
+  <div class="wrap">
+    <a href="#changes">What changed</a><a href="#land">Surplus land</a><a href="#dates">Key dates</a><a href="#health">Source health</a>
+  </div>
+</nav>
+<main id="main" class="wrap">
+  <div class="freshness" id="freshness">$freshness</div>
+  <p id="stale-warning" class="stale-warning" hidden></p>
+  <div class="opening">
+    <section id="changes" aria-labelledby="changes-title">
+      <div class="section-head"><h2 id="changes-title">What changed</h2><span class="period">Last 90 days</span></div>
+      <div class="changes-list">$changes</div>
+    </section>
+    <aside class="priority" aria-labelledby="hdfc-title">
+      <h2 id="hdfc-title">HDFC rulemaking</h2>
+      <div class="priority-body">$hdfc</div>
+    </aside>
+  </div>
+  <section id="land" class="major" aria-labelledby="land-title">
+    <div class="section-head"><h2 id="land-title">Surplus land</h2></div>
+    <div class="section-intro">$land_summary</div>
+    <div class="land-toolbar">
+      <div class="land-latest">$latest_land</div>
+      <div class="county-control" hidden><label for="availability">HCD status</label><select id="availability"><option value="">All statuses</option><option value="Active">Active</option><option value="Archive">Archive</option></select><label for="county">County</label><select id="county"><option value="">All counties</option>$counties</select></div>
+    </div>
+    <div id="parcels" class="parcels">$land</div>
+    <div id="land-pages" class="pages" hidden>
+      <span id="land-count" role="status" aria-live="polite"></span>
+      <div class="page-actions"><button type="button" id="land-prev">Previous</button><button type="button" id="land-next">Next</button></div>
+    </div>
+  </section>
+  <section id="dates" class="major" aria-labelledby="dates-title">
+    <div class="section-head"><h2 id="dates-title">Key dates</h2></div>
+    <div class="dates-list">$dates</div>
+    <p id="no-upcoming" class="empty" hidden>No upcoming dates from the current collection.</p>
+  </section>
+  <section id="health" class="major" aria-labelledby="health-title">
+    <div class="section-head"><h2 id="health-title">Source health</h2></div>
+    <div class="health-list">$health</div>
+  </section>
+</main>
+<footer><div class="wrap"><a href="https://github.com/brettdeveloper/ca-affordable-radar">Project on GitHub</a><a href="#main">Back to top</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,358 @@
+{
+  "requests": {
+    "https://cdi.santacruzcountyca.gov/Planning/Housing.aspx": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://data.ca.gov/@california-department-of-housing-and-community-development/surplus-land-act-notices-of-availability-received": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://grants.sanjoseca.gov/storefrontFOList.do": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://housing.lacity.gov/round-2-nofa": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://housing.lacity.gov/ula/homes-for-la-nofa": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://osh.santaclaracounty.gov/housing-and-community-development/affordable-housing-development": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://pub-santamaria.escribemeetings.com/Meeting.aspx?Agenda=Agenda&Id=0c54347e-058e-4018-9d6c-45b3963d3ff0&lang=English": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://pub-santamaria.escribemeetings.com/MeetingsCalendarView.aspx/PastMeetings": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://publish.data.ca.gov/datastore/dump/bb81599a-e130-48aa-a6e3-bbcce9392d4f?format=csv": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://sanrafael.gov/funding-opportunities-for-affordable-housing-developers/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://santabarbaraca.gov/SBLHTF": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://sdhc.org/about-us/media-center/news-releases/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://sdhc.org/doing-business-with-us/developers/available-funding/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://webapi.legistar.com/v1/santabarbara/matters?%24filter=substringof%28%27Notice+of+Funding%27%2CMatterTitle%29+or+substringof%28%27Housing+and+Community+Development+Annual+Action+Plan%27%2CMatterTitle%29+or+substringof%28%27Permanent+Local+Housing+Allocation%27%2CMatterTitle%29&%24orderby=MatterId+desc&%24top=35": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.calhfa.ca.gov/multifamily/mixedincome/forms/index.htm": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.calhfa.ca.gov/multifamily/mixedincome/index.htm": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.calhfa.ca.gov/multifamily/programs/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.calhfa.ca.gov/multifamily/programs/dates.htm": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.calhfa.ca.gov/multifamily/section811/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.cityofsanmateo.org/3765/Community-Funding-Program": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.countyofsb.org/cd-housing-community-development": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.countyofsb.org/cd-housing-community-development-current-notice-of-funding-availability": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hcd.ca.gov/affh/opportunity-map": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hcd.ca.gov/funding/home-project-activities": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hcd.ca.gov/funding/mhp": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hcd.ca.gov/funding/nofa-calendar": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hcd.ca.gov/funding/supernofa": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hcd.ca.gov/grants-and-funding/tribal-multifamily-finance-super-nofa": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hcd.ca.gov/planning-and-research/public-lands/surplus-land/accessing-land": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hdfc.ca.gov/committee-meetings/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hdfc.ca.gov/news/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hdfc.ca.gov/regulations/": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hdfc.ca.gov/wp-content/uploads/2026/10/hdfc-regulations-notice-of-proposed-action.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hdfc.ca.gov/wp-content/uploads/2026/10/hdfc-regulations-redlines.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.hdfc.ca.gov/wp-content/uploads/2026/10/hdfc-regulations.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.huduser.gov/portal/datasets/fmr.html": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.huduser.gov/portal/datasets/il.html": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.huduser.gov/portal/datasets/mtsp.html": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.lacda.org/affordable-housing/multifamily-rental-housing-nofa": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.marincounty.gov/departments/cda/housing-and-grants/funding-projects/notice-funding-availability-nofa": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.sandiego.gov/economic-development/bridge-to-home": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.sandiegocounty.gov/content/sdc/sdhcd/community-development/di-nofa.html": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.santacruzca.gov/Government/City-Departments/Community-Development/Housing-Assistance-Information-and-Resources/Affordable-Housing-Trust-Fund": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.sf.gov/information--multi-family-housing-related-funding-opportunities": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.smcgov.org/housing/current-funding-opportunities-0": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.smcgov.org/housing/doh-public-notices": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.smcgov.org/housing/nofas-bids-proposals": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.smcgov.org/housing/notice-public-hearing-fy2027-2028-winter-notice-funding-availability-nofa-needs-assessment": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/cdlac": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/cdlac/meeting": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/cdlac/py/2026": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/cdlac/regulations": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/ctcac": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/ctcac/2026/application": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/ctcac/meeting": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/ctcac/meeting/2026": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/ctcac/opportunity": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/ctcac/programreg/regulations": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/meeting/2026": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/sites/default/files/2025-12/2026_Meeting_Schedule_and_Application_Due_Date.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/sites/default/files/2026-03/2026-schedule.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/sites/default/files/2026-11/2027_CDLAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    },
+    "https://www.treasurer.ca.gov/sites/default/files/ctcac/2027_CTCAC_Meeting_Schedule_and_Application_Deadlines-DRAFT.pdf": {
+      "date": "2026-11-25",
+      "status": 200
+    }
+  },
+  "robots": {
+    "https://cdi.santacruzcountyca.gov": {
+      "date": "2026-11-25",
+      "rules": ""
+    },
+    "https://data.ca.gov": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\nDisallow: /search?\nDisallow: /api/\nDisallow: /datastore/\nDisallow: /user/\nAllow: /\n\nSitemap: https://data.ca.gov/sitemap.xml\n"
+    },
+    "https://grants.sanjoseca.gov": {
+      "date": "2026-11-25",
+      "rules": ""
+    },
+    "https://housing.lacity.gov": {
+      "date": "2026-11-25",
+      "rules": "\n\nUser-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://housing.lacity.gov/wp-sitemap.xml\n\nUser-agent: *\nDisallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json\n"
+    },
+    "https://osh.santaclaracounty.gov": {
+      "date": "2026-11-25",
+      "rules": "#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/robotstxt.html\r\n\r\nUser-agent: *\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n# Directories\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# Files\r\nDisallow: /README.md\r\nDisallow: /composer/Metapackage/README.txt\r\nDisallow: /composer/Plugin/ProjectMessage/README.md\r\nDisallow: /composer/Plugin/Scaffold/README.md\r\nDisallow: /composer/Plugin/VendorHardening/README.txt\r\nDisallow: /composer/Template/README.txt\r\nDisallow: /modules/README.txt\r\nDisallow: /sites/README.txt\r\nDisallow: /themes/README.txt\r\nDisallow: /web.config\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /user/register\r\nDisallow: /user/password\r\nDisallow: /user/login\r\nDisallow: /user/logout\r\nDisallow: /media/oembed\r\nDisallow: /*/media/oembed\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password\r\nDisallow: /index.php/user/register\r\nDisallow: /index.php/user/login\r\nDisallow: /index.php/user/logout\r\nDisallow: /index.php/media/oembed\r\nDisallow: /index.php/*/media/oembed"
+    },
+    "https://pub-santamaria.escribemeetings.com": {
+      "date": "2026-11-25",
+      "rules": ""
+    },
+    "https://publish.data.ca.gov": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\nDisallow: /*?*groups=\nDisallow: /*?*tags=\nDisallow: /*?*organization=\nDisallow: /*?*res_format=\nDisallow: /*?*license_id=\nDisallow: /*_limit=0\nDisallow: /api/\nDisallow: /revision/\nDisallow: /dataset/*/history\nDisallow: /dataset/rate/\n"
+    },
+    "https://sanrafael.gov": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\nDisallow: /search-site\nDisallow: /search-site/*\nDisallow: /*?pager=\nDisallow: /*?s=\nDisallow: /page/*/?s=\nDisallow: /events/page/*/\nDisallow: /locations/page/*/\nDisallow: /documents/page/*/\nDisallow: /events/action~\n\nUser-agent: Applebot\nCrawl-delay: 10\nDisallow: /search-site\nDisallow: /search-site/*\nDisallow: /*?pager=\nDisallow: /*?s=\nDisallow: /page/*/?s=\nDisallow: /events/page/*/\nDisallow: /locations/page/*/\nDisallow: /documents/page/*/\nDisallow: /events/action~\n\nUser-agent: Bingbot\nCrawl-delay: 10\nDisallow: /search-site\nDisallow: /search-site/*\nDisallow: /*?pager=\nDisallow: /*?s=\nDisallow: /page/*/?s=\nDisallow: /events/page/*/\nDisallow: /locations/page/*/\nDisallow: /documents/page/*/\nDisallow: /events/action~\n\nUser-agent: YandexBot\nCrawl-delay: 10\nDisallow: /search-site\nDisallow: /search-site/*\nDisallow: /*?pager=\nDisallow: /*?s=\nDisallow: /page/*/?s=\nDisallow: /events/page/*/\nDisallow: /locations/page/*/\nDisallow: /documents/page/*/\nDisallow: /events/action~\n\nUser-agent: DuckDuckBot\nCrawl-delay: 10\nDisallow: /search-site\nDisallow: /search-site/*\nDisallow: /*?pager=\nDisallow: /*?s=\nDisallow: /page/*/?s=\nDisallow: /events/page/*/\nDisallow: /locations/page/*/\nDisallow: /documents/page/*/\nDisallow: /events/action~\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://sanrafael.gov/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+    },
+    "https://santabarbaraca.gov": {
+      "date": "2026-11-25",
+      "rules": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.avif\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /core/*.webp\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.avif\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\nAllow: /profiles/*.webp\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /search?\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/search?\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n"
+    },
+    "https://sdhc.org": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\r\nDisallow: /wp-admin/\r\nDisallow: /leadership/\r\nDisallow: /board_member/\r\nDisallow: /media_category/\r\nDisallow: /property-category/\r\nDisallow: /meeting-category/\r\n\r\nsitemap: https://sdhc.org/sitemap.xml"
+    },
+    "https://webapi.legistar.com": {
+      "date": "2026-11-25",
+      "rules": ""
+    },
+    "https://www.calhfa.ca.gov": {
+      "date": "2026-11-25",
+      "rules": "User-Agent: *\r\nDisallow: /about/financials/index.htm\r\nDisallow: /errors/404PageNotFound.html\r\nDisallow: /sitemap.htm\r\nDisallow: /xx_dev\r\nDisallow: /Scripts\r\nDisallow: /Templates\r\nDisallow: /common\r\nDisallow: _Archive-Landing\r\n\r\nSitemap: https://www.calhfa.ca.gov/sitemap.xml"
+    },
+    "https://www.cityofsanmateo.org": {
+      "date": "2026-11-25",
+      "rules": "user-agent: Baiduspider\r\nDisallow: /\r\nUser-agent: Yandex\r\nDisallow: /\r\nUser-agent: *\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /search.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /search.aspx\r\nDisallow: /currentevents.aspx\r\nDisallow: /Support\r\nDisallow: /CurrentEventsView.asp\r\nDisallow: /Search.asp\r\nDisallow: /CurrentEventsView.aspx\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /CurrentEvents.aspx\r\nDisallow: /Currentevents.aspx\r\nDisallow: /map.aspx\r\nDisallow: /map.asp\r\nDisallow: /Map.aspx\r\nDisallow: /Map.asp\r\nSitemap: /sitemap.xml\r\nDisallow: /RSS.aspx\r\n# added 2026-10-20 by Add-RobotsRules\r\nDisallow: /rss.aspx\r\nDisallow: /error.aspx\r\nDisallow: /Error.aspx\r\nDisallow: /404.aspx\r\nDisallow: /common/modules/icalendar/\r\nDisallow: /common/modules/debug/\r\nDisallow: /publiclogin.aspx\r\nDisallow: /PublicLogin.aspx\r\nCrawl-delay: 10\r\nUser-agent: Siteimprove\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot-crawler\r\nCrawl-delay: 20\r\n\r\n# ---------------------------------------------------------------------------\r\n# NEW - AI search/training crawlers and SEO scrapers.\r\nUser-agent: meta-webindexer\r\nUser-agent: meta-externalagent\r\nUser-agent: OAI-SearchBot\r\nUser-agent: GPTBot\r\nUser-agent: ClaudeBot\r\nUser-agent: Claude-SearchBot\r\nUser-agent: PerplexityBot\r\nUser-agent: Amazonbot\r\nUser-agent: Bytespider\r\nUser-agent: CCBot\r\nUser-agent: cohere-ai\r\nUser-agent: Reflectionbot\r\nUser-agent: LinkupBot\r\nUser-agent: ExaSearchBot\r\nUser-agent: YouBot\r\nUser-agent: DuckAssistBot\r\nUser-agent: serpstatbot\r\nUser-agent: AhrefsBot\r\nUser-agent: SemrushBot\r\nUser-agent: MJ12bot\r\nUser-agent: DotBot\r\n# existing site-wide rules\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /Support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /CurrentEventsView.asp\r\nDisallow: /CurrentEventsView.aspx\r\nDisallow: /currentevents.aspx\r\nDisallow: /CurrentEvents.aspx\r\nDisallow: /Currentevents.aspx\r\nDisallow: /search.asp\r\nDisallow: /search.aspx\r\nDisallow: /Search.asp\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /map.aspx\r\nDisallow: /map.asp\r\nDisallow: /Map.aspx\r\nDisallow: /Map.asp\r\nDisallow: /rss.aspx\r\nDisallow: /RSS.aspx\r\nDisallow: /calendar.aspx\r\nDisallow: /Calendar.aspx\r\nDisallow: /rssfeed.aspx\r\nDisallow: /RSSFeed.aspx\r\nDisallow: /civicalerts.aspx\r\nDisallow: /CivicAlerts.aspx\r\nDisallow: /bids.aspx\r\nDisallow: /Bids.aspx\r\nDisallow: /faq.aspx\r\nDisallow: /FAQ.aspx\r\nDisallow: /common/modules/icalendar/\r\n"
+    },
+    "https://www.countyofsb.org": {
+      "date": "2026-11-25",
+      "rules": "\n                    user-agent: Baiduspider\n                    Disallow: /\n                    User-agent: Yandex\n                    Disallow: /\n                    User-agent: *\n                    User-agent: Siteimprove\n                    Crawl-delay: 20\n                    User-agent: Siteimprovebot\n                    Crawl-delay: 20\n                    User-agent: Siteimprovebot-crawler\n                    Crawl-delay: 20\n                "
+    },
+    "https://www.hcd.ca.gov": {
+      "date": "2026-11-25",
+      "rules": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n"
+    },
+    "https://www.hdfc.ca.gov": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\n# START WPFORMS BLOCK\n# ---------------------------\nUser-agent: *\nDisallow: /wp-content/uploads/wpforms/\n# ---------------------------\n# END WPFORMS BLOCK\n\nSitemap: https://hdfc.ca.gov/wp-sitemap.xml\n"
+    },
+    "https://www.huduser.gov": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\r\nDisallow: /datasets/fmr.html\r\nDisallow: /datasets/il.html\r\nDisallow: /about/\r\nDisallow: /*.php\r\nDisallow: /*.odb\r\nDisallow: /*.odn\r\nDisallow: /search/search.php\r\n\r\n#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/wc/robots.html\r\n#\r\n# For syntax checking, see:\r\n# http://www.sxw.org.uk/computing/robots/check.html\r\n\r\nUser-agent: *\r\nCrawl-delay: 10\r\n# Directories\r\nDisallow: /portal/includes/\r\nDisallow: /portal/misc/\r\nDisallow: /portal/modules/\r\nDisallow: /portal/profiles/\r\nDisallow: /portal/scripts/\r\nDisallow: /portal/themes/\r\n# Files\r\nDisallow: /portal/CHANGELOG.txt\r\nDisallow: /portal/cron.php\r\nDisallow: /portal/INSTALL.mysql.txt\r\nDisallow: /portal/INSTALL.pgsql.txt\r\nDisallow: /portal/INSTALL.sqlite.txt\r\nDisallow: /portal/install.php\r\nDisallow: /portal/INSTALL.txt\r\nDisallow: /portal/LICENSE.txt\r\nDisallow: /portal/MAINTAINERS.txt\r\nDisallow: /portal/update.php\r\nDisallow: /portal/UPGRADE.txt\r\nDisallow: /portal/xmlrpc.php\r\n# Paths (clean URLs)\r\nDisallow: /portal/admin/\r\nDisallow: /portal/comment/reply/\r\nDisallow: /portal/filter/tips/\r\nDisallow: /portal/node/add/\r\nDisallow: /portal/search/\r\nDisallow: /portal/user/register/\r\nDisallow: /portal/user/password/\r\nDisallow: /portal/user/login/\r\nDisallow: /portal/user/logout/\r\n# Paths (no clean URLs)\r\nDisallow: /portal/?q=admin/\r\nDisallow: /portal/?q=comment/reply/\r\nDisallow: /portal/?q=filter/tips/\r\nDisallow: /portal/?q=node/add/\r\nDisallow: /portal/?q=search/\r\nDisallow: /portal/?q=user/password/\r\nDisallow: /portal/?q=user/register/\r\nDisallow: /portal/?q=user/login/\r\nDisallow: /portal/?q=user/logout/\r\n#nodeids\r\nDisallow: /portal/node/\r\nDisallow: /portal/node/*"
+    },
+    "https://www.lacda.org": {
+      "date": "2026-11-25",
+      "rules": ""
+    },
+    "https://www.marincounty.gov": {
+      "date": "2026-11-25",
+      "rules": "#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/robotstxt.html\r\n\r\nUser-agent: *\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles/*.css?\r\nAllow: /profiles/*.js$\r\nAllow: /profiles/*.js?\r\nAllow: /profiles/*.gif\r\nAllow: /profiles/*.jpg\r\nAllow: /profiles/*.jpeg\r\nAllow: /profiles/*.png\r\nAllow: /profiles/*.svg\r\n# Directories\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# Files\r\nDisallow: /README.md\r\nDisallow: /composer/Metapackage/README.txt\r\nDisallow: /composer/Plugin/ProjectMessage/README.md\r\nDisallow: /composer/Plugin/Scaffold/README.md\r\nDisallow: /composer/Plugin/VendorHardening/README.txt\r\nDisallow: /composer/Template/README.txt\r\nDisallow: /modules/README.txt\r\nDisallow: /sites/README.txt\r\nDisallow: /themes/README.txt\r\nDisallow: /web.config\r\n# Paths (clean URLs)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisallow: /node/add/\r\nDisallow: /search/\r\nDisallow: /user/register\r\nDisallow: /user/password\r\nDisallow: /user/login\r\nDisallow: /user/logout\r\nDisallow: /media/oembed\r\nDisallow: /*/media/oembed\r\n# Paths (no clean URLs)\r\nDisallow: /index.php/admin/\r\nDisallow: /index.php/comment/reply/\r\nDisallow: /index.php/filter/tips\r\nDisallow: /index.php/node/add/\r\nDisallow: /index.php/search/\r\nDisallow: /index.php/user/password\r\nDisallow: /index.php/user/register\r\nDisallow: /index.php/user/login\r\nDisallow: /index.php/user/logout\r\nDisallow: /index.php/media/oembed\r\nDisallow: /index.php/*/media/oembed\r\n\r\n# Marin additions\r\nDisallow: /taxonomy/\r\nDisallow: /taxonomy/*\r\nSitemap: https://www.marincounty.gov/sitemap.xml\r\n\r\n# Algolia-Crawler-Verif: 6CB88B40FCFDC123"
+    },
+    "https://www.sandiego.gov": {
+      "date": "2026-11-25",
+      "rules": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n\n# Block Meta's automated external crawler.\n# User-agent: meta-externalagent\n# Disallow: /\n\n# Block OpenAI's model-training crawler.\n# User-agent: GPTBot\n# Disallow: /\n\n# Block ByteDance's crawler.\n# User-agent: Bytespider\n# Disallow: /\n"
+    },
+    "https://www.sandiegocounty.gov": {
+      "date": "2026-11-25",
+      "rules": "# START WPFORMS BLOCK\n# ---------------------------\nUser-agent: *\nDisallow: /uploads/wpforms/\n# ---------------------------\n# END WPFORMS BLOCK\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.sandiegocounty.gov/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+    },
+    "https://www.santacruzca.gov": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\r\n\r\nDisallow: /Business-Development/Business/Murray-Street-Bridge-Business-Support\r\nDisallow: /Business-Development/Business/Murray-Street-Bridge-Construction-Mitigation-Loan-Program\r\nDisallow: /Business-Development/Current-Planning/Historic-Preservation-Review/Historic-Property-Review\r\nDisallow: /Business-Development/Planning-Division/Historic-Preservation-Review/Historic-Property-Review\r\nDisallow: /Government/City-Departments/Community-Development/Current-Planning/Historic-Preservation-Review/Historic-Property-Review\r\nDisallow: /Government/City-Departments/Copy-of-Community-Development-1\r\nDisallow: /Government/City-Departments/Fire-Department/Fire-Prevention-Life-Safety/Plan-Submittals-Inspections\r\nDisallow: /Government/City-Departments/Information-Technology/IT-Status-Page\r\nDisallow: /Government/City-Departments/Information-Technology/New-page\r\nDisallow: /Government/City-Departments/Parks-Recreation/Events/Reservation-Office-Event-Permits/Private-Events-Reservations/Indoor-Facilities/Freight-Building\r\nDisallow: /Government/City-Departments/Parks-Recreation/Loch-Lomond/Loch-Lomond-Map\r\nDisallow: /Government/City-Departments/Planning-and-Community-Development/Current-Planning/Historic-Preservation-Review/Historic-Property-Review\r\nDisallow: /Government/City-Departments/Police/2026-National-Night-Out\r\nDisallow: /Government/City-Departments/Police/Community/Community-Services-Unit/*\r\nDisallow: /Government/City-Departments/Police/Community/Community-Services-Unit/Thank-a-SCPD-Staff-Member\r\nDisallow: /Government/City-Departments/Police/Community/You-Are-Not-Alone\r\nDisallow: /Government/City-Departments/Police/Community-Services-Unit/*\r\nDisallow: /Government/City-Departments/Police/Community-Services-Unit/Thank-a-SCPD-Staff-Member\r\nDisallow: /Government/City-Departments/Police/Crime-Information/Crime-Prevention\r\nDisallow: /Government/City-Departments/Police/Crime-Prevention\r\nDisallow: /Government/City-Departments/Police/New-page\r\nDisallow: /Government/City-Departments/Police/News-Alerts/Arrest-and-Activity-Log/Arrest-and-Activity-Log-Documents\r\nDisallow: /Government/City-Departments/Police/News-Alerts/Press-Releases/Santa-Cruz-Police-Department-Press-Releases\r\nDisallow: /Government/City-Departments/Police/News-Alerts/SCPD-Press-Releases/Santa-Cruz-Police-Department-Press-Releases\r\nDisallow: /Government/City-Departments/Police/SCPD-News-Alerts/Arrest-and-Activity-Log/Arrest-and-Activity-Log-Documents\r\nDisallow: /Government/City-Departments/Police/SCPD-News-Alerts/Press-Releases/Santa-Cruz-Police-Department-Press-Releases\r\nDisallow: /Government/City-Departments/Police/SCPD-News-Alerts/SCPD-Press-Releases/Santa-Cruz-Police-Department-Press-Releases\r\nDisallow: /Government/City-Departments/Police/Transparency-Portal/Accountability\r\nDisallow: /Government/City-Departments/Police/Transparency-Portal/Assembly-Bill-481\r\nDisallow: /Government/City-Departments/Police/Transparency-Portal/Hate-Crime-Data-AB-485\r\nDisallow: /Government/City-Departments/Police/Transparency-Portal/RIPA-Stop-Data/RIPA-Quarterly-Stats\r\nDisallow: /Government/City-Departments/Police/Transparency-Portal/Transparency-Portal-Documents\r\nDisallow: /Government/City-Departments/Public-Works/Resource-Recovery/Business-Services\r\nDisallow: /Government/City-Departments/Public-Works/Resource-Recovery/Recycling-and-Waste-Reduction/Internal-Foodware-Ordinance-Survey\r\nDisallow: /Government/City-Departments/Public-Works/Resource-Recovery/Recycling-and-Waste-Reduction/New-page\r\nDisallow: /Government/City-Departments/Public-Works/Resource-Recovery/Residential-Services/*\r\nDisallow: /Government/City-Departments/Public-Works/Traffic-Engineering/Bike-Share-Santa-Cruz\r\nDisallow: /Government/City-Departments/Public-Works/Traffic-Engineering/OversizeOverweight-Load-Permits\r\nDisallow: /Government/City-Departments/Public-Works/Traffic-Engineering/Street-Sweeping-Pilot-Program\r\nDisallow: /Government/City-Departments/Public-Works/Transportation-Engineering/Bike-Share-Santa-Cruz\r\nDisallow: /Government/City-Departments/Public-Works/Transportation-Engineering/OversizeOverweight-Load-Permits\r\nDisallow: /Government/City-Departments/Public-Works/Transportation-Engineering/Street-Sweeping-Pilot-Program\r\nDisallow: /Government/City-Departments/Water-Department/Capital-Improvement-Program\r\nDisallow: /Government/City-Departments/Water-Department/Capital-Investment-Program\r\nDisallow: /Government/City-Departments/Water-Department/Santa-Cruz-Municipal-Utilities-SCMU/Water-Loss\r\nDisallow: /Government/City-Departments/Water-Department/Water-Capital-Investment-Program\r\nDisallow: /Government/City-Departments/Water-Department/Water-Supply-Advisory-Committee/*\r\nDisallow: /Government/City-Departments/Water-Department/Water-Supply-Advisory-Committee-Recommendations/*\r\nDisallow: /New-page/*\r\nDisallow: /SandboxTesting/*\r\nDisallow: /Services/Garbage-Recycling-Sweeping-Resource-Recovery/Business-Services\r\nDisallow: /Services/Garbage-Recycling-Sweeping-Resource-Recovery/Residential-Services/*\r\nDisallow: /Services/Inspections/Environmental-Compliance/Pharmaceuticals-and-Sharps-Disposal-Program\r\nDisallow: /Services/Public-and-Environmental-Safety/Fire-Department/Fire-Prevention-Life-Safety/Copy-of-Fire-and-Life-Safety-Inspection-Program-1\r\nDisallow: /Services/Public-and-Environmental-Safety/Fire-Department/Fire-Prevention-Life-Safety/Copy-of-Plan-Submittals-Inspections-1\r\nDisallow: /Services/Public-and-Environmental-Safety/Fire-Department/Fire-Prevention-Life-Safety/Plan-Submittals-Inspections\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Community/You-Are-Not-Alone\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Community-Services-Unit/*\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Community-Services-Unit/Thank-a-SCPD-Staff-Member\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Crime-Prevention\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/News-Alerts/Arrest-and-Activity-Log/Arrest-and-Activity-Log-Documents\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/News-Alerts/Press-Releases/Santa-Cruz-Police-Department-Press-Releases\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Transparency-Portal/Accountability\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Transparency-Portal/Assembly-Bill-481\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Transparency-Portal/Hate-Crime-Data-AB-485\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Transparency-Portal/RIPA-Stop-Data/RIPA-Quarterly-Stats\r\nDisallow: /Services/Public-and-Environmental-Safety/Police/Transparency-Portal/Transparency-Portal-Documents\r\nDisallow: /Services/Resource-Recovery/Business-Services\r\nDisallow: /Services/Resource-Recovery/Residential-Services/*\r\nDisallow: /Services/Santa-Cruz-Municipal-Utilities-SCMU/Water-Loss\r\nDisallow: /status\r\nDisallow: /Things-to-Do/Events/Event-Permits-Reservations-Office/Private-Events-Reservations/Indoor-Facilities/Freight-Building\r\nDisallow: /Things-to-Do/Events/Reservation-Office-Event-Permits/Private-Events-Reservations/Indoor-Facilities/Freight-Building\r\nDisallow: /Things-to-Do/Loch-Lomond/Loch-Lomond-Map\r\nSitemap : https://www.santacruzca.gov/sitemap.xml\r\n"
+    },
+    "https://www.sf.gov": {
+      "date": "2026-11-25",
+      "rules": "User-agent: *\nDisallow: /health\nDisallow: /_next/\nDisallow: /*?*preview=true*\n"
+    },
+    "https://www.smcgov.org": {
+      "date": "2026-11-25",
+      "rules": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\nCrawl-delay: 10\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.avif\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /core/*.webp\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.avif\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\nAllow: /profiles/*.webp\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /search?\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/search?\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n\n# Additional rules from scaffold append.\nDisallow: /search\n\nDisallow: /search*\nDisallow: /news$\nDisallow: /*/news$\nDisallow: /news?*\nDisallow: /*/news?*\nDisallow: /*?f[*\nDisallow: /*&f[*\nDisallow: /*?f%5B*\nDisallow: /*&f%5B*\nAllow: /news/*\nAllow: /*/news/*\n\nSitemap: https://www.smcgov.org/sitemap.xml\n"
+    },
+    "https://www.treasurer.ca.gov": {
+      "date": "2026-11-25",
+      "rules": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.md\nDisallow: /composer/Metapackage/README.txt\nDisallow: /composer/Plugin/ProjectMessage/README.md\nDisallow: /composer/Plugin/Scaffold/README.md\nDisallow: /composer/Plugin/VendorHardening/README.txt\nDisallow: /composer/Template/README.txt\nDisallow: /modules/README.txt\nDisallow: /sites/README.txt\nDisallow: /themes/README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\nDisallow: /media/oembed\nDisallow: /*/media/oembed\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\nDisallow: /index.php/media/oembed\nDisallow: /index.php/*/media/oembed\n"
+    }
+  }
+}

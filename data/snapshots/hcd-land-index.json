@@ -1,0 +1,29 @@
+{
+  "documents": {
+    "https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/developer-interest-list-aide.pdf": "User Aide (PDF)",
+    "https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/introduction-to-the-housing-and-local-land-development-opportunity-map.pdf": "presentation slides (PDF)"
+  },
+  "lines": [
+    "Accessing Local Surplus Land",
+    "Below are resources for accessing local surplus land.",
+    "Sign up to receive notices of availability here.",
+    "Entities interested in becoming certified as a Housing Sponsor can follow the directions on CalHFA's website.",
+    "View developers that notified HCD of their interest in surplus local public lands (Updated: 10/31/2025).",
+    "For developers currently on the list, you may submit a request to update your information on the Update for Developers Interest List page. To unsubscribe from the Developers Interest List, visit the Unsubscribe from Developers Interest List page.",
+    "For information on utilizing the Developers Interest List, review the User Aide (PDF).",
+    "View Notices of Available Locally-Owned Surplus Land Map. This map includes notices of availability received via the Surplus Land Act Portal.",
+    "View list of notices of availability received (updated weekly).",
+    "In accordance with Assembly Bill 1255 (Robert Rivas, 2019), every California city and county is required to have a central inventory of surplus land and must report this to HCD on the Housing Element Annual Progress Report (APR) form by April 1 of each year. To learn more about this form, please see the Annual Progress Reports. HCD, in turn, provides the information to DGS to include in a statewide map.",
+    "Access the map of local surplus sites and housing element sites for information on potential development opportunities.",
+    "For further information, see the Housing and Local Land Development Opportunities Map Webinar (February 24, 2023) and presentation slides (PDF)."
+  ],
+  "links": {
+    "https://data.ca.gov/dataset/surplus-land-act-notices-of-availability-received": "list of notices of availability received",
+    "https://www.calhfa.ca.gov/apps/HSC/HSC": "CalHFA's website",
+    "https://www.hcd.ca.gov/planning-and-community-development/annual-progress-reports": "Annual Progress Reports",
+    "https://www.hcd.ca.gov/planning-and-community-development/housing-open-data-tools/notices-of-available-locally-owned-surplus-land-map": "Notices of Available Locally-Owned Surplus Land Map",
+    "https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/developer-interest-list-aide.pdf": "User Aide (PDF)",
+    "https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/introduction-to-the-housing-and-local-land-development-opportunity-map.pdf": "presentation slides (PDF)"
+  },
+  "title": "Accessing Local Surplus Land | California Department of Housing and Community Development"
+}
