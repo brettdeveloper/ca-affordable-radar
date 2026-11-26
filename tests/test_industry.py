@@ -55,13 +55,15 @@ class IndustryTests(unittest.TestCase):
         groups=health_groups(sources,health)
         self.assertEqual(groups,{'state_federal':{'failed':0,'total':1},'local':{'failed':0,'total':1}})
         self.assertFalse(threshold_failed(groups))
-        self.assertFalse(any('novoco.com' in s['url'] for s in catalog()))
+        feeds = [s for s in catalog() if 'novoco.com' in s['url']]
+        self.assertEqual(len(feeds), 2)
+        self.assertTrue(all(s['kind'] == 'industry_rss' and s['url'].endswith('/rss.xml') for s in feeds))
 
     def test_industry_section_issue_and_atom_identify_the_nonofficial_source(self):
         page=html.fromstring((ROOT/'web/index.tmpl').read_text())
         section=page.get_element_by_id('industry')
         self.assertIn('Non-official',section.text_content())
-        self.assertEqual(len(section.xpath('.//a[contains(@href,"novoco.com/terms-use")]')),1)
+        self.assertEqual(len(section.xpath('.//a[contains(@href,"novoco.com/subscription-center")]')),1)
         event=dict(id='123',at=STAMP,source='portfolio',type='industry',title=PORTFOLIO_HEADLINE,url=URL+'example')
         body,_=issue_body(STAMP[:10],[event],'https://example.gov/')
         self.assertIn('Industry sources (non-official)',body)

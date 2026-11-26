@@ -94,7 +94,8 @@ def atom(events, url, stamp):
         description = ' '.join(filter(None,[event.get('agency'),event.get('county'),event.get('notice_date'),
                            event.get('added'),event.get('removed')]))
         if event['type'] == 'industry':
-            description = 'Date first observed on the public project index.'
+            description = ('Published ' + event['published'] if event.get('published')
+                           else 'Date first observed on the public project index.')
         tag(entry,'summary',description or 'The source or its published materials changed.')
         for u,label in event.get('new_docs',{}).items():
             if safe_url(u):
@@ -192,6 +193,17 @@ def render():
     for source in industry:
         h = health[source['id']]
         snapshot = read_json(snap_path(source), {})
+        if source.get('kind') == 'industry_rss':
+            industry_rows.append('<article class="program-row"><h3>' + link(source['url'], source['name']) + '</h3>')
+            if not h['ok']:
+                industry_rows.append('<p>Feed unavailable. ' + e(h['error']) + '</p>')
+            entries = snapshot.get('publications', [])[:8]
+            if entries:
+                items = [f'<li>{e(date_text(item["published"]))} · ' + link(item['url'], item['title']) + '</li>'
+                         for item in entries]
+                industry_rows.append('<ul>' + ''.join(items) + '</ul>')
+            industry_rows.append('</article>')
+            continue
         count = len(snapshot.get('project_links', []))
         industry_rows.append('<article class="program-row"><h3>' +
                              link(source['url'],source['agency']+' project portfolio') + '</h3>')
