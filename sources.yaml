@@ -1215,3 +1215,21 @@
     on physical page 2 asks about proposed PBV activity. A blank box is not a negative finding. The collector detects
     file revisions, including changes to a checkbox.
   category: Project-based vouchers
+
+- id: novogradac-notes
+  name: Novogradac · Notes from Novogradac
+  agency: Novogradac
+  category: Industry
+  url: https://www.novoco.com/notes-from-novogradac/rss.xml
+  kind: industry_rss
+  feed_title: Notes from Novogradac
+  notes: Publisher-provided RSS feed. Dates are publication dates.
+
+- id: novogradac-journal
+  name: Novogradac · Journal of Tax Credits
+  agency: Novogradac
+  category: Industry
+  url: https://www.novoco.com/journal-tax-credits/rss.xml
+  kind: industry_rss
+  feed_title: Journal of Tax Credits
+  notes: Publisher-provided RSS feed. Dates are publication dates.

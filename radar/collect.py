@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 import yaml
 
 from .extract import differences, file_snapshot, snapshot_html
-from .industry import PORTFOLIO_HEADLINE, added_project_links, portfolio_snapshot, verify_terms
+from .industry import PORTFOLIO_HEADLINE, added_project_links, portfolio_snapshot, publication_snapshot, verify_terms
 from .land import land_key, merge_land, notice_link, parse_land
 from .meetings import agenda_snapshot, legistar_snapshot
 from .net import Fetcher, MonitorError
@@ -17,7 +17,7 @@ from .state import DATA, PACIFIC, ROOT, catalog, config, json_out, read_json, si
 
 
 def check_structure(old, new, previous, today):
-    if not old:
+    if not old or 'publications' in new:
         return
     if 'project_links' in new:
         suspect = len(new['project_links']) < .7 * len(old['project_links'])
@@ -55,9 +55,10 @@ def fetch_source(source, previous, fetch, stamp, counties=None):
     try:
         kind = source.get('kind','html')
         if source.get('category') == 'Industry':
-            if kind != 'industry_portfolio':
+            if kind == 'industry_portfolio':
+                verify_terms(source, fetch)
+            elif kind != 'industry_rss':
                 raise MonitorError('Industry sources require a reviewed link-only adapter')
-            verify_terms(source, fetch)
         r = fetch.get(url,headers)
         new = None
         if r.status != 304:
@@ -67,6 +68,10 @@ def fetch_source(source, previous, fetch, stamp, counties=None):
                 new = {'raw_rows':len(rows),'latest_statewide':max(r['notice_date'] for r in rows),
                        'unassigned':sum(not r['county'] for r in rows),
                        'rows':merge_land([r for r in rows if r['county'] in allowed],[])}
+            elif kind == 'industry_rss':
+                if r.url != url:
+                    raise MonitorError('Unexpected RSS destination')
+                new = publication_snapshot(r.body, source)
             elif kind == 'industry_portfolio':
                 if urlsplit(r.url).netloc != urlsplit(url).netloc:
                     raise MonitorError('Portfolio redirected to a different publisher')
@@ -135,7 +140,15 @@ def collect(sources=None, now=None, fetcher=None):
             return
         h,old,new = result
         if new is not None:
-            if 'project_links' in new:
+            if 'publications' in new:
+                prior = {item['url'] for item in old['publications']} if old else set()
+                for item in new['publications']:
+                    if old and item['url'] not in prior:
+                        fresh_events.append({'id': signature(source['id'], item['url']), 'at': stamp,
+                                             'source': source['id'], 'type': 'industry',
+                                             'title': 'Novogradac · ' + item['title'], 'url': item['url'],
+                                             'published': item['published']})
+            elif 'project_links' in new:
                 for url in added_project_links(old, new):
                     fresh_events.append({'id':signature(today, source['id'], url), 'at':stamp,
                                          'source':source['id'], 'type':'industry',
