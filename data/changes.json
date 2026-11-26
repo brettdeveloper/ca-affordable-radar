@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "added": "Awards",
+    "at": "2026-11-26T14:54:32-08:00",
+    "id": "a7e5252043ac4fad2f6326e3",
+    "new_docs": {
+      "https://www.hcd.ca.gov/sites/default/files/docs/grants-and-funding/supernofa/tmfsn-award-list.pdf": "Awards"
+    },
+    "new_links": {},
+    "removed": "",
+    "removed_docs": {},
+    "removed_links": {},
+    "source": "hcd-tribal",
+    "title": "Tribal Multifamily Finance Super NOFA",
+    "type": "change",
+    "url": "https://www.hcd.ca.gov/grants-and-funding/tribal-multifamily-finance-super-nofa"
+  },
+  {
+    "added": "NOFA Popular Education Resources · NOFA Application Process 101",
+    "at": "2026-11-26T14:54:32-08:00",
+    "id": "8df7fba17f76808391ce8895",
+    "new_docs": {
+      "https://housing.lacity.gov/wp-content/uploads/2026/11/NOFA-Application-Process-101.pdf": "NOFA Application Process 101"
+    },
+    "new_links": {},
+    "removed": "",
+    "removed_docs": {},
+    "removed_links": {},
+    "source": "lahd-homes-for-la",
+    "title": "Homes for LA NOFA",
+    "type": "change",
+    "url": "https://housing.lacity.gov/ula/homes-for-la-nofa"
+  },
+  {
+    "added": "View Popular · Education Resources",
+    "at": "2026-11-26T14:54:32-08:00",
+    "id": "488ae5de796ab0d18946ff74",
+    "new_docs": {},
+    "new_links": {
+      "https://housing.lacity.gov/ula/homes-for-la-nofa": "View Popular Education Resources"
+    },
+    "removed": "",
+    "removed_docs": {},
+    "removed_links": {},
+    "source": "lahd-round-2",
+    "title": "Homes for LA Round 2",
+    "type": "change",
+    "url": "https://housing.lacity.gov/round-2-nofa"
+  }
+]

@@ -1,8 +1,12 @@
 {
-  "documents": {},
+  "documents": {
+    "https://housing.lacity.gov/wp-content/uploads/2026/11/NOFA-Application-Process-101.pdf": "NOFA Application Process 101"
+  },
   "lines": [
     "Homes for LA NOFA",
     "The Homes for LA (H4LA) Notice of Funding Availability (NOFA) is administered by the Los Angeles Housing Department (LAHD) with the purpose of producing, preserving, and stabilizing affordable housing.",
+    "NOFA Popular Education Resources",
+    "NOFA Application Process 101",
     "H4LA NOFA Round 1",
     "For information pertaining to H4LA NOFA Round 1 please click below.",
     "Round 1",
@@ -12,7 +16,8 @@
   ],
   "links": {
     "https://housing.lacity.gov/round-1-nofa": "Round 1",
-    "https://housing.lacity.gov/round-2-nofa": "Round 2"
+    "https://housing.lacity.gov/round-2-nofa": "Round 2",
+    "https://housing.lacity.gov/wp-content/uploads/2026/11/NOFA-Application-Process-101.pdf": "NOFA Application Process 101"
   },
   "title": "Homes for LA NOFA – LAHD"
 }
